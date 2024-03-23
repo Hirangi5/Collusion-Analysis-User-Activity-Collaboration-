@@ -1,0 +1,2273 @@
+Topic ID,Username,Post Created At,Post Description,Post Number
+21565,cliffton.eth,2024-02-28 02:08:37,"Top 5 Finalists
+Screenshot 2024-02-27 at 6.57.28 PM1920×1075 50.5 KB
+Huge congratulations to Teams 5, 8, 11, 13, and 20 for making it to the top 5!   
+Community to select the winners on Day 3
+Here’s a video recording of what is going to happen tomorrow on Day 3 
+
+
+drive.google.com
+
+
+
+ziz-ttcu-wwq (2024-02-27 18:35 GMT-7)
+Google Drive file.
+
+
+
+
+
+tl;dr - Tomorrow is the Open Community Day, and these 5 teams are welcomed to pitch their proposals in person to the audience, and get scored there and then by everyone in attendance. More details on how scoring will be done will be explained tomorrow before the pitches.
+For teams that did not make the top 5 - We are here to help and want you to keep building
+Despite having to pick the top 5 finalists, the judges all agreed that the 23 submissions received were of high quality, and would definitely be valuable to build out for the DAO. If your team is not part of the 5 finalists, we encourage you to continue hacking and building out your proposal, and if you need any help, feel free to reach out to anyone from Hack Humanity, the Foundation, any active contributors, as well as delegates in the room you can find time with.
+Closing Thoughts for Days 1 and 2
+The Hack Humanity team led by @KlausBrave, the Foundation and Offchain Labs were really encouraged by the turnout, quality (and quantity) of conversations and proposals, and, most importantly, the strengthening of relationships and trusts between DAO members that has happened in the past 2 days. We hope this has been a great experience thus far, and we welcome any feedback on this governance hackathon, and how we could potentially run the next one better.
+Looking forward to seeing everyone tomorrow!",1
+21565,cliffton.eth,2024-02-28 02:08:47,,2
+21565,ariutokintumi,2024-02-28 04:50:37,Congratulations  totally deserved ,3
+21565,ZER8,2024-02-28 12:40:01,Team 20 on the move!!!  ,4
+21565,Arbitrum,2024-02-28 14:06:05,,5
+21482,cliffton.eth,2024-02-26 21:51:12,This is a section on for participants of Arbitrum GovHack to submit their proposals.,1
+21533,EventHorizonDAO,2024-02-27 21:22:16,"Arbitrum GovHack Track:
+Contributor onboarding, activation & engagement
+Challenge Statement:
+Delegation proportionate to participation.
+Members:
+404DAO
+Event Horizon
+Matt Fiebach
+Jengajojo (DAOStewards)
+Non-constitutional
+This proposal has taken influence from a proposal created by Stable Lab in Uniswap DAO and we thank them for their inspiration.
+TL;DR
+This proposal seeks to increase participation in the DAO by empowering underrepresented delegates who, despite active participation in governance, do not have sufficient voting power to have their ideas seriously considered. Since greater voting power often correlates with heightened attention by the DAO’s key stakeholders, we propose creating a DAO-controlled Franchiser contract and distributing 1M in ARB each of up to 10 delegates who 1) currently have between 50,000 and 1,000,000 in voting power, 2) have shown an onchain voting participation rate >80% in the last 3 months and 3) have been voted as the top 10 delegates of these candidates by the DAO voted on in a Snapshot poll.
+Abstract
+We ask the DAO to run a 1-year trial program that delegates $ARB to Active Delegates who are underrepresented in governance. If this proposal passes, the foundation will create a Franchiser contract to technically allow for this process. The DAO will maintain control of all $ARB allocated to the program, and have the ability to clawback delegations through an onchain proposal at any time. The contract is owned by the DAO and the tokens are delegated, not granted, but never leave the contract or DAO treasury in practice. Rather, they are stored in a new DAO-owned address.
+By allocating 1M $ARB each to up to 10 delegates with between 50k-1m $ARB who have voted on >80% of onchain proposals in the last 3 months, the DAO will empower more meaningful voices in its proposals. A quarterly Active Delegate refresh is encouraged to maintain accountability of those who have been allocated delegation and give newly qualified delegates a chance to participate. The proposal will also give more delegates the ability to propose Snapshot votes and further diversify the makeup of the DAO. Snapshots have a threshold of 500K ARB and onchain proposals 1M to propose.
+Motivation
+During Arbitrum’s GovHack hackathon, the challenge statement of “Delegation proportionate to participation” emerged as a key challenge for the DAO. Furthermore, the community has sought creative ways to leverage delegation, rather than grants, to boost voter participation and encourage meaningful contributions (see this, this, and this).
+Currently, there are a group of delegates who have demonstrated a commitment to governance through consistent participation in on-chain governance. However, despite their active involvement, they are significantly marginalized in terms of voting power. Since greater voting power often correlates with heightened attention from delegates and the community, we believe that boosting the voting power of these delegates will enable them to have their ideas seriously considered, creating a more robust idea generation and iteration pipeline. Within the DAO, a higher allocation of voting power not only empowers individuals to propose initiatives but also garners increased attention from active delegates and community members.
+Many of Arbitrum’s key delegates holding substantial voting rights participate in fewer votes than smaller delegate counterparts. This is evidenced by the observation that many recipients of sizable delegations have shown minimal participation in governance activities. In an effective DAO, engaged delegates play a critical role by exercising their substantial voting rights. Giving smaller delegates who have shown rigor in their activity a more meaningful voice and voting power in the DAO will help toward this overarching goal.
+Eligibility
+Active delegate voters with the following qualifications can be considered for the program:
+
+80% participation over the last 3 months on Tally
+50,000 to 1,000,000 $ARB voting power
+
+Data
+Over the last 3 months there have been 6 onchain proposals that count and a delegate must have voted on at least 5 in order to qualify. 25 addresses currently qualify.
+Screenshot 2024-02-27 at 14.18.521216×1328 146 KB
+Qualified applicants must self nominate themselves to be considered.
+Next Steps
+
+We encourage the community to leave comments and feedback on this forum post
+Project managers will create a snapshot vote so that the DAO can signal approval or disapproval for the program.
+Start working on deployment of Franchiser Contract
+Upon successful Snapshot #1, program managers will create a forum post for nominations
+Qualified delegates to nominate themselves on post within 7-days.
+Project managers post this proposal to a Snapshot vote for 7 days during which time delegates will vote on the top 10 applicants to be included in the program. Encrypted weighted voting.
+After the Snapshot vote ends, we will post the proposal to Tally for an on-chain vote and delegation executable.
+
+Following self-nomination to receive delegation, a Snapshot vote will go live so that the DAO may decide which delegates (up to 10) should be included in the program.
+Technical Implementation
+In order to implement this proposal, it is required that we create a DAO-controlled Franchiser contract. The contract owner would be the DAO timelock and it would allow the DAO the power to delegate and undelegate tokens that it sends from the treasury to the Franchiser. We suggest that the Foundation aids in the creation of this contract in order to create an official and safe implementation, though we can likely fork the Trail of Bits audited Uniswap Labs implementation [github] of the same concept. If this proposal passes Snapshot, we request that the Foundation take the time to fork the contract and hire an auditor to check the implementation.
+The contract has simple functions:
+-Fund: allows the DAO to send tokens to contract and delegate to a single address
+-FundMany: allows the DAO to send tokens to contract and delegate any amount to multiple addresses
+-Recall: allows DAO to pull back funds from Franchiser effectively undelegating and returning tokens to treasury from a single delegate.
+-RecallMany: allows DAO to pull back funds from franchiser effectively undelegating and returning tokens to treasury from multiple delegates.
+It is worth noting that all tokens sent to the Franchiser will remain a part of the DAO’s balance sheet as it has full-control over the contract. The delegated tokens never leave the DAO’s ownership.
+Timeline
+
+Forum feedback 1 week
+(optional) Repost on forum incase there are major changes requested: 1 week
+Snapshot vote 1 week
+Work with foundation to deploy contracts: 1 month
+Onchain vote: 3 weeks
+First quarterly report: 3 months
+Second quarterly report: 3 months
+Third quarterly report: 3 months
+Final quarterly report: 3 months
+
+Program Administration
+This working group will project admin this program. The specific deliverables include:
+
+Work with the foundation for contract creation and deployment
+Create quarterly reports on delegate performance so that the DAO may have a resource to hold delegates accountable
+In the event that a chosen delegate falls below 80%, communicate with the DAO and put up a vote to revoke their delegation
+
+Note: This is not a position of power, just a project management work which is limited to the above executables
+We will create a 3 of 4 multi-sig governed by the proposers paid upfront if the proposal passes onchain voting.
+Signers:
+-Jengajojo (DAOStewards)
+-404 DAO (Cole Schendl & Rika Goldberg)
+-Event Horizon
+-Matt Fiebach
+Overall Cost
+
+Up to 10M ARB to be transferred into the Franchiser contract, still owned by the DAO (no cost)
+$15,000 in ARB for program management and reporting for 1 year
+
+Considerations:
+
+We want to encourage members of the DAO to review the program and consider removal or addition of delegates to the program quarterly
+If this program goes well, the DAO should consider iterating on the active delegate criteria, number of votes to be delegated and interval in which the delegation is refreshed.
+The Franchiser contract will enable use cases beyond just this program. For example, the foundation may opt to temporarily delegate tokens so that any entity can make a snapshot/onchain proposal. It may be used in further programs to give delegations from the Treasury. It will allow one address to delegate its token across many delegates (though the DAO will maintain ownership as well).
+
+Video link",1
+21533,MattOnChain,2024-02-27 21:42:07,"Seems like our proposal, particularly the franchiser aspect, could be a good use of the ARDC security member to audit!",2
+21533,cliffton.eth,2024-02-27 23:13:14,,3
+21533,cliffton.eth,2024-02-28 01:09:48,,4
+21533,Tane,2024-03-11 02:46:06,"Hi Christian and other contributors to this proposal. Excited to see the comprehensive proposal like this came out from the GovHack!
+
+
+
+ EventHorizonDAO:
+
+50,000 to 1,000,000 $ARB voting power
+
+
+Already told some members in your team, but we believe that lowering the minimum voting power to be qualified for the program would suit the purpose of the proposal: “empowering under-represented delegates” since the delegates with over 50k VP will be incentivized by the new program led by SEED Latam team.",5
+21486,Pioneer,2024-02-26 23:01:43,"Arbitrum GovHack Track: DAO BD Strategy Team 13
+Challenge Statement:
+How can Arbitrum DAO proactively onboard existing projects from other chains and web2 to Arbitrum network?
+Members: Logan (Telegram: Contact @VillainValidator), Chris, Mike
+Pitch : Video
+deck
+Abstract:
+Currently, Arbitrum DAO does not outreach to desirable projects for onboarding and strategic partnerships. We propose that we use Questbook as a vehicle to define the new DAO BD program and to onboard interested BD talent that can perform outreach and lead generation for the DAO. We believe that there is a substantial benefit to targeting the gaming industry as a funnel to the Arbitrum Orbit/ Nova products. While there are other verticals that also require BD focus, we contend that Arbitrum has done a sufficient job at attracting metrics like TVL and volume, and that we can observe the 80/20 rule to tap into other verticals in order to tap into large returns. This DAO BD pilot can grow into larger support for a more general BD approach over time. After this pilot program has illustrated its worth, we wish to expand into a more performative, agile team of decision makers.
+
+Existing projects from other chains
+Web2 companies and institutions
+Treasuries
+
+Funding requirement is a suggested base grant pool of $150,000 to support proposals. We anticipate deal closing and commission to be settled in collaboration with the Grants Ecosystem and potentially private equity partners. This could be a 12-month contract with optional renewal based on 6/12 month performance.
+Ecosystem:
+In late 2022 Polygon ramped up BD, collaborating and securing deals with the world’s largest brands. These included: DraftKing, NFL, Adobe, Starbucks, Disney, Mercedes-Benz, Nike, Meta, Stripe, Square Enix, Sega, RobinHood, Instagram, Coca-Cola and Reddit. This aggressive BD approach illustrated that key hurdles (regulation, competition, and integration) were becoming viable stepping stones for onchain growth and acquisition, rather than hard stops that they had been in the past. By 2023, Polygon had become known as a “critical incubator for non-Web3 native blockchain adoption.”.
+After seeing the success of their initial sprint, Polygon later began poaching prominent projects, publicly bribing DeGods/ Y00ts NFT ecosystem to join their ranks for an offer of $3,000,000, highlighting that “you deploy the cash and get results”, after their raise of $450M from Sequoia Capital. Later,  Optimism stepped up to the plate and poached Polygon’s head of BD. The point being that an aggressive stance is commonplace in the industry.
+Arbitrum currently has a organic and dominant DeFi presence, owning 4.2% of TVL and 6.5% of total volume between top EVM blockchains. More specifically, Arbitrum owns 54% of TVL among EVM rollups and we believe that Arbitrum’s BD approach should shift into popular sectors like gaming in order to tap into new markets and to leverage the existing Orbit and Nova chain solutions.
+Dream:
+Although at program launch there will be more need for oversight, we believe that forming an agile committee that is capable of performing due diligence and deal making is the end goal. This can be delegates or other persons who have the necessary expertise to make these BIG BETS. This would be a team that assesses the deals and who manage key lead generating talent that may work for base salary and commission benefits to drive sales eagerness. This is currently far off and we instead propose a series of levels in which this program might graduate through.
+Solution:
+Utilize a QuestBook proposal to spearhead the shaping of the early stage and followed launch of a new BD program. A brief outline of what the questbook should include is:
+
+research needs (KPIs, agent payment structure, and how this program graduates)
+program structure
+responsibilities
+future target sectors (in case of pivot)
+
+We believe that research should be funded from this Questbook in order to determine what success looks like, what skills attractive candidates should possess, and how this program eventually either: (1) achieves new funding, (2) moves on to a “level 2” track and so forth to the Dream summarized above.
+Research can be allocated up to 20% of the total grant allocation, with the remainder available to onboard first BD expert.
+Conclusion:
+Competitors are using aggressive outreach in order to onboard and grow, prompting the need for Arbitrum DAO to increase its own presence in outside communities. Although an existing pathway for DAO Ops and BD do not exist, we believe that an exploratory program that attracts SMEs and BD professionals will have a positive impact on desirable metrics (volume, TVL, DAU, # transactions). By starting with a simple Questbook offer, we can gain valuable data on outreach impact and potentially graduate our DAO BD into a more agile and capable committee.
+Polygon BD example:
+https://www.polygon-productions.com/business-development-jd
+Optimism steals BD:
+
+
+DailyCoin – 9 Jan 24
+
+
+
+Optimism Foundation Snaps up Another Key Polygon Labs Executive as Business...
+After snagging up former Polygon Labs President Ryan Wyatt as a growth lead, Optimism has managed to lure another key Polygon Labs executive. Read more.
+
+Est. reading time: 4 minutes
+
+
+
+
+
+
+image1080×721 69.1 KB",1
+21486,cliffton.eth,2024-02-27 23:10:44,,2
+21486,cliffton.eth,2024-02-28 01:04:48,,3
+21486,RichCL,2024-03-03 18:14:59,"I throw my support behind this initiative in principle.
+Why?
+Establishing BD (or growth) programs in general is complex for high-tech products such as AVM, Orbits, Stylus, etc.
+The traditional playbook has been exemplified by centralized workforces (in both web2 and web3) that are assigned to strict roles and execute with reliable budgets. Without different functions such as product marketing, sales architects, and growth engineers just to name to a few, a BD team can be at a major disadvantage. Facilitating an application migration from one L2 to another is not the same as what most salespeople have experience with. Especially if we aim to do this in a decentralized fashion.
+For these reasons, I believe that holistically approaching a new BD program is an exercise that will benefit ArbitrumDAO in the long run.
+How?
+There are many ways to become a category leader.
+
+
+
+ Pioneer:
+
+
+research needs (KPIs, agent payment structure, and how this program graduates)
+program structure
+responsibilities
+future target sectors (in case of pivot)
+
+
+
+The list above is a good start. In broad stokes, these objectives are directionally correct. Specifically, I think there are details that could be refined (i.e. it may be too early to define KPIs), and others that should be added (i.e. business intelligence on current Arbitrum user trends). However, these objectives provide a solid foundation for an initial BD leadership mandate.
+As far as utilizing QuestBook for the “How?”, I don’t have a strong opinion on this tool. I imagine an incentivized and time boxed committee would be better suited for an initial phase, but I am not familiar enough with QuestBook enough to know how well it would facilitate this.
+Who?
+Talent can be found when there are
+
+well-defined  roles and responsibilities,
+compensation, and
+a clear focus
+
+A lot of the best “Who?” can be found in this community, but ArbitrumDAO would also benefit from attracting experienced BD leaders from outside the community as well.
+As far as who I am, I am new to the community and have been an ArbitrumDAO/RnDAo Co.Lab Fellow since the start of the year. I participated in the GovHack Community Day and look to be more involved. My background is a mixture of sales, operations, and data analysis in both tech and finance.
+When?
+I don’t know the proposal and grants process well enough to opine here. However, an initial investment to "" to spearhead the shaping of the early stage"" is prudent to get started as the community sees a need for it. From an outsiders perspective, it seems like a low-risk and low-cost approach to sizing up the opportunity.
+Thank you @Pioneer, Chris and Mike for submitting this proposal.
+Also thank you @RikaGoldberg for being so welcoming to me as I learn more about the community.",4
+21486,RikaGoldberg,2024-03-05 20:45:10,Thanks for your thoughts @RichCL. I’ll keep you updated on this proposal.,5
+21517,jacobpphillips,2024-02-27 18:42:01,"Arbitrum GovHack Track:
+Contributor Onboarding
+Challenge Statement:
+Incentives for contributors are WEAK. Arbitrum needs more contributors. Liquidity is incentivized to the tune of $100mn, but DAO contributors are hardly incentivized.
+Put Simply…. Same logic as the STIP program, but for contributors.
+What if we took a portion of the money that was distributed to the STIP program & directed it to governance?
+(Reminder: we all just spent the past 2 days working on ARB governance for free  )
+Members:
+Jacob Phillips  - https://twitter.com/JacobPPhillips
+Lewi - https://twitter.com/lewifree
+ZER8 - https://twitter.com/zer8_future
+Background:
+DAOs historically have not been great at getting things done. More often than not, the root reason things don’t get done is that there simply isn’t enough mindshare being put upon the issues.
+For example, in the past 2 days we identified & are presenting solutions to some of the DAOs biggest problems. In most cases, this isn’t rocket science — someone just has to give the issue some love & attention to come up with a course of action.
+We NEED more contributors & we need them FAST!
+The Arbitrum DAO sometimes struggles to acquire & retain top-tier contributors. People come and go when it’s convenient; some enter into more committed roles, but mostly out of altruism or strict business interest, leaving less room for other areas that need attention like experimentation, organic working groups, etc.
+A lack of strong economic incentives is in part to blame. There’s a reason why the best talent in the marketplace goes to work for projects/companies & often not DAOs. There is huge overhead to getting involved with the Arbitrum DAO, and for most, it’s confusing to join the DAO and not worth their time to onboard.
+In traditional companies, employees get a salary & stock options, but in the Arbitrum DAO, many contributors pushing the DAO forward have little to no ownership and/or long-term incentives to contribute. Maybe they’re able to get a proposal passed and get some small incentives, but this is not easy to do.
+
+The Vision:
+DAOs usually slow things down…. But what if you could actually speed things up & get more things done through a DAO.
+From “Governance Mining” (2021):
+It’s 2023, and governance mining is prevalent. A hot new protocol launches and everyone apes in — but this time, they’re aping in with governance mindshare, not liquidity. Immediately after launch, all the best crypto funds, governance mining shops, and independent contributors rush to ‘contribute’ in various ways, each within their own specialty, in hopes of capturing a portion of token supply. The protocol’s governance functions move at breakneck speed — within a couple months, the protocol has multiple pods of full-time contributors focusing on different protocol needs, almost all existing protocol pain-points and tech debt have been identified and eliminated (or en route to a solution), multiple new products are in development, etc.
+In the context of Arbitrum, economic incentives have supercharged growth on-chain, but not in DAO governance. Arbitrum has many very-high-value issues that need attention, solutions, and execution — many of which were discussed over the past 2 days. What if we could harness the energy behind liquidity mining & points mechanisms and use it to get people excited about solving Arbitrum governance problems.
+Some examples of potential forms of contributor mining programs:
+
+Retroactive airdrops to contributors — The Arbitrum Retro QFunding Round was a great start
+Arbitrum Gov Hack 2, but with real incentives ($1mn prize for best proposal or for top 3/5)
+Incentives for contributors that help grow the ecosystem (projects, DAO, individual contributors)
+Reputation staking- stake on your favorite contributors and they get paid via a fluid stream, we can use conviction voting also
+M&A
+
+Contributor Mining could also be as simple as paying above-market rates to onboard the best talent quickly! It doesn’t have to be complicated.
+
+Solution
+Spin up & fund a Human Capital DAO focused on contributor mining efforts, with the goals of onboarding the next wave of contributors to the Arbitrum DAO.
+North Star: Establish contributor incentives as an entrenched institution within the Arbitrum DAO (That is, valuing contributors becomes part of the Arbitrum ecosystem culture!)
+How it will be accomplished: A progressive set of programs aimed at rapidly expanding the top of the funnel of Arbitrum DAO contributors through contributor mining programs and experimentation.
+KPI: Scale the number of full or committed (but part-time) contributors in a way that’s aligned with Arbitrum DAOs strategy and goals. The KPIs should be ideally co-created with the DAO to ensure strong alignment.
+To minimize the risk, we recommend breaking this proposal down into multiple increments / milestones. Milestone 1 & 2 are digestible first steps that the DAO can get startup on, while Milestone 3 & beyond bridges to the longer-term vision.
+Milestone 1: Establish Human Capital DAO Team & Refine contributor onboarding process.
+Team structure:
+1 Team lead or group (preferably full-time, or at least 20 hours per week) — included in proposal and/or elected
+2-4 Contributors (part-time, only a few hours per week) — included in proposal and/or elected
+The Human Capital DAO is tasked with designing & operating contributor mining programs, and establishing the frameworks & onboarding processes to convert governance participants into longer-term, incentivised contributors. This includes getting the infrastructure ready to be able to onboard contributors, as well as defining the types of contributors we want to target.
+Milestone 2: Proof of concepts… Run 2-3 contributor mining experiments
+The Human Capital DAO will design & operationally execute the first few contributor mining programs. The economics will start relatively small (say maybe around $50k-$500k), and the program will serve as a proof of concept for what a much larger program could look like (think: much higher economics). We also want to experiment with multiple contributor mining pathways.
+Some simple examples of possible proof of concepts :
+
+Arbitrum Gov Hack v2, with a $100-500k prize pool for top proposals
+A QF round with a matching pool of $100-500k/. Donations = votes by leveraging QF the ones that do not win have an incentive to continue to build because they get donations.
+POC submitted by the DAO — Hosting contests for the best POC via Jokerace or other tools
+Gamifying onboarding experiments- leveraging web3 tooling to create gamified onboarding pathways for all types of contributors.
+
+These approaches would bring in a significantly larger pool of contributors, solutions, and general excitement around Arbitrum, some of which the Human Capital DAO would look to retain and convert into long-term energy. This experiment would serve as the grounds for igniting one of the Arbitrum DAO talent acquisition pipelines.
+Some core challenges to address in the mechanism design of the mining program:
+
+Risk of attracting people just in it for the MONEY
+Too much noise, not enough signal
+People who don’t get rewards feel left out
+Incentive driven comp may prioritize short-term projects
+
+Some examples of ways to address these: vesting of rewards, tiers of rewards that acknowledge all levels of contribution, non-linear rewards distributions, etc.
+Milestone 3 & Beyond: Routine/Ongoing governance mining with gradual growth.
+After completing Milestone 2, the Human Capital DAO will submit a separate proposal outlining the learnings & structuring a longer-term plan.
+In line with starting with a couple clear Milestones, the goal for milestone 3 & beyond is to gradually increase the size of the contributor mining programs and the number of contributors in the Arbitrum DAO. This will help grow the precedent over time and allow things to evolve safely.
+Bigger & bigger contributor mining programs push us closer to what was discussed in the vision section. Arbitrum governance moves fast, the DAO is full of contributors, and people are leaving their jobs to come join Arbitrum governance.
+Maybe one day we’ll see a $100mn Contributor Mining Proposal…",1
+21517,jacobpphillips,2024-02-27 21:51:29,"Appendix:
+Precedent within ARB DAO — A proposal to incentivize delegates
+
+
+
+
+Incentive Program Delegate Application Governance
+
+
+    Recently the delegate incentive program has been approved on chain for the start of its operations. To expedite the process, we suggest delegates fill out the following template in this thread to indicate that they are interested in participating in the incentive program. 
+Criteria
+
+Voting Power: >50K ARB, corresponding to 175 delegates. (Source: Arbitrum Delegates and Voting Power - Dune Analytics ).
+Historical Participation Rate (Tally): Over 25%. We would like to express that for the calculat…
+  
+
+This prop is a step in the right direction, but here’s how Contributor Mining differs:
+
+Much more significant economics to drive the top of funnel — it doesn’t appear the delegate incentive program is changing contributor behavior much
+Focused on Impact — In governance mining, the more impact you have for the DAO, the more you should be able to earn.
+Pathway to long-term contribution — contributor mining is a success or failure based on the amount of contributors that can be coveted to committed contributors (full-time or part-time on an ongoing basis.
+
+Other Precedent:
+
+Move Over Yield Farming, Proposal Farming Has Arrived….almost | by James Waugh | AxiaLabs | Medium
+Governance Mining — liquidity mining for human capital — Jacob Phillips
+GFX Labs' Proposal To Become Contributors - Compound Community Forum
+Other Internet $1mn Uniswap grant
+",2
+21517,jacobpphillips,2024-02-27 22:34:04," 
+
+
+",3
+21517,cliffton.eth,2024-02-27 23:11:51,,4
+21517,cliffton.eth,2024-02-28 01:05:49,,5
+21517,SEEDGov,2024-02-28 16:44:07,"
+
+
+ jacobpphillips:
+
+Much more significant economics to drive the top of funnel — it doesn’t appear the delegate incentive program is changing contributor behavior much
+
+
+It is a mistake to think that the behavior of collaborators = delegates, they are two different roles and therefore different incentives. What we intend with the program is that delegates who have voting power and are the decision makers can dedicate time and quality to their roles within the government.
+Even you clarify them here:
+
+
+
+ jacobpphillips:
+
+(Reminder: we all just spent the past 2 days working on ARB governance for free  )
+
+
+Since the approval of the program to date we have observed that some delegates have become more active. You can review test 1 and 2
+On the other hand the program starts on March 1, it has not started yet so we do not have exact metrics at the moment, there are really improvements.
+
+
+
+
+March 1 Incentive program start Governance
+
+
+    We are only 3 days away from the start of the Delegate Incentive Program! 
+We are excited to announce that it won’t be long until the start of the program. Since December, we have been collecting a lot of data from delegates to see how impactful their participation was and how we can make significant improvements from now on. 
+During our work, we have done an exploration of the delegates data to determine the exact participation of each delegate on all tally votes, with the exception of the test…
+  
+
+",6
+21517,SEEDGov,2024-02-28 17:01:18,"@jacobpphillips to be clear, this is the kind of discussion we like. Since no DAO has been able to solve this problem (and I don’t think it will be solved anytime soon). If you are interested we can continue here or you can send us a DM, we think there is a lot to learn on this topic!",7
+21517,jacobpphillips,2024-03-05 05:54:46,"
+
+
+ SEEDGov:
+
+It is a mistake to think that the behavior of collaborators = delegates, they are two different roles and therefore different incentives.
+
+
+100% agree here.
+The context with the differentiation between Contributor mining and the incentive program for delegates was that I had a delegate point out to me that the DAO had already implemented contributor mining to a degree.
+And so, IMO delegates getting compensated for their time/effort is a great prop. At a minimum everyone should get compensated for their time. Then, there’s next step up from there where, if Arbitrum were trying to recruit new (better) delegates, they might significantly ramp up the comp.
+Though as you pointed out, delegate recruitment & involvement is the perhaps least of the DAOs problems — it’s most impressive how involved people are (most notably to me, during the STIP process).
+Oh and thanks for the clarifications on the program start & some of the success! Was trying to whip this prop together as fast as possible and missed those, but very cool to see!
+Will shoot you a dm to continue chatting on this.",8
+21490,Milanesio,2024-02-26 23:28:58,"Arbitrum GovHack Track
+Track Name
+Orbit Adoption Strategy, Betting on Builders, Strategic Big Bets, Contributor onboarding
+Challenge Statement
+Allow builders to easily secure their new Nova / Orbit chains governance using Arbitrum One governance adding composability to the whole Arbitrum governance ecosystem.
+Members
+
+Giulietta Milanesio / @piccolagiulia
+Germán Abal / @ariutokintumi
+Kevin Padilla / @jistro
+
+Team Lead contact
+Germán Abal / @ariutokintumi
+Video Pitch
+https://rollamate.io/video_pitch_arbitrum.mp4
+Proposal
+1. What the problem is:
+Builders building new Nova / Orbit Chains must bootstrap governance, this is very hard and there is not easy methods to do implementations. At this moment usually the best option is to create a new governance for each chain.
+2. What is the solution is:
+Allow the builders to easily access the security of Arbitrum One and the Arbitrum DAO.
+Using a shared custody private key within ARB stakers in Arbitrum One to confirm on-chain the blocks integrity through a transaction every n blocks, will let any builder to probe the validity of any Arbitrum One governance related transaction/message from Nova / Orbit chains without need of bridges, relayers or Oracles.
+This can be completed verifying Patricia Merkle Tries on chain authenticating the validity of a transaction as a part of a block A and then the block A to be predecessor of block N.
+The authority of this private key is backed by the ARB staking in Arbitrum One and secured by shared key storage technology between the stakers.
+The final mechanism and implementation proposal will be studied and discovered by this proposal approval.
+3. Other Available Messaging Solutions for Orbit:
+We will present three solutions for integrating messaging into Orbit, a next-generation blockchain platform. The possibilities of adding this functionality to the cross-chain governance are analyzed, including the technical prerequisites and economic considerations.
+1. Hyperlane
+Prerequisites:
+
+Have a validator and a relayer on the Krutosis network. The most economical package is around $35 USD per month.
+
+Description:
+Hyperlane facilitates the implementation of trustless messaging on EVM compatible networks. This solution uses smart contracts for the payment, handling, and management of messages, which are processed by validators and relayers that listen to the network. To launch the implementation of new EVM compatible networks, this is achieved by connecting the smart contracts for the payment, handling and management of messages that go through the validators and relayers that listen to that network, to then receive/send messages.
+Advantages:
+
+Fast and scalable messaging system.
+Ability to integrate multiple validators in a trustless manner for greater robustness.
+
+Disadvantages:
+
+Requires an initial investment in infrastructure (validator and relayer).
+
+2. Axelar
+Prerequisites:
+
+Have an Axelar node and a validator account.
+Have AXL tokens to cover relayer gas fees and other operations.
+
+Description:
+Axelar allows adding new EVM compatible networks. Messages sent and received in Orbit are processed by validators through smart contracts and then passed through the same. To implement in Orbit, smart contracts need to be deployed to allow the sending of messages and the acceptance of the majority of Axelar nodes to allow communication.
+Advantages:
+
+Verifiable transactions.
+
+Disadvantages:
+
+The inclusion of a new network in the protocol requires the approval of the validators by means of a vote.
+
+3. LayerZero
+Prerequisites:
+
+Have the necessary resources to deploy the Executor and DVNs or use a provider compatible with the LayerZero ecosystem.
+
+Description:
+LayerZero offers an omnichain messaging solution that allows the exchange of messages between different blockchains, which as we have seen before consists of smart contracts and validators that allow the sending of messages.
+Advantages:
+
+Omnichain solution that allows interoperability with various blockchains.
+Flexibility in implementation (own deployment or use of providers).
+
+Disadvantages:
+
+Requires LayerZero to implement the Endpoint and MessageLib.
+
+4. Why is this important?
+Building governance in Nova / Orbit chains are extremely difficult to implement at the moment something that will lead in many different governances for each chain without leverage nor support Arbitrum One security and reliability.
+Minimize the friction for quick governance access for the new protocols builders.
+Requirements:
+Milestone 1 - Time: 2 months
+
+Exploration of different approach to the Technical Implementation solution.
+Evaluate the feasibility of the different Shared key / Staking models.
+
+Milestone 2 - Time: 2 months
+
+Elabiorate a Shared key / Staking proposal for the Arbitrum DAO
+Ellaborate a Technical Implementation proposal for the Arbitrum DAO
+
+Milestone 3 - Time: 2 months
+
+Elaborate three Security Audit Proposals for the Arbitrum DAO
+Elaborate the Implementation Proposal
+
+Total 47,000 ARB
+Deck (link or pdf):
+
+
+docs.google.com
+
+
+
+ARBITRUM ONE GOVERNANCE COMPOSABILITY
+ARBITRUM ONE CROSS-CHAIN GOVERNANCE A unique source of truth made for Orbits Proposal Team 7
+
+
+
+
+
+",1
+21490,cliffton.eth,2024-02-27 23:11:01,,2
+21490,cliffton.eth,2024-02-28 01:05:02,,3
+21490,ariutokintumi,2024-02-28 04:53:16,"I was part of this proposal makers, we enjoyed and learned a lot doing this. Thanks to the organizers, Arbitrum Foundation and Arbitrum DAO ",4
+21547,sam.ng,2024-02-27 22:37:59,"Arbitrum GovHack Track:
+Failover/Backup Sequencers
+Challenge Statement:
+
+
+Downtime: This leads to a poor user experience for dApp builders and Arbitrum users, as well as loss of revenue for the DAO.
+
+
+Censorship: Since the sequencer is run by only one entity, that entity holds a monopoly and has the power to reject user transactions. This could also lead to a poor user experience for the users.
+
+
+Members:
+Sam from Node Guardians and Ben from Coinbase.
+Key Terms:
+Liveness (uptime):
+-the Arbitrum One chain keeps processing user transactions
+-censorship resistance i.e new honest transactions gets included in Arbitrum
+Safety:
+-reorg resistance i.e confirmed transactions stay confirmed
+-data availability i.e Arbitrum data remains available
+-validity i.e the transactions posted to Ethereum are valid.
+Security: Liveness + Safety
+Viability:
+The reason we are working on this proposal is because it could serve as a purely additive security measure to the existing Arbitrum protocol—the safety of Arbitrum users’ funds doesn’t rely on the mechanism proposed. Its main purpose is to provide a fallback option in the event of unexpected situations such as downtime or censorship involving the Arbitrum sequencer.
+Feasibility:
+It’s important to note that we are still investigating the exact costs of running sequencers in parallel, as we are reviewing the specific documentation that Offchain Labs shared with us.
+The great thing is that there is no need to modify any code on Arbitrum, as it already supports the escape hatch (force inclusion mechanism). This allows users to not only escape but also enables the DAO to elect a new sequencer. The goal is to run the Arbitrum sequencer in parallel to be ready to serve the DAO should the need arise.
+Desirability:
+It’s not news to anyone that security is crucial. Currently, the Arbitrum sequencer, which is responsible for collecting and ordering transactions, is operated by a single entity. Security includes both safety and liveness. From a safety perspective, the fact that the sequencer is run by only one entity does not compromise the protection of user funds, as the integrity of Arbitrum’s state transitions are guaranteed by fraud proofs. However, security also covers liveness—the ability of the Arbitrum chain to continue processing transactions. Despite our best efforts, servers can fail, and the sequencer might censor transactions. This can lead to a poor user experience for both Arbitrum users and dApps by causing delays of several hours in the processing of their transactions.
+Impact:
+This approach would allow the DAO to start by electing 2 backup sequencers (Coinbase and Node Guardians) in case of an issue with the current Arbitrum sequencer. We believe it is crucial that this process occurs through governance rather than through any form of $ARB staking mechanism. In reality, it doesn’t seem to be relevant to give up a) value and b) the governance process on the operator side to another liquid staking protocol, specially when there’s an opinionated and active governance in place, which we believe is the case for Arbitrum.
+These backup sequencers would run in parallel, ready to replace the active one if anything goes wrong. For example, we have already witnessed an event where the Arbitrum sequencer went down for a few hours, preventing users from accessing the chain and the dApps deployed on Arbitrum One. Even though this event was more related to implementation details, our goal is to prevent such situations from recurring.
+We aim to prioritize practical liveness/censorship resistance and having backup sequencers contribute to it. Having downtime or being censored, even for a short period, may impose a real cost on the user, depending on the situation (e.g time=money). Users generally desire ‘real-time’ censorship resistance and liveness at the speed of the blockchain they’re using. Note that liveness failures, such as those Solana has experienced, are unacceptable for high-value DeFi, which continues to grow on Arbitrum.
+Final thoughts:
+We are aware that this is a complex technical topic, and we do not want to rush things or take shortcuts. What we have written here serves as an introduction, and we wish to take the time to consult with delegates before proceeding with an official proposal.
+Loom:
+Video recording software",1
+21547,cliffton.eth,2024-02-27 23:11:27,,2
+21547,cliffton.eth,2024-02-27 23:45:50,Hey this should be Team 5 as per Hack Humanity. I’ve changed it accordingly.,3
+21547,cliffton.eth,2024-02-28 01:04:07,,4
+21547,sam.ng,2024-02-28 01:43:05,"Oh, sorry about that. In fact, on day 1, there were 8 initial teams, and I asked if it was possible to create an additional team for Sequencer-related stuff. That’s why I wrote team 9. Again, sorry for any confusion and thanks for changing it!",5
+21562,cliffton.eth,2024-02-28 01:17:57,"Hey everyone! We’ll be going on Google Meet soon to announce the top 5 winners for GovHack, and what the plans are for tomorrow.
+Feel free to jump on this bridge at 6:30 pm MT - see you shortly!
+https://meet.google.com/ziz-ttcu-wwq
+This quick session will also be recorded and posted on the forum.",1
+21562,cliffton.eth,2024-02-28 01:22:19,,6
+21562,cliffton.eth,2024-02-28 01:54:09,,7
+21508,Drea,2024-02-27 16:35:46,"Arbitrum GovHack Track: Strategic Big Bets
+Challenge Statement:
+How might we improve the experience of working groups, protocols, and providers by defining strategic pillars in a repeatable and reliable way?
+Members:
+Antoine Verge
+Drea
+Daolexa
+Omni
+Main contact
+Andrea Gallagher @Drea
+Pitch
+
+
+
+Proposal
+tl;dr:
+Arbitrum DAO, delegates, protocol builders, and service providers suffer today with noise and confusion about what the strategic goals are at any given point in time. The current process is ad hoc and requires constant work to answer questions and inform contributors. A better structured process would be efficient about
+
+documenting pillar definitions that different members of the ecosystem understand,
+prioritization where the rationale is visible, and
+budget allocation that has the right ROI and flexibility.
+
+We recommend a strategy assembly with randomly selected stakeholder participants, an agreed structure and process, and facilitation for both async input and real time deliberation.
+The Problem:
+We in RnDAO identified this pain point as we were trying to contribute to Arbitrum and observing the Plurality Labs grants program. Delegates have told us about having to explain and re-explain strategic goals on calls with builders and service providers, hoping they are staying consistent with other delegates. Service providers have told us about the friction of getting teams working together on the same framework. Builders have told us about the high cost of figuring out the ecosystem dynamics and crafting proposals with low probability of success. Many people are working hard today to improve the operational excellence and contributor experience, but all those efforts have to be built on top of clear and agreed strategic pillars.
+At the end of any good strategy process, there a proposal should pass the forum that includes:
+
+A list of clearly defined pillars
+Ranked by priority with shared justification
+Approximate budget allocation for each pillar
+
+The Assembly:
+The first part of the solution is to bring together a group that is small enough to deliberate together and put in valuable time on this topic. This group should include representatives of the types of stakeholder who contribute to the ecosystem but have different knowledge, goals, and needs. We suggest an assembly of 50 people, balanced between Delegates, Protocol Builders, and Service Providers. Each participant would be randomly selected from a pool of volunteer addresses and compensated for their time (approximately 15 hours over 1 month).
+The process:
+We would structure the process and discussion so that each step is clear and builds on the last. To make real time discussions as productive as possible, we would have 20 min surveys between each session that collects the raw material for the deliberation. The flow would be:
+Session 1: Share Values and Propose Pillars
+Intersession survey - Describe pillars you care about
+Session 2: Define Pillars and discuss value
+Intersession survey - Initial prioritization
+Session 3: Prioritization rationale
+Intersession survey - Revised priorities & suggested allocation
+Session 4: Allocate and Finalize
+Forum Proposal
+Throughout this process, our facilitators and scribes will document the decisions and key points, so that work is not dropped and lost.
+The team
+Our team is uniquely qualified to both run this process well and then make it an efficient governance tool.   Mission Publiques has been running Citizens’ Assemblies for the EU, European governments, and global organizations for 25 years.  RnDAO has partnered with them to run these programs in Web3.  We also bring 20 years of software user experience research and design expertise to the process.
+Rough Overall Cost
+Based on our experience in traditional politics and also running global online assemblies in Web3, we expect the first cycle to cost 140,000 Arb.
+This project is important
+because it will create a world where:
+
+The DAO can move faster
+Delegates are less overwhelmed
+Contributors and protocols have better UX
+
+Because
+
+The process is legitimate and trusted for users and holders
+Funds are well allocated (medium to long term thinking)
+Quality of process and discussion is better, less energy is lost in FUD, FOMO, polarization
+KPIs can be defined for a coherent domain and assessed cleanly
+Arbitrum has the lowest “Risk Country index” of all chains: Investors, teams, and projects know they can trust the governance and workflow and choose Arbitrum
+",1
+21508,cliffton.eth,2024-02-27 23:13:09,,2
+21508,cliffton.eth,2024-02-28 01:09:42,,3
+21535,lino,2024-02-27 21:26:12,"Introduction:
+Greetings, Arbitrum Community,
+We propose the establishment of the Arbitrum Venture Initiative (AVI), a workgroup dedicated to strategically deploying capital through funding VC funds, providing debt facilities, and setting up royalty and revenue share agreements within the Arbitrum ecosystem. This initiative aims to adapt ArbitrumDAOs fund deployment model to support scalable, strategic growth beyond traditional grants.
+
+
+Problem Statement:
+The current grants-only based funding model limits our ability to engage in large-scale, strategic investments necessary for substantial ecosystem development and long-term alignment with projects and service providers.
+Currently, these tensions manifest in a variety of ways:
+
+Concerns about retention of grantees in the ecosystem
+Concerns about the ROI of incentive programs
+Concerns with the incentive alignment of service providers
+Challenges with forecasting the sequencer fees that different programs could generate
+Growing reporting structures and additional resources consumed in oversight
+
+By incorporating elements such as equity/quasi-equity investments or revenue-sharing mechanisms (agreements), the Arbitrum DAO can:
+
+create win-win outcomes and long-term incentive alignment with funded projects and service providers,
+leverage best practices from public-private partnerships (facilitate collaboration with a variety of commercial partners to bring additional talent and capital),
+reduce concerns about project retention and reporting,
+and improve ecosystem sustainability through generating ROI and diversifying revenue streams.
+
+
+
+Background:
+I’m involved as a contributor in the RnDAO venture builder program. We received funding from Arbitrum thanks to the Plurality Labs program. As part of the program, I am leading a Research Fellowship to bring more strategic capabilities to the Arbitrum DAO. This scope involves researching and publishing how Arbitrum and similar ecosystems support entrepreneurial communities of builders, while also understanding the associated challenges.Furthermore, we have been structuring an approach to leverage Arbitrum capital towards supporting builders and ventures that run the protocol.
+However, the current grant initiatives of the Arbitrum DAO are limited to no-strings-attached grants without additional pathways for value to accrue to the Arbitrum DAO. As such, we face important limitations in providing enough capital for ventures in alignment with the Arbitrum DAO and, thus, limitations to scale the program significantly.
+We’re not alone in this challenge. An initial review indicates that the following initiatives and entities will benefit from more strategic capital alignment: The Gaming Catalyst Proposal, EVM Capital’s “No Cap, No equity accelerator”, Orange DAO, The New Grants Initiatives of Plurality Labs, etc.
+This proposal emerges as a response to the need for structuring win-win outcomes and enabling a scalable strategy that ensures the sustained relevance of the Arbitrum ecosystem.
+
+
+Objective:
+The AVI aims to boost ecosystem growth through strategic investments in venture capital funds and leveraging Arbitrum’s capabilities for managing debt facilities, royalties, and revenue-sharing structures. This approach enhances Arbitrum’s ROI, supports scalable and sustainable ecosystem development, and diversifies revenue streams beyond sequencer fees.
+
+
+Budget and Governance:
+We request an initial budget of USD 1.8 million to develop the executive layer and legal infrastructure, with USD 50k allocated for preliminary setup. The remaining funds will be held in a multisig wallet, governed by the DAO, with disbursements based on pre-agreed milestones. Voting yes on this proposal would grant our team access to these 50k only, allowing us to conduct further consultations and produce a detailed plan with milestones.
+
+
+Operational Initiative:
+
+
+Investment Strategy: Focus on identifying and funding VC funds with a proven track record and alignment with Arbitrum’s strategic interests as well as more bespoke instruments deeply aligned with Arbitrum’s Strategy. This involves thorough due diligence to assess the investment funds’ performance, investment thesis, portfolio composition, and alignment with Arbitrum’s goals and values. Additionally, the strategy may involve more bespoke instruments tailored to Arbitrum’s specific strategic priorities. Those can include a range of structured financial products designed to achieve specific targeted outcomes aligned with Arbitrum’s long-term strategy.
+
+
+Supporting Facilities: Dept, Revenue Sharing, Royalties policies, Initiatives, and deal negotiations. To facilitate effective investment activities, supporting facilities such as departments dedicated to investment analysis, deal sourcing, and portfolio management are essential. Revenue sharing and royalties policies and Initiatives provide mechanisms for distributing returns generated from investments among stakeholders, including investors, portfolio companies, and the community. Deal negotiations involving structuring investment agreements, negotiating terms, and ensuring alignment of interests between Arbitrum and all investment partners. These facilities play a critical role in enabling efficient and transparent investment operations while maximizing value creation and mitigating risks.
+
+
+Governance and Oversight: Implement a governance Initiative ensuring accountability, transparency, and community alignment. Establish clear roles and responsibilities, decision-making processes, and reporting mechanisms to oversee investment activities. Governance structures (investment committees, advisory boards) and oversight bodies, including internal or external stakeholders to represent different and diverse perspectives and interests. Transparency measures - regular reporting on investment performance, risk management procedures, and compliance with ethical and regulatory standards, to enhance trust and confidence among stakeholders. Community engagement and consultation mechanisms to ensure that investment decisions align with broader interests in the ecosystem, fostering inclusivity and alignment of goals.
+
+
+
+
+Community Engagement and Transparency:
+We commit to maintaining open lines of communication, seeking community feedback, and providing regular updates to ensure transparency and community involvement.
+
+
+Team Introduction:
+Arbitrum DAO already has world-class thinkers among its delegates, when it comes to solving this problem, however there are significant capacity limitations. Augmenting it with fresh talent is critical to speeding up execution and producing optimal outcomes.
+
+
+Lino: 3x founder, 15 years of experience in developing startup ecosystems and specifically through development of VC instruments.***
+
+
+Konstantina: MSc in Investment Banking and Securities from the London School of Business and Finance, ca Head of Equity Financial Instruments in a EUR 1.3 billion Fund of Funds, focusing on Venture Capital ecosystem development.
+
+
+Victor: A serial entrepreneur and the head of D10X for Citi Ventures, where he’s brought a multitude of major success cases around blockchain and AI innovations in the financial services industry
+
+
+Paul: Entrepreneur with 7 exits worth $4.7B and later head of Singtel Ventures.
+
+
+
+
+Alignment with Arbitrum’s Strategic Goals:
+The formation of the Arbitrum Venture Initiative aims to be explicitly aligned with the strategic objectives. While developing a multidimensional approach to ROI, commitment to the ecosystem’s growth, and alignment with VC best practices ensure that this venture arm extends beyond typical treasury deployment. The Arbitrum Venture Initiative is tailored to foster significant, strategic development within the Arbitrum ecosystem, leveraging the unique skills and insights of our team members.
+
+
+Consultations and Collaborative Efforts:
+To ensure the AVI aligns with community needs and industry standards, we have engaged with various stakeholders within and outside the Arbitrum community. These consultations include discussions with experienced venture capitalists, crypto industry experts, and key Arbitrum DAO delegates to gather insights and ensure our strategy complements the ecosystem’s overarching goals. Our ongoing collaborative approach is designed to refine our strategy, ensuring it remains effective, transparent, and community-driven.
+
+
+Conclusion:
+With AVI, we aim to diversify our investment approach, driving sustainable growth and innovation within the Arbitrum ecosystem. We look forward to your feedback and collaboration on this transformative journey.
+
+
+Loom
+
+Warm regards,
+Lvelev
+
+
+Further Notes:
+*’ discussion thread of what the investment objectives of this vehicle should be: What do we want for Arbitrum Venture Funds?
+** while we were working on this proposal, the assumed capital was $500m Arbitrum DAO funds, deployed over 5 years, where this would lead to attracting an additional 1 to 3B from the market in the ecosystem.
+*** note on Lino’s optimal commitment: I intend to do all the setup work and make it my focus for 3 months or whatever is mutually agreed. Including onboarding of the correct people from the DAO and bringing expertise not yet in the DAO (starting with the group outlined in ‘team’). After the setup phase, the core nature of the work is one of oversight, compliance, and governance. This poorly suits my main strengths in early-stage venture, investments, ecosystem development, and as a founder. Medium and long term, I’m more suited and would prefer to participate together with a larger group of builders, capital allocators, and delegates in an advisory capacity, while the core of the work is handled by the expert team that’s been put in place.",1
+21535,cliffton.eth,2024-02-27 23:13:03,,2
+21535,cliffton.eth,2024-02-28 01:09:16,,3
+21485,fern,2024-02-26 22:42:31,"image960×1280 84.3 KB
+
+Track Name: Game Development Incentives
+Challenge Statement: Proposal: Game teams don’t realize that Arbitrum has the best tech stack to build a game because of lack of PR, messaging strategy, and other aspects of communication.
+Members: Adam, James, Dan
+Team Lead contact name or alias (Winners will be DM’d for prize distribution): Adam & James
+PITCH: Loom | Free Screen & Video Recording Software | Loom
+Deck Link: Team #8: Gov Hack - Google Slides
+
+Arbitrum GovHack Track:
+Title
+Proposal: Game teams don’t realize that Arbitrum has the best tech stack to build a game because of lack of PR, messaging strategy, and other aspects of communication.
+Constitutional / Non-Constitutional
+Non Constitutional
+Abstract
+Arbitrum hasn’t won the Web3 gaming vertical yet because of constrained BD & onboarding - not because of their tech. We want to enable the DAO to serve as a growth arm for Offchain Labs to onboard new game devs.
+How is Success Defined
+
+Increase the number of games being built on Arbitrum technology by 25%
+Receive anecdotal feedback from the ecosystem that this offering was useful and helpful in vendor selection
+Observable increase in speed to market for Arbitrum games v other technology stacks
+
+Motivation
+Games aren’t launching on Arbitrum technology as frequently as other chains even though Arbitrum has the best tech in market. There is clearly a disconnect between the market view on ARB and the reality of what Arbitrum is capable of.
+Rationale
+Arbitrum benefits by having more developers building on its technology in the form of additional revenue and mindshare. If Arbitrum becomes the goto technology stack for game builders, it could grow its transaction count significantly.
+Steps to Implement
+The steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. For the avoidance of doubt, any AIPs involving transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.
+
+Identify and hire a consultant to oversee the vendor selection & management process. Ideally this is a game dev who has diligence many of the providers in the space and has gone through at least 1 but hopefully 2 or more set-ups.
+Enable consultant to undertake a meta study of all the vendors in the space by any means they deem appropriate, inclusive of surveys, 1:1 interview, and hands on development
+Once consultant has selected winning vendors, enable them to negotiate 1 by 1 with the vendors for preferred pricing for Arbitrum customers.
+Once vendor negotiation is complete, build a list of preferred vendors with contacts and pricing in Notion as an MVP.
+Milestone 2
+Once the program proves to be successful, hire a web dev firm to build out a proper website that mimics the app store experience where they can ‘checkout’ with different vendors needed to launch.
+
+Timeline
+
+1 month: Distribute survey to >10 for each category of service provider
+2 week: Aggregate results of survey
+2 months: Find a provider to develop a static website ready to display Winning providers
+3 months (in parallel): Finalize the process with winning service providers (negotiating preferential rates)
+1 week: Add winners to the app store
+
+Overall Cost
+$5k     | Organize election process, inclusive of ecosystem developer reach-out
+$100k | BD Team
+($10k   | Website Development) - Milestone 2
+Total Cost: $105K - $115K",1
+21485,cliffton.eth,2024-02-27 23:12:57,,2
+21485,cliffton.eth,2024-02-28 01:08:35,,3
+21494,Gaboss,2024-02-27 00:37:51,"Arbitrum GovHack Track:
+
+Arbitrum liquidity
+
+Challenge Statement:
+The current status quo relates to creating incentive programs for already existing DeFi users. There hasn’t been a program to incentivize the migrations of users from Centralized Exchanges to the Decentralized world.
+Additionally, there has been a lack of mechanisms to target this user base directly to funnel them to DEX Products, with strong and long-term incentive programs.
+Members:
+ImmutableLawyer
+getitdone1 - Sam from Gains Network
+AlexLumley from Savvy
+GabrielBegazo from Cede.store
+More Perps DEX founders to come (supporting the proposal)
+Loom video: Loom | Free Screen & Video Recording Software | Loom
+Deck: Perp-trader [Onboarding Program] - Team 14.pdf - Google Drive
+What the problem is
+Problem statement
+
+The current status quo relates to creating incentive programs for already existing DeFi users. There hasn’t been a program to incentivize the migrations of users from Centralized Exchanges to the Decentralized world.
+Additionally, there has been a lack of mechanisms to target this user base directly to funnel them to DEX Products, with strong and long-term incentive programs.
+
+Abstract
+Arbitrum currently has $4.1Billions in Daily Derivatives Volume (DefiLlama) with derivatives volume on centralized exchanges being upwards of $2 Trillions (CoinMarketCap).
+Arbitrum is host to numerous products that allow spot or perpetual trading of assets across multiple trading pairs. This onboarding program via incentives aims to bring a new wave of capital injection from centralized exchanges to test out and utilize Arbitrum’s perp-based product offering with the eventual goal being that of attracting additional users from CEXs to the Arbitrum Ecosystem.
+Arbitrum Market Share of Perp trading volume 70% of On-chain trading volume is on Arbitrum;
+On-chain vs off-chain trading volume [2% of trading volume is On-Chain]
+Problems
+
+The current status quo relates to creating incentive programs for already existing DeFi users. There hasn’t been a program to incentivize the migrations of users from Centralized Exchanges to the Decentralized world.
+Additionally, there has been a lack of mechanisms to target this user base directly to funnel them to Perp DEX Products, with strong and long-term incentive programs, ensuring the retention of this liquidity on the DeFi side.
+
+What is the solution
+The Proposal
+To increase Arbitrum’s market share of trading volume from centralized exchanges to native Arbitrum products that offer spot and perpetual trading;
+To onboard traders and institutions alike to use products on the Arbitrum Tech-Stack;
+To utilize the ARDC’s knowledge-pool & institutional connections to achieve our goal of increasing trading volume on Arbitrum.
+Theoretical Framework
+
+Utilise the ARDC to manage the onboarding program;
+Utilise Cede.Store to funnel CEX users/traders/institutions to Arbitrum products;
+Utilise the ARDC for incentive modelling;
+Utilise the ARDC’s institutional user-base to funnel institutional traders to Arbitrum products.
+
+Goals
+
+Funnel CEX users/traders/institutions to the Arbitrum Ecosystem.
+Increase trading volume & correspondingly, sequencer revenue
+Improve the retention rate of these new CEX traders: the incentive program we’re bringing on the table
+
+Methodology
+
+Trader-Focused: Creating a trader-oriented incentive program similar to what dYdX has done for the dYdX Chain.
+Cede.Store: Funnel & track seamless capital injections to the Arbitrum Ecosystem via Cede.Store.
+
+Indeed:
+
+
+Traders are the sole focus of this Program with, naturally, cascading positive effects on Projects they choose to trade on.
+
+
+Rewards could be based on trading activity, trading fees, capital transitioned CEX-DEX, amount of pairs traded, amount of projects traded on.
+
+
+As with the dYdX Incentives Program, the incentive model could be based on the Locke & Latham theory of motivation ‘Incentives Theory Through Goal-Setting.
+
+
+Source: dYdX Chain: A Comprehensive Overview of the Launch Incentives Program<!-- --> | Chaos Labs - Cloud Native web3 Security and Infrastructure
+Implementation
+
+Pre-proposal: Create Cede.Store integration (to be assessed by Security Member of the ARDC), ARDC incentive modelling, analytics to track capital flow.
+Proposal-stage: Proposal drafting, posting on the Forums, Feedback round, discussions w/Traders on CEXs.
+Post-proposal: management of the program by the ARDC.
+
+Why is important
+Why Cede.Store? Introducing a new standard: CEX on-ramp solution
+To onboard a user in a protocol on a Arbitrum chain, you have only 3 possibilities:
+
+Use a bridge → only for assets already on-chain, high-fees and slow sometimes
+Use a FIAT on-ramp → usage problems (40% drop rate) + high fees (2%-5%) + custodial + target newbies that bring only small liquidity
+Withdraw from a CEX → that’s where cede.store comes in, making the experience ultra-smooth and fast.
+
+Cede.store is the non-custodial gateway between CeFi & DeFi allowing any dApp to interact with their user’s CeFi liquidity.
+Arbitrum use case: we are the only product capable of identifying the CeFi usage of a DeFi persona.
+Therefore, we are able to incentivize them to withdraw their CeFi assets to Arbitrum based on the incentive mechanism that would be created by Chaos Labs should they be elected to the ARDC.
+Cede.Store support all the tokens and withdrawable networks provided by the 10 Centralized Exchanges that they support.
+If new tokens and networks get supported by a supported CEX, cede.store will also support it!
+You can check out by yourselves the complete list here: Supported Exchanges, Networks, Tokens – cede.store
+Viability: traction already proved through LogX & Cede.Store integration.
+⇒ video demo: https://youtu.be/zglcGAAa4Dk
+Desirability: almost all the Perps DEX we’ve been talking to (on Arbitrum but also on Cosmos, Solana and other evm and non-evm chains) are craving for this CEX on-ramp solution to acquire more liquidity and easily bring CEX traders into their Perp DEX solution, as the value proposition of their product is similar, or even better than CEX ones. By leveraging on an incentive program, we could boost this transition from CEX to Perp DEX.",1
+21494,cliffton.eth,2024-02-27 23:12:52,,2
+21494,cliffton.eth,2024-02-28 01:08:25,,3
+21540,sohobiit,2024-02-27 21:40:49,"Arbitrum GovHack Track
+
+
+Track Name (Activation, Betting on Builders & Onboarding)
+
+
+Members:
+· Soho
+· Naya
+· Sebas
+
+
+Team Lead contact name or alias:
+Sohobiit: X · Telegram
+
+
+PITCH:  Presentation Video Link 
+
+
+Proposal TL;DR
+
+
+Involves using art as the main tool for the onboarding process, designing creative experiences that allow more people to effectively integrate into a community or company. This includes artistic activities, collaborative workshops, and participatory projects that foster individual and collective expression, thereby strengthening social bonds and promoting an inclusive and enriching environment.
+2024-02-27 14.35.10960×1280 108 KB
+Challenge Statement:
+The challenge is to design an innovative strategy that uses art as the main tool for the integration and implementation process within governance, creating creative experiences that facilitate the participation of a greater number of people within the community and for the community. This involves developing disruptive ideas to test how they are accepted.
+ What the problem is?
+Can make Art a tool to amplify an artist’s work and serve as a governance method mixing Arbitrum. Integrating art into governance structures not only empowers artists but also adds a creative dimension to decision-making processes, fostering inclusivity and innovation.
+Nowadays, NFTs are evolving beyond mere wealth generation, gaining significance within DAOs. They represent not just financial value, but also a means to govern through art, empowering collective decision-making with creativity.
+ What is the solution?
+Amplify the work of cause-driven artists to raise awareness.
+Governing through art is an innovative concept within the ecosystem and particularly within Arbitrum. Imagine the potential to attract new individuals to adopt the Arbitrum network, recruit new delegates, all accomplished through the power of art.
+Art + Governance + Arbitrum = 
+Through NFT ART & Artists :
+
+Attract more people to the Arbitrum ecosystem.
+Govern through ARB.
+Amplify the work of cause-driven artists to raise awareness.
+
+ Why is important?
+It’s important to integrate art into governance methods because, as artists, we’re crucial within the ecosystem, aiming to delve into the Web3 world with our art. We strive to continue growing and sharing our art, reaching unseen places and utilizing novel approaches.
+
+Art adds a unique perspective to decision-making processes, fostering creativity and inclusivity.
+Integrating artists into governance ensures diverse representation and enhances community engagement.
+Utilizing art in governance fosters innovation and creates a more vibrant and dynamic ecosystem.
+",1
+21540,cliffton.eth,2024-02-27 23:12:47,,2
+21540,cliffton.eth,2024-02-28 01:07:30,,3
+21541,Samantha,2024-02-27 21:47:54,"Title: Introduce Contributor Onboarding to Arbitrum DAO
+Non-constitutional AIP
+Loom video pitch
+Problem statement: In a bull market, human-led onboarding processes cannot scale with the number of new contributors coming in without deploying extensive resources.
+Proposed solution: Build an autonomous onboarding process that helps new members orient and understand how the Arbitrum DAO works and how to contribute to the ecosystem. This onboarding flow will include key information and sources of truth for new members learning the ropes.
+Why it’s important: DAOs are the sum of their contributors. Having contributors that know how to contribute makes the entire DAO work more smoothly. Not every contributor has the bandwidth to orient themselves by reading backlogs of Discord and the forum. By establishing a clear onboarding process, new members all have the same baseline set of information when starting their DAO journey.
+Abstract
+This proposal explores the problem space and proposes a three-month experiment in building out an Autonomous Incubator for the DAO.
+Motivation
+DAOs are built by their contributors, and The Arbitrum DAO already clearly has a thriving community. But as we enter a bull market, there will be floods of new faces pouring into every DAO in the space. Our goal is to ensure the new Arbitrum DAO contributors are well-equipped to contribute and add value to the DAO.
+Specifications
+Here are a few solutions we’ve explored as a team:
+Solution 1: Mentor-mentee (determined too difficult to scale):
+@jengajojo , who supported and advised this proposal, is pioneering a mentor-mentee program for new delegates at Optimism. We explored setting up mentors and mentees, or even a talent scout program similar to what was successful in BanklessDAO, but after discussion determined that it would be too challenging to scale so we continued to solution 2 and 3.
+Solution 2: Onboarding flow—Autonomous Incubator:
+The onboarding flow is an automated email workflow that delivers emails to new members after they sign up for the forum. Each email will contain a video and a summary of key points. Members can opt out at any time. We believe this will be both effective at reaching new members and have low costs of maintaining, since it will basically run autonomously.
+Solution 3:Governance Hub—Arbitrum GovHub:
+A next step after the launch of the Autonomous Incubator could be to launch the Arb GovHub, which takes inspiration from Gitcoin Passport. In the GovHub, new members could watch the onboarding videos, read the handbook, and connect with other new members in dedicated sessions. The GovHub would be a friendly, welcoming homebase for all new DAO members.
+Steps to Implement
+Below, we have outlined new contributor onboarding steps along with our video presentation (Click Loom link here):
+Onboarding email flow
+New forum joiners will be added to an automated email flow, which they can opt out of at any time. Here’s the example of our onboarding email flow.
+Video Pack
+These videos will be token-gated to 1 ARB token using Livepeer
+
+What is Arbitrum? Overview of the technology and founding of Arbitrum
+What is the Arbitrum DAO and its role in the greater ecosystem
+How does governance work at Arbitrum
+How to connect with the Arbitrum community online and IRL
+
+Samantha will lead this and record the videos. She produces video onboarding content regularly for Aragon.
+Contributor Handbook
+The contributor handbook will be the source of truth for new members joining the DAO. Think of it as a map for navigating the DAO and learning how to plug in.
+
+Includes information presented in the videos
+Can be viewed/printed as a pdf, or explore printing and distributing at events (Samantha has made printed zines so has experience doing this)
+Will include interviews and stories from Arbitrum DAO contributors to show the strength of the community
+Samantha will head up production of this. She has organized and produced something similar to this, called the DAO Anthology dropped with Metalabel. She also has a background in writing and journalism and would love to interview community members to put this together.
+
+Arbitrum GovHub built in collaboration with Together Crew
+Another option we would like to explore is building a digital Hub that all new contributors can land in immediately after joining the forum. @decentralizedceo will head up this side.
+
+In the GovHub, new members could watch the onboarding videos, read the handbook, and connect with other new members in dedicated sessions—all in one UI.
+The GovHub would be a friendly, welcoming homebase for all new DAO members and help them get oriented.
+It could be token-gated using a platform like Guild.
+Another option to explore: translating the GovHub content in Spanish and Mandarin, leveraging the Media Nodes translation project in BanklessDAO.
+
+Overall Cost
+We request 50,000 ARB tokens to complete this project. We expect it will take about 3 months. We will set up a multisig of contributors on this project.
+Team
+Our team is composed of Samantha (Aragon), DecentralizedCEO (GreenPill), and Heather (Giveth), with support and advice from Jenga JoJo (DAOplomats).
+Team lead: Samantha Marin, @ samanthajmarin on Telegram",1
+21541,cliffton.eth,2024-02-27 23:12:40,,2
+21541,cliffton.eth,2024-02-28 01:06:33,,3
+21538,jacob,2024-02-27 21:36:39,"Grantser: Create Arbitrum Grant Proposals That Get Funded
+Arbitrum GovHack Track:
+DAO operational excellence
+Challenge Statement: Create a high-quality, unique grant proposal that gets funding
+Members: Jacob Habib, Ivan Manvelov, Fabio Anaya
+Team Lead: @jahabeebs on X or Telegram or Discord
+Pitch: Grantser
+Proposal:
+Abstract
+Grantser is a public good platform for creating high-quality, unique grant proposals for Arbitrum. It’s a boon for the Arbitrum ecosystem with two components: a repository of successful grants and an AI tool for giving feedback on a draft proposal, calculating a similarity score, and evaluating the proposal against a checklist of Arbitrum-specific grant requirements.
+Motivation
+During the Arbitrum GovHack, multiple teams identified the following problems with the grant proposal process:
+
+It’s difficult to know how to prepare a proper grant proposal that’s eligible to get funded and gain community support.
+The grant proposal process is too slow–especially for smaller projects.
+Grant applicants who submit subpar grant proposals have to spend extra days or weeks iterating on feedback from the DAO, or even worse, get no feedback and give up on the Arbitrum ecosystem.
+
+Grantser is a platform built to address these issues. It’s designed to empower individuals and teams to create proper grant proposals faster. DAO members won’t have to continue responding to dozens of subpar grant proposals with the same advice. Additionally, DAO members will feel empowered to know that the time they invest in improving one grant proposal won’t be lost to time and continue improving draft proposals with no extra effort for them.
+Rationale
+
+Sustainable: The advice given to proposals made in Tally and Discourse won’t be lost to time–the valuable conversations that DAO members have around proposals will be used to train models that refine draft proposals without human effort.
+Socially inclusive: Members of all levels will be able to engage effectively with the grants process, regardless of knowledge, resources, geography, language, and life experience.
+User-focused: By creating high-quality proposals, we can create a better foundation for the products that grant recipients build.
+Neutral and open: Grantser is meant to be a DAO neutral infrastructure product and consequently, it will encourage competing products within different DAOs both within and outside of the Arbitrum ecosystem.
+
+Key Terms
+
+Fine-tuning: Pretraining a machine learning model and training it on a smaller, targeted data set. For example, training a generic LLM model on the specific conversations within the Arbitrum Discourse.
+LLM: Large language model. A machine learning model that can comprehend and generate human language text by analyzing massive amounts of human language data. The GPT LLM, used in ChatGPT, is the most famous.
+
+Specifications
+
+Front-end application: a TypeScript Next.js application built with a neutral component library (like shadcn/ui). This stack is very popular among web developers and makes it easy to build and maintain the application.
+AI chatbot: Part of the proposal is doing a cost-benefit analysis of the technical options for the chatbot, however, the infrastructure of the chatbot would look like the following:
+
+An OpenAI/Replicate or other hosted fine-tuned model: in this case, we would not need to populate or maintain a vector database, we would access the model through an API call on the front-end application, and a user could even talk to the chatbot about Arbitrum DAO Discourse proposals via the OpenAI/alternative provider UI if they were provided the model name.
+
+
+Domain: a domain would be purchased through a DNS provider like Namecheap or Cloudflare.
+
+Steps to Implement (see comment for details)
+The steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. AIPs that involve transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.
+
+Domain
+Front-end development (1-2 mid to senior-level developers)
+Research & Model training - (1-2 mid to senior-level developers)
+Business development
+
+Timeline
+
+Start date: April 1st
+Milestone 1 (April 15): The training methodology for the AI chatbot should be finalized after doing a cost-benefit analysis of training various models on Discourse data (Mistral, ChatGPT, Replicate).
+Milestone 2 (May 1st): The following front-end work should be completed:
+
+A simple landing page explaining the purpose of the application with a link to launch the application.
+Completed front-end application minus a payment gateway.
+A crude version of the AI chatbot–the relevant API should be integrated but not be working effectively still.
+
+
+Milestone 3 (May 15th): The training of the AI chatbot should be completed, and it should be working effectively. The payment gateway should also be integrated into the application.
+Milestone 4 (June 1st): The full launch of the application, including all planned features and the AI chatbot working as intended.
+Mileston 5 (August 1st): The incentive program should be completed and evaluated if the requirements have been met
+
+Overall Cost (see my comment for cost breakdowns)
+
+Initial lump sum cost: $20,000
+Success incentive: Additional $20,000 upon meeting specific criteria
+
+Budget (see my comment for cost breakdowns)
+Web Development & Maintenance
+
+Front-end landing page + platform development + necessary integrations:
+
+$6,052
+
+
+Domain:
+
+$48
+
+
+Ongoing AI training & maintenance for 4 years:
+
+$9,600
+
+
+
+AI Training Costs
+
+Cost-benefit analysis of various models:
+$400
+Research and written open-source training methodology for pulling data from Tally & Discourse, creating JSONL files for model training:
+
+$400
+
+
+Training costs on Tally & Discourse text:
+
+$500
+
+
+Data cleaning, data labeling, training models on successful and failed Tally grants proposals since DAO founded:
+
+$1,000
+
+
+
+Business Development
+
+Cold outreach, networking with other DAO stakeholders via Twitter and LinkedIn, participating in conferences:
+
+$2,000
+
+
+
+Retroactive Incentive Program (see my comment for details)
+
+Total: $20,000
+
+Developer(s) will receive a $15,000 incentive if certain criteria are met by August 1st
+Business development representative(s) will receive a $5,000 incentive if certain criteria are met by August 1st
+
+
+",1
+21538,jacob,2024-02-27 22:02:22,"Long version of proposal (over 1000 words) with more budget details and exact steps to implement:
+Abstract
+Grantser is a public good platform for creating high-quality, unique grant proposals for Arbitrum. It’s a resource for the Arbitrum ecosystem with two components: a repository of successful grants and an AI tool for giving feedback on a draft proposal, calculating a similarity score, and evaluating the proposal against a checklist of Arbitrum-specific grant requirements.
+Motivation
+During the Arbitrum GovHack, multiple teams identified the following problems with the grant proposal process:
+
+It’s difficult to know how to prepare a proper grant proposal that’s eligible to get funded and gain community support.
+The grant proposal process is too slow–especially for smaller projects.
+Grant applicants who submit subpar grant proposals have to spend extra days or weeks iterating on feedback from the DAO, or even worse, get no feedback and give up on the Arbitrum ecosystem.
+
+Grantser is a platform built to address these issues. It’s designed to empower individuals and teams to create proper grant proposals faster. DAO members won’t have to continue responding to dozens of subpar grant proposals with the same advice. Additionally, DAO members will feel empowered to know that the time they invest in improving one grant proposal won’t be lost to time and continue improving draft proposals with no extra effort for them.
+Rationale
+
+Sustainable: The advice given to proposals made in Tally and Discourse won’t be lost to time–the valuable conversations that DAO members have around proposals will be used to train models that refine draft proposals without human effort.
+Socially inclusive: Members of all levels will be able to engage effectively with the grants process, regardless of knowledge, resources, geography, language, and life experience.
+User-focused: By creating high-quality proposals, we can create a better foundation for the products that grant recipients build.
+Neutral and open: Grantser is meant to be a DAO neutral infrastructure product and consequently, it will encourage competing products within different DAOs both within and outside of the Arbitrum ecosystem.
+
+Key Terms
+
+Fine-tuning: Pretraining a machine learning model and training it on a smaller, targeted data set. For example, training a generic LLM model on the specific conversations within the Arbitrum Discourse.
+LLM: Large language model. A machine learning model that can comprehend and generate human language text by analyzing massive amounts of human language data. The GPT LLM, used in ChatGPT, is the most famous.
+
+Specifications
+
+Front-end application: a TypeScript Next.js application built with a neutral component library (like shadcn/ui). This stack is very popular among web developers and makes it easy to build and maintain the application.
+AI chatbot: Part of the proposal is doing a cost-benefit analysis of the technical options for the chatbot, however, the infrastructure of the chatbot would look like the following:
+
+An OpenAI/Replicate or other hosted fine-tuned model: in this case, we would not need to populate or maintain a vector database, we would access the model through an API call on the front-end application, and a user could even talk to the chatbot about Arbitrum DAO Discourse proposals via the OpenAI/alternative provider UI if they were provided the model name.
+
+
+Domain: a domain would be purchased through a DNS provider like Namecheap or Cloudflare.
+
+Steps to Implement
+The steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. AIPs that involve transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.
+
+Domain: Purchase the domain for the project using granster or a similar name in Namecheap/Cloudflare and configure the DNS records in Vercel under my existing LLC’s organization.
+Front-end development (1-2 mid to senior-level developers):
+
+Developer(s) should first spend time planning the content of each page of the platform. This includes the sections and copy of the landing page and the pages and copy of the platform.
+Developer(s) should work on building out a simple, static landing page (this should last no more than 3 hours of the total development time). The landing page should have a button that links to the main platform.
+Developer(s) should have finished the landing page and moved on to working on building out the main application. The main application should include at a minimum a way to sign in with a wallet, a repository of successful grant proposals, and a page to post a draft grant proposal and get feedback from an AI interface. The chatbot should be integrated with the proper platform’s API (like OpenAI) but the model may still not be the correct, fine-tuned one yet.
+
+
+Research & Model training - (1-2 mid to senior-level developers); this can be done in parallel with the front-end development.
+
+Do research on the current AI hosting options and calculate the fine-tuning costs for each depending on the provider selected. By the end of this step, there should be a plan (8 hours max).
+Write an open-source methodology for pulling data from Discourse and Tally, creating the files for model training (8 hour max).
+Data cleaning, data labeling, training models on data pulled from Discourse and Tally (20 hours max).
+Any bugs with the fine-tuned model should be addressed after this step.
+
+
+Business development:
+
+Begin reaching out to grant proposal authors on the Arbitrum DAO forum, launch on ProductHunt, and publish to other directory platforms, market the platform through social media. See the incentive program section to find specific benchmarks.
+Contact delegates and leaders from other DAOs via social media to identify which DAOs are most interested in having this platform as a public good. See the incentive program section to find specific benchmarks.
+
+
+
+Timeline
+
+Start date: April 1st
+Milestone 1 (April 15): The training methodology for the AI chatbot should be finalized after doing a cost-benefit analysis of training various models on Discourse data (Mistral, ChatGPT, Replicate).
+Milestone 2 (May 1st): The following front-end work should be completed:
+
+A simple landing page explaining the purpose of the application with a link to launch the application.
+Completed front-end application minus a payment gateway.
+A crude version of the AI chatbot–the relevant API should be integrated but not be working effectively still.
+
+
+Milestone 3 (May 15th): The training of the AI chatbot should be completed, and it should be working effectively. The payment gateway should also be integrated into the application.
+Milestone 4 (June 1st): The full launch of the application, including all planned features and the AI chatbot working as intended.
+
+Overall Cost
+
+Initial lump sum cost: $20,000
+Success incentive: Additional $20,000 upon meeting specific criteria
+
+Budget
+Proposal includes 1-2 mid to senior-level contract developers collaborating with 1-2 business development contractors
+Web Development & Maintenance
+
+Front-end landing page + platform development + necessary integrations:
+
+Approximately 60 hours of work at $100/hr = $6,052
+
+
+Domain:
+
+$12/yr recurring for 4 years = $48
+
+
+Ongoing AI training & maintenance for 4 years:
+
+$50/hr for around 4 hours of work per month = $9,600
+
+
+
+AI Training Costs
+
+Cost-benefit analysis of various models:
+
+8 hours at $50/hr = $400
+
+
+Research and written open-source training methodology for pulling data from Tally & Discourse, creating JSONL files for model training:
+
+8 hours at $50/hr = $400
+
+
+Training costs on Tally & Discourse text:
+
+$500 USD
+
+
+Data cleaning, data labeling, training models on successful and failed Tally grants proposals since DAO founded:
+
+20 hours at $50/hr = $1,000
+
+
+
+Business Development
+
+Cold outreach, networking with other DAO stakeholders via Twitter and LinkedIn, participating in conferences:
+
+40 hours at $50/hr = $2,000
+
+
+
+Retroactive Incentive Program
+
+Total: $20,000
+
+Developer(s) will receive a $15,000 incentive if the following criteria are met by August 1st:
+
+The AI model for providing feedback and evaluating draft proposals is an effective and reliable tool for evaluating draft proposals that should be able to evaluate 5 draft proposals and correctly fill out a checklist of Arbitrum-specific grant requirements.
+The AI model should be able to identify any similar proposals and note them in its feedback.
+The front-end platform looks professional, mobile-responsive, and is free of obvious software defects.
+
+
+Business development representative(s) will receive a $5,000 incentive if the following criteria are met:
+
+The platform has been used by at least 25 future or current grant users and at least 1000 site visitors since launch.
+The project proposal process has been initiated for at least 2 other DAOs (besides Arbitrum DAO) for integrating this public good into their communities to continue to grow this public good.
+
+
+
+
+",2
+21538,cliffton.eth,2024-02-27 23:12:31,,3
+21538,cliffton.eth,2024-02-28 01:06:23,,4
+21488,Genesis_Brian,2024-02-26 23:06:34,"Arbitrum GovHack Track:
+Track Name: Grants Ecosystem
+Challenge Statement: Reducing time to funding and creating a pathway for small grants in any vertical that also allows for scaling of the initial grant where applicable.
+Members:
+
+Disruption Joe
+Brian
+Shapley
+
+Team Lead contact name or alias: Brian
+Tag: grants-ecosystem
+Pitch: 
+
+
+Proposal: Ecosystem Firestarter Fund
+Category: Non-Constitutional AIPs
+Abstract
+This proposal provides a solution for small grants to be funded in a way that reduces time and complexity. We do this by taking lessons from Questbook DDA and the Plurality Labs Firestarter program - which both have validated parts of a holistic solution - but these solutions need to be brought together to effectively address the needs of the DAO.
+Motivation
+Questbook is too slow, needing 6-8 weeks to receive funding.
+Firestarters lacked the legitimacy of authority needed for a recurring program.
+Rationale
+An allocation fund will make funding available in 7 days.
+An Ecosystem Firestarter Council will have legitimate authority.
+Specifications
+
+Fund a 1 million ARB allocation fund.
+Ratify the membership of the Ecosystem Allocation Fund
+a. Domain allocators who have received funding for a second term
+Ratify the rights of the allocation fund
+a. Provide 100k bridge funding allotments to current programs.
+b. Provide 100k pool for new domains which receive majority vote of council
+i. Any member can spark a firestarter grant in the new domain
+
+Mapping
+The original Questbook proposal provided solutions for product market fit bets, marcoms, and OSS. This expansion will allow it to cover all functions and verticals.
+The following image compares the verticals covered under the Questbook DDA with the comprehensive vertical coverage we propose. The Ecosystem Firestarter Council will also have the capacity to expand into further levels.
+960×540 95 KB
+Type: Program Provider grant
+Function: Functional expansion fund
+Verticals: Vertical agnostic
+Level: 1
+Timeline
+Proposal on forum on Feb 27. Snapshot one week from today. On Tally 1 week from the snapshot. Funding pool is available 20 days after that.
+Cost
+The cost of this proposal is 1 million ARB.
+Deck
+
+docs.google.com
+
+
+
+Arbitrum DAO_ Firestart fund
+Ecosystem Firestarter Fund Team 3 - Grant Ecosystem How many people are familiar with the Delegated Domain Allocation by Questbook?
+
+
+
+
+
+",1
+21488,cliffton.eth,2024-02-27 23:12:20,,2
+21488,cliffton.eth,2024-02-28 01:06:14,,3
+21545,cbxm,2024-02-27 22:14:23,"Arbitrum GovHack Track
+DAO Operational Excellence
+Challenge Statement
+Create a streamlined Arbitrum governance proposal process, improve the quality of new proposals, and increase proposal legibility for voters.
+Members
+Frisson - Lead (TG: @zeroxfrisson)
+Shawn16400
+Caden
+George
+Hung Vu
+Video Intro
+Link to Loom
+
+Accelerating Arbitrum Governance
+Constitutional / Non-Constitutional
+Constitutional
+Summary
+This proposal has two parts:
+
+Propose immediate operational improvements in the proposal process.
+Outline a path to smartly invest in decentralized infrastructure for growth.
+
+For immediate benefit, this proposal creates a streamlined Arbitrum governance proposal process, improves the quality of new proposals, and increases proposal legibility for voters. We plan to achieve these outcomes by modifying the existing Arbitrum DAO governance process via constitutional amendment and commissioning a new, integrated governance application to support it.
+This proposal also aims to conduct a thorough product research process to define the ideal state for Arbitrum governance going forward, setting Arbitrum DAO up to scale governance to three billion users.
+Voter Guide
+Reasons to vote “For”
+
+Saves approximately 400 delegates hours per month
+Streamlines the governance process for community members
+Reduces the number of tools needed to participate in governance
+Allows voter to quickly build context and more effectively evaluate complex proposals
+Increases voter participation by only requiring delegates to vote once instead of twice
+Aligns the DAO around future governance tooling needs through a product research process
+
+Reasons to vote “Against”
+
+The financial cost of the proposal isn’t worth the benefit to the DAO
+May result in thorough reviewers being less diligent in their reviews
+Will result in changes in the tooling stack/voting process for the DAO, including less usage of Snapshot
+Part 2 is ambitious - building an “ideal state” for Arbitrum is a bold move
+
+Expected Impact
+The Arbitrum DAO has passed the 10 month mark, and in that time multiple pain points and zones of friction within the governance proposal process have been discovered. Proposal context is spread out across different locations (Discourse, Snapshot, Tally); the current status of a proposal is not immediately apparent; the multi-stage process for voting on a proposal is tedious and time consuming; and it is difficult to acquire all of the context necessary to understand what the ultimate outcome of a proposal will be.
+By streamlining the proposal process, we expect:
+
+Higher quality proposals
+Less time to go from proposal creation to execution
+A more transparent and legible governance process
+Reduced manual delegate work and governance fatigue
+
+By outlining a path to smartly invest in decentralized infrastructure for growth we expect:
+
+To define what “good” is - and create a plan to get there
+To empower the largest Layer 2 with a purpose-built decentralized solution
+To position Arbitrum DAO for massive, unconstrained, and coordinated growth
+
+We also know that there is a lot we need to improve about governance as Arbitrum scales. While we address the most immediate need by streamlining the proposal process, we think it’s important to deep dive into the remaining governance needs of the DAO to fully define and prioritize the next phase of governance improvement. The output of our research process will serve as an efficient way to align the DAO and drive us towards an ideal state of governance going forward that can be funded via a follow-up proposal. “The ideal state of Arbitrum governance” report will include recommendations on the future of delegation structures, collaboration tools, voting mechanisms, performance metrics, and capture resistance.
+This proposal contributes to Arbitrum Community Values by making the Arbitrum DAO more socially inclusive, technically inclusive, and user-focused. Our proposed improvements make it easier for contributors and delegates of all backgrounds and technical abilities to engage with the proposal process.
+Details
+With the proposal, we will organize, unify, accelerate, and integrate the Arbitrum DAO proposal process, while also defining the ideal future state of governance. We’ve included a recorded demo and clickable prototype of the proposed experience along with a written specification for all the features added.
+Video Demo
+Clickable Prototype
+Organize
+
+Implement an improved proposal template (see Appendix A) into a structured proposal creation application with character limits to enforce standardization of proposal descriptions.
+Include a voter guide in the proposal template to make it easier for delegates to evaluate a proposals impacts and limitations.
+
+Unify
+
+Integrate the entire lifecycle of a proposal into a streamlined, continuous user experience on Tally
+Build a bi-directional Tally / Discourse integration so that new proposal forum posts are created on Tally. Note that this integration will require Tally to have permissions to integrate specifically with the Arbitrum Foundation-administered instance of Discourse.
+
+Accelerate
+
+Establish the norm of including a “voter guide” with each proposal that summarizes key issues and arguments both for and against the proposal.
+Create a simplified temperature check experience that allows proposals to be eligible to be submitted for onchain vote once they receive enough for and abstain votes to reach quorum.
+Automatically relay votes from the temp check phase to the onchain vote, as long as there are no changes to proposal.
+
+Allow votes to be changed during the 3-day waiting period between submitting the proposal onchain and the opening of the voting period.
+
+
+Add a cancel() function to the Arbitrum DAO’s implementation of OpenZeppelin Governor so that proposal creators can cancel onchain proposals if there are mistakes.
+
+Integrate
+
+Integrate votable token supply (ie. not delegated to the exclude address) throughout the Tally governance application, including proposal participation rate.
+Support late quorum extension on Tally so onchain proposals are automatically extended on Tally when late quorum extension is triggered.
+Show target quorum per proposal for Arbitrum and for each proposal.
+Full proposal execution integration by dynamically showing each phase of proposal execution (e.g. timelock queued, outbox executed, etc.) with accurate time stamps.
+
+Define the ideal state
+
+Recommend ideal delegation structures.
+Define use cases for collaboration tools and suggested solutions.
+Select ideal voting mechanisms.
+Outline performance metrics.
+Document capture resistance strategies.
+
+Steps to Implement
+
+Write the smart contract spec and develop contract changes for adding cancel() to the Arbitrum DAO OpenZeppelin Governor implementation
+Develop governance application
+
+Streamlined template
+Voter guide
+Proposal lifecycle integration
+Bi-directional Tally / Discourse integration
+Accelerated temp check
+Temp check vote relayer
+Votable supply
+Late quorum extension
+Target quorum per proposal
+Proposal execution integration
+
+
+Define the ideal state of decentralized governance
+
+Landscape assessment - who is doing decentralized governance well?
+Learn and execute experiments in decentralized governance
+Solidify “good governance” outcome metrics
+Draft and receive community input on the RFP
+Publish the RFP to the market
+
+
+
+Timeline/Milestones
+Milestone One: Organize and Unify
+6 weeks with two developers
+
+Implement new proposal template
+Add voter guide
+Develop bidirectional Tally <> Discourse integration
+
+Milestone Two: Accelerate
+10 weeks with two developers
+
+Add simplified temp check
+Automatically relay temp check votes
+
+Milestone Three: Integrate
+6 weeks with two developers
+
+Add cancel function
+Integrate votable token supply
+Support late quorum extension
+Show target quorum per proposal
+Complete full proposal execution integration
+
+Milestone Four: Define the ideal state
+10 weeks with research and RFP team of two
+
+Process
+
+Estimated research: five weeks
+RFP drafting and community input: three weeks
+RFP evaluation and selection: two weeks
+
+
+Recommend ideal delegation structures
+Define use cases for collaboration tools and suggested solutions
+Select ideal voting mechanisms
+Outline performance metrics
+Document capture resistance strategies
+
+Cost
+Value
+
+We think it’s important to consider delegate time saved per proposal with conservative estimates
+
+We estimate that something like ~400 delegates actively vote on each Arbitrum DAO proposal
+By optimizing the proposal template, adding the voter guide, pulling the full proposal process into one tool, and making it so delegates only have to vote once, we estimate that we can save delegates an average of 30 minutes of research time per proposals
+The DAO creates about two proposals per month
+Time saved value
+
+Estimated delegates per proposal: 400
+Time saved per delegate per proposal: .5 hours
+Opportunity cost of delegate time: $150/hr
+Proposals per month: 2
+Total: $60,000/month
+
+
+
+
+We believe an improved proposal experience will increase valuable contributions to the Arbitrum
+
+Potential contributors will be more likely to create valuable proposals
+Delegates will be more likely to unblock and sponsor valuable proposals because they will have more time to contribute
+Voters will have greater context and thus be able to make better informed decisions.
+
+
+We believe that by doing the work to define the ideal state of Arbitrum governance, we will save the DAO many cycles of one-off research processes and coordination
+
+Requested compensation: $400,000 - $600,000 USD equivalent in ARB
+
+Appendix A: New Proposal Template
+Title
+
+A unique identifier for the proposal.
+
+Constitutional / Non-Constitutional
+
+Constitutional AIPs are those that modify the text or procedures of the Constitution or AIP-1, install or modify software on any chain, or take any action that requires “chain owner” permission on any chain.
+Non-Constitutional AIPs are all other AIPs, such as those that request funds/grants or provide general guidelines or information to the community.
+
+Summary
+
+Two or three sentences that summarize the AIP.
+
+Voter Guide
+
+Two short sections that detail the reasons to vote FOR a proposal and the reasons to vote AGAINST a proposal.
+This section is meant to make it easier to understand the primary benefits and potential downsides of a proposal, without requiring that the voter reads the entire proposal.
+
+Expected Impact
+
+Details about what the proposal expects to accomplish directly and what the downstream effects will be.
+
+Key Terms (optional)
+
+Definitions for any terms that are necessary to understand this proposal and that aren’t defined within the Constitution.
+
+Details
+
+Information about what the proposal will do, necessary background information about motivation or rationale, and any other information needed to describe the proposals scope or aim.
+
+Steps to Implement
+
+Tangible steps to accomplish the proposals objectives.
+
+Timeline/Milestones
+
+Estimations of how long each step of the proposal will take, as well as any significant milestones to be achieved.
+
+Cost
+
+The total cost to implement the AIP
+",1
+21545,cliffton.eth,2024-02-27 23:12:14,,2
+21545,cliffton.eth,2024-02-28 01:06:07,,3
+21544,dylan_kawalec,2024-02-27 22:09:53,"Proposal Title: “Invo: Revolutionizing Game Economies through Tokenization”
+a Game SDK for interoperable Game Economies!!!
+Introduction
+In the dynamic realm of game development, the quest for innovation continually reshapes the landscape, yet developers face enduring challenges that stifle growth and creativity. High transaction fees, rapid player churn, and limited revenue streams are but a few of the hurdles that hamper the evolution of engaging and sustainable gaming experiences. The Invo team, comprising Dylan Kawalec, Livia Panez, and Delroy Brown, presents a pioneering solution designed to transcend these barriers by leveraging the power of tokenization within game economies.
+Problem Statement
+The gaming industry is beleaguered by several critical issues:
+
+Exorbitant Transaction Fees: Developers are burdened by high fees on in-game purchases, significantly eroding their revenue.
+High Player Churn: A daunting 95% of players leave games within the first three days, a trend that severely impacts developers’ ability to build a loyal player base.
+Constrained Revenue Streams: Traditional monetization methods offer limited financial avenues for developers, stifling their creative and financial potential.
+Payment Channel Limitations: Legal and operational restrictions on payment channels pose significant challenges for developers, as exemplified by high-profile disputes like EPIC vs. GOOGLE.
+
+Solution: Tokenization of the Game Economy
+Invo proposes a transformative approach to revitalize the gaming industry through the tokenization of game economies:
+
+Enabling Monetizable Player Interactions: By tokenizing in-game assets and actions, we open up new revenue avenues, turning every player action into a potential source of income.
+Reviving Legacy Games: Introducing a token economy into older titles can rejuvenate interest and profitability, offering players new experiences in familiar worlds.
+Boosting Player Engagement: Detailed analytics on the game economy and player financial interactions can significantly enhance player engagement and retention.
+Securing Transactions: Utilizing cutting-edge Zero Knowledge Proofs, we ensure transaction security, particularly benefiting younger players managing in-game finances.
+
+Importance and Broader Impact
+The Invo solution not only addresses immediate financial and engagement challenges in game development but also envisions a broader societal impact:
+
+Supporting Public Goods: Our tokenization model enables in-game currencies to be converted into real-world value, funding public goods, charitable donations, and other initiatives aligned with social welfare.
+Promoting Inclusive Economies: We empower developers to create games with economies that not only drive profit but also contribute to societal goals, fostering environments that encourage responsible consumption and reduced inequalities.
+Innovating Game Development: Lowering the barriers to integrating sophisticated economic models in games paves the way for greater innovation and inclusivity, transforming the essence of game design.
+
+Conclusion
+Invo stands at the forefront of a new era in game development, where tokenization unlocks unprecedented opportunities for developers and players alike. By addressing the systemic issues that hinder the growth of the gaming industry, we pave the way for a future where games are not just entertainment but a force for societal good. Our proposal embodies a bold step forward in the game development incentives track, promising a more inclusive, sustainable, and engaging gaming ecosystem.
+Deck and Contact Information
+For a comprehensive overview of our proposal, including detailed plans, anticipated outcomes, and examples, please visit our presentation deck: Invo Proposal Deck.
+
+
+Loom
+
+
+
+Monetizing the Gaming Industry for a Better Digital Economy
+Hi, I'm Dylan Koalik, CTO of Invo Technologies. In this video, I'll show you how we developed a monetization engine to solve inequalities in countries by tokenizing the gaming industry and boosting game developers' revenue by 70%. We aim to increase...
+Duration: 180.294
+
+
+
+
+
+
+
+
+
+
+For further inquiries or discussions, please contact our team lead, Dylan Kawalec, as we are eager to collaborate with partners and stakeholders interested in revolutionizing game development through tokenization.
+Dkawalec@ourinvo.com",1
+21544,cliffton.eth,2024-02-27 23:12:00,,2
+21544,cliffton.eth,2024-02-28 01:05:59,,3
+21548,ortegon,2024-02-27 22:48:23,"TEAM NUMBER: 18
+CONTRIBUTION SCORE: DEVELOP AN INDIVIDUAL SCORING SYSTEM PROPORTIONAL TO THE TOTAL VALUE OF EACH  PERSON´S CONTRIBUTIONS.
+1. Track Name (updated list): COAE [Contributor, onboarding, activation, engagement]
+2. Challenge Statement: Promoting the habit of contribution among newcomers to the ecosystem and measuring their level of contribution.
+3. Members:
+
+Karina ortegón: BD
+Pablo Acebedo: Developer
+Gaby: UX/UI
+
+4. Team Lead contact name  Karina ortegón
+5. PITCH: Canva Recording 3 mins MAX VIDEO
+6. What the problem is?
+Did you know that the NPS* of decentralized communities in Latin America is ONLY 1%?
+It is because there is a greater number of liabilities, which may indicate that while there is no general dissatisfaction, there is also no evident enthusiasm. There is an opportunity for growth and improvement in satisfaction level.
+Problems 1: CURRENT SITUATION:
+
+There is no perceived and tangible value of the first contributions to a community
+There exists a disparity between the contributions made and the compensations received.
+Not every profile has the capacity to make substantial contributions.
+
+Problems 2: COMMUNITY LEADERS: Leaders of decentralized communities report that there is little interaction, contribution and commitment from their members. The lack of financial incentives means that only a few contribute consistently.
+Problemens 3: FOR NEWCOMERS LIKE US:
+
+Low cadence in contribution
+Low level of satisfaction
+Therefore, for newcomers there is low cadence in compensation""
+
+7. What is the solution
+Measure the level of contribution:
+
+Increase community engagement
+Foster the habit of contributing
+Encourage both-ways benefits
+
+Ensure that contributions are:
+
+Proportional to the effort
+Simple to register
+Easy to validate
+Display and access  in real time""
+
+8. Why is important
+To increase the adoption of Arbitrum DAO among Latin American people
+
+Demo descryption:
+
+
+Purchase Wedao ERC 1151 token or Wedao pass: This allows access to the store where community members’ services for Wedao will be available.
+Purchase the NFTs for specific services.
+Stake them so as to acquire the reward token, which is the Wedao Latam ERC20 token.
+Whenever Wedao Latam secures a project to execute within the community, the funds enter the liquidity pool of Wedao Latam tokens. Tokens are then withdrawn and burned to increase the token price. With this, each participant will have a token with more value, which can be exchanged for USDC at any time.
+Disclaimer: In the demo, it is shown with the Wedao Latam token, as we have already validated the contribution score within the community. However, it can be exchanged for another token.
+
+""ROAD MAP
+
+For this hackathon, we will have the contribution score prepared.
+In a second phase, we need to connect and/or develop a technology that allows us to register contributions in a simple way.
+Finally, in the third phase, we will connect and/or develop the validation mechanism. ""
+Deck (link or pdf) - this is optional
+
+https://www.wedaolatam.com/
+https://twitter.com/wedaolatam",1
+21548,cliffton.eth,2024-02-27 23:11:39,,2
+21548,cliffton.eth,2024-02-28 01:05:42,,3
+21491,Tane,2024-02-26 23:29:06,"Arbitrum GovHack Track
+Orbit Adoption Strategy
+Challenge Statement
+Arbitrum Orbit is missing support for new projects in 1) educational 2) technical and 3) financial perspectives. In this proposal, we decide to focus on tackling the educational perspective and come up with a solution: establishment of an Orbit Advocate role.
+Members
+Addie Clark, Anne Winston, and Takeshi Ohishi
+Team Lead contact name
+Our Telegram group link
+Tag with track/s.
+orbit-adoption-strat
+PITCH
+
+
+Loom
+
+
+Arbitrum GovHack Track - Orbit Adoption Strategy
+In this video, I will be pitching for the Arbitrum GovHack track on Orbit Adoption Strategy. I will discuss the need for an orbit advocate role to boost adoption through education and support. The role will involve creating educational materials,...
+Duration: 157.605
+
+
+
+
+
+Proposal
+Proposal Information
+AIP Number: (To be assigned)
+AIP Title: Establishment of an Orbit Advocate Role
+Non-constitutional
+Authors: Addie Clark, Anne Winston and Takeshi Ohishi
+Status: Draft
+Type: Standards Track
+Category: Core
+Created: 27 February 2024
+Abstract
+This Arbitrum Improvement Proposal (AIP) introduces a position voted in by the Arbitrum DAO, known as the “Orbit Advocate.” The Orbit Advocate’s role is to increase adoption through education, promotion, and technical support.
+Problem
+Arbitrum Orbit and its use cases are relatively unknown, even within the Arbitrum community and especially in the wider DeFi ecosystem. Arbitrum DAO is missing an outreach strategy and responsible party to educate builders and drive adoption of Orbit.
+Solution
+Establish an adoption strategy for the purpose of increasing the number of projects using orbits through outreach, education, and technical support; known as the “Orbit Advocate”
+Motivation
+Despite its potential, there is a noticeable gap in awareness and utilization of Orbit chains, both within the Arbitrum community and the broader DeFi builder communities. This gap stems from a lack of community outreach to highlight use cases, successful projects; as well as addressing the complex and novel nature of Orbits. An Orbit Advocate will focus on promoting and demystifying Orbit chains and facilitating their practical application, which is crucial for adoption.
+Rationale
+The introduction of an Orbit Advocate is premised on the belief that technology alone is insufficient to drive adoption; education community support are critical drivers. By creating this role, Arbitrum can significantly increase the awareness of Orbit chains, encouraging more builders to explore and innovate within the Arbitrum ecosystem. This, in turn, will lead to a richer, more diverse, and more secure network of decentralized applications, furthering Arbitrum’s mission to scale Ethereum and expand its capabilities.
+Specifications
+The Orbit Advocate will be responsible for:
+
+Developing and disseminating educational materials for builders
+Conducting outreach workshops, webinars, and interactive sessions
+Providing technical support and guidance to builders and projects building on Orbit
+Creating a feedback loop from the community to the Arbitrum DAO
+Collaborating with Offchain Labs and the Arbitrum Foundation to enhance visibility and understanding of Arbitrum Orbit projects
+
+Skills and Qualifications:
+
+Strong communication and interpersonal skills, ability to engage effectively with diverse audiences.
+Deep understanding of blockchain technology, specifically Arbitrum’s Nitro tech stack and Orbit chains.
+Experience in developer advocacy, education, or a similar role, with a proven track record of breaking down complex technical concepts into understandable terms.
+Proficiency in Solidity and familiarity with the broader Ethereum ecosystem and its various layer 2 solutions.
+
+Estimated Workload and Compensation Structure
+
+
+
+
+Responsibility
+Estimated Time Spent
+Compensation (in ARB)
+
+
+
+
+Creating Educational Materials
+30 hours
+2,400 ARB
+
+
+Conducting Workshops and Webinars
+20 hours
+1,600 ARB
+
+
+Providing Technical Support and Guidance
+4 hours / week (24 hours in total)
+1,920 ARB
+
+
+Community Feedback and Liaison Work
+4 hours / week (24 hours in total)
+1,920 ARB
+
+
+Collaborating with OCL and Arbirtum Foundation
+2 hours / week (12 hours in total)
+960 ARB
+
+
+Program Wrap-up and Reporting
+20 hours
+1,600 ARB
+
+
+Total
+130 hours
+10,400 ARB
+
+
+
+These responsibilities are aligned with the role’s objectives to promote, educate, and support the adoption of Arbitrum Orbit. The time spent is an estimate and may be adjusted based on the actual demands of the role. The total compensation reflects a comprehensive commitment to the Orbit Advocate’s success within the Arbitrum ecosystem.
+The trial program concludes with the Advocate compiling and presenting measurable outcomes in overall interest and projects launched in order to determine the continuation or adjustment of the Orbit Advocate position.
+Steps to Implement
+Election Process
+Arbitrum DAO will initiate an election process to choose a candidate that meets specifications by a Snapshot voting by the DAO, similar to the LTIPP members.
+Reporting and Communication Structure
+The Orbit Advocate will report to both the Offchain Labs (OCL) and the Arbitrum Foundation to ensure a balanced integration of technical and business insights. This dual reporting structure is designed to maintain a clear and efficient flow of information and collaboration between the technical and business sides of the Arbitrum ecosystem.
+Offchain Labs (OCL)
+
+Oversight: regular reporting to a designated technical supervisor at OCL to provide updates on community feedback, technical support challenges, and educational content accuracy, review materials, and strategize on technical community engagement
+Insight: Technical insights from OCL are essential for the Orbit Advocate to remain informed on the latest developments, updates, and best practices within the Arbitrum technology stack.
+
+Arbitrum Foundation
+
+Guidance: The Foundation will provide relevant information and resources to align with the broader goals of the Arbitrum ecosystem with Orbit use cases.
+Check-Ins: The Orbit Advocate will have regular communication with the Foundation to ensure their efforts and activities are delivered effectively and in a timely manner…
+
+Collaborative Communication
+
+Strategy Sessions: Regular meetings will be held with both OCL and the Foundation to ensure the Orbit Advocate’s activities are synergistically supporting both technical and business goals.
+Feedback Loops: The Orbit Advocate will establish feedback loops, ensuring that insights from community engagement are shared with both OCL and the Foundation.
+Documentation and Reporting: The Orbit Advocate will maintain records of activities, feedback, and measurable outcomes. Monthly reports will be submitted to both OCL and the Foundation to review performance and impact.
+
+The Orbit Advocate must be supported, empowered and equipped with the latest technical knowledge from OCL. This collaboration will enable the Orbit Advocate to effectively support the Arbitrum community and contribute to the ecosystem’s growth and success. The Orbit Advocate will share reports with both community and governance stakeholders.
+Overall Cost
+10,400 ARB (+ Multi-sig Cost)
+Conclusion
+The creation of an Orbit Advocate role is strategic investment in the future of Arbitrum Orbit and the broader Arbitrum ecosystem. By prioritizing education and support, Arbitrum can accelerate the adoption of its cutting-edge technology, fostering a more vibrant, innovative, and inclusive community.
+Reference links
+
+Deck
+Original Google Doc
+",1
+21491,cliffton.eth,2024-02-27 23:11:21,,2
+21491,cliffton.eth,2024-02-28 01:05:34,,3
+21554,feems,2024-02-27 22:56:08,"Team 16: Grantee Engagement and Development Program
+Track Name:
+
+Grants ecosystem
+Contributor Onboarding, activation and engagement
+DAO Operational excellence
+
+Challenge Statement
+
+Members: Feems, Hunter, Launamu
+Team Lead contact :Feems
+Tag with track/s.§ Grant ecosystem, contributor onboarding
+PITCH: Loom Recording 3 mins MAX
+
+Loom Link: Loom | Free Screen & Video Recording Software | Loom
+Proposal (400-1000 words)
+Title: Grantee Engagement and Development Program ( Non-Constitutional)
+Abstract: Improve the ROI for Grants funded by Arbitrum DAO by offering a tool that will set up Grantees for successful completion of their talent-dependent Milestones, and streamline the onboarding of qualified and vetted new contributors to ArbitrumDAO. This tool will also facilitate the discovery process of existing Grant projects which can lead to an increase in usability of
+Motivation:
+Currently, there’s not one source of truth for paid opportunities for people and teams looking to complete paid work within the ArbitrumDAO ecosystem. This results in:
+
+Low number of applicants to fill-in available opportunities
+Grantees are unable to meet their Milestones or KPIs successfully
+Inefficient sourcing of qualified candidates for new roles in the ArbitrumDAO
+
+Additionally, there is a Low ROI for ArbitrumDAO on previously funded grant projects - Limited impact of already funded initiatives in the ecosystem due to:
+
+ArbitrumDAO processes and the DAO needs evolve rapidly, making it complicated for Grantees, focused in building, to stay on top of newly developed unmet needs
+Discoverability of Grantee projects is incredibly complicated; to other grantees and to others in the ecosystem that could benefit from or use their completed work.
+Incentives to learn about other Grantees work being developed is non-existant.
+
+Rationale: The ArbitrumDAO is grappling with the challenge of optimizing the impact of its grants, hindered by the lack of visibility for grantee projects and the absence of a centralized hub for ecosystem opportunities. This situation has resulted in fewer applicants for roles, grantees struggling to achieve milestones, and inefficiencies in talent acquisition, thereby diminishing the ecosystem’s overall growth and effectiveness. The proposed program purpose is to increase the ROI and impact generated by funded Grantees in the ArbitrumDAO ecosystem (Focused on grantees in the category of tooling, grant programs, research and service providers) through a platform and series of workshops and curated matchmaking
+that increase the efficiency of talented contributors joining these workstreams and increase the usability of funded projects.
+**Budget:**100,000 ARB
+Milestones:
+Milestone #1: Platform development (6 weeks)
+Milestone #2: Content Design (education and events)
+Milestone #3: Onboarding of grantees and potential contributors of interests
+Milestone #4: Run the experiment and retrospective
+We foresee the completion of all milestones will be done in 4 months.
+Specifications:
+Open Platform that can be seen by everyone that acts as a notice board for paid opportunities offered by grantees, events and workshops related to support grantees or demo opportunities for funded grantees. Interested parties can then select the areas that they are interested in order to get notifications relevant to them via telegram chat box.
+Gated Access:
+
+User Verification: Hats Access Control to gate write permissions to users with a grantee hat to verify identity and role. Hats are distributed by recognized grant program providers who are permissioned to mint the grantee role hat.
+Security Measures: Hats roles may be revoked by program providers at any time if the grantee’s role is changed.
+
+Posting of Opportunities:
+
+
+Posting Rights: Grantees can post paid opportunities, including job vacancies, collaborative projects, and paid contributions requiring specific skills.
+
+
+Event Posting: Allow grantees or platform curators to announce events relevant to the grantee learning and engagement opportunities such as workshops, webinars, grantees demos curated matching events.
+
+
+Content Sharing: Enable grant program providers to share educational materials, guides, and session invitations aimed at enriching the grantee’s knowledge and project success.
+
+
+Chatbot Notifications/setting:
+
+Custom Preferences: Users can set their preferences to receive notifications on topics, roles, and event types that match their interests and expertise to receive information relevant to them via telegram chat posting.
+
+Platform Design
+1508×1264 109 KB
+User Flow
+1600×542 135 KB
+Reputation System
+1600×708 168 KB",1
+21554,cliffton.eth,2024-02-27 23:11:13,,2
+21554,cliffton.eth,2024-02-28 01:05:25,,3
+21555,Bernard,2024-02-27 22:57:21,"Arbitrum GovHack Track:
+Track 5 - Strategic Big Bets
+Challenge Statement:
+How can Arbitrum DAO execute strategic big bets to scale growth and outpace competitors via M&A transactions?
+Members:
+The initiative will be led by a dedicated team from Areta.
+
+Bernard Schmid, Co-founder and Governance Lead at Areta
+Karl-Martin Ahrend, Co-founder and M&A Lead at Areta
+Jan-Philip Grabs, Co-founder and Capital Formation Lead at Areta
+Siddharth Shah, VP Strategic Governance at Areta
+Yacine Boughazi, VP Investment Banking at Areta
+
+Team Lead:
+Bernard Schmid
+TG: @bmitte
+Email: bernard@areta.io
+Loom Recording:
+here
+Pitch Deck:
+here
+
+Proposal
+[Non-Constitutional] M&A for Arbitrum DAO
+Abstract
+This proposal outlines the opportunity for Arbitrum DAO to form an M&A Group focused on identifying and executing on M&A opportunities. Arbitrum is among the largest, most active DAOs in the space with a $8 billion treasury.
+One of the primary ways for Arbitrum to scalably deploy capital and grow rapidly is to get in the M&A game, and the upside is potentially massive. Additionally, this is a largely untapped opportunity in crypto, only explored by a few different projects in the space; therefore, delving deeper into M&A would enable Arbitrum to get a jump-start on its competitors.
+This is a foundational proposal for Phase 1 led by Areta to explore the feasibility of Arbitrum DAO pursuing M&A strategic transactions.
+1. Motivation / Opportunity
+Why Arbitrum Should Enter the M&A Market Now
+Arbitrum DAO has significant potential to be the first movers in this market. Other leading ecosystems have started to explore the opportunity as well (e.g., Uniswap’s former discussion which is not moving ahead at the moment), and Polygon has made M&A a cornerstone of its growth strategy.
+Several M&A market catalysts are converging:
+
+Early Industry Maturation: Incumbents buying companies with high growth potential.
+Protracted Bear Market Distress: Leads to increased distressed sales.
+Buy or Build: Newcomers to web3 consider acquiring instead of in-house development.
+Regulation & Compliance: Companies acquire those with necessary licenses to navigate regulations.
+Acquihire: Companies buy others mainly for their web3 developer talent.
+
+Several blockchain protocols have already demonstrated the power of M&A.
+2. Case Study
+Polygon’s Acquisition of Mir
+Polygon’s acquisition of Mir for $400M in Nov 2021, specializing in recursive zero-knowledge proofs for efficient L2 solutions, complements its ZK-focused strategy. Along with the Hermez acquisition, it boosts Polygon’s scaling vision, exemplified by the recent AggLayer announcement, aligning with its buy-and-build approach toward blockchain scalability.
+818×408 75.7 KB
+3. Solution
+M&A Ideas for Arbitrum
+There are several initial ways in which M&A could act as a key growth driver for the Arbitrum ecosystem (non-exhaustive)
+1600×856 289 KB
+1. Tech Talent Acqui-Hires
+Acquire or acqui-hire a team and enable them to focus on building tech for (or otherwise servicing) the Arbitrum DAO. The best opportunities are tier-1 tech teams that need distribution.
+Some examples in web3:
+
+Polygon’s aforementioned acquisition of Mir. This transaction presents a compelling narrative for Arbitrum: The founders of the Mir protocol had technically built the best ZK chain, but launching a token would’ve likely led to failure. Therefore, the acquisition was mutually beneficial.
+Offchain Labs bought Prysmatic Labs, one of the core engineering teams behind the Merge, bringing in 11 new engineering talents to Offchain Labs.
+
+2. Acquire or Strategically Invest in Complementary Infrastructure / Protocols
+Zero-knowledge technology, e.g., could play a large part in Arbitrum’s future and strategic acquisitions/investments could accelerate the realization of this vision. Arbitrum can super-charge its entry into the ZK space by acquiring or investing in pioneers in the ZK space, such as Lagrange, Panther Protocol, Herodotus, Ingonyama, or Supranational (examples for illustrative purposes).
+3. Acquire L2s
+The L2 space, currently saturated and fragmented, is poised for growth. Efforts to unify liquidity and enhance interoperability are underway but require time to mature, leading to temporary fragmentation. Arbitrum, with its substantial treasury, has the opportunity to acquire L2s, aiming to consolidate the ecosystem, expand its user base, and mitigate competition and fragmentation.
+4. Acquire Applications as L3s for Arbitrum Orbit
+Arbitrum is a clear leader in the derivatives and DeFi markets and has made great strides in DeFi generally, while there are 50+ projects currently confirmed to be launching as Orbit chains. However, M&A presents the DAO with an opportunity to identify gaps in the types of applications Arbitrum supports and that it thinks present strategically important use cases going forward in the crypto space - these could range from borrowing and lending protocols, PERP DEXs, NFT DEXs, gaming, etc., and would enable the Orbit ecosystem to scale even more rapidly.
+4. Rationale / How / Timeline
+Tenets of the M&A Group
+The proposed M&A Group would follow the key tenets below:
+Phase 1: Feasibility Sprint & Community Review
+12 weeks Sprint + 4 weeks Review
+
+Clarify the regulatory, and logistical considerations with Arbitrum pursuing M&A strategic transactions in a feasibility assessment, including:
+
+Ownership of equity and whether the DAO can own any equity;
+Engage with the community and all relevant stakeholders to outline the challenges and risks associated with the DAO engaging in M&A, and identify mitigants;
+Enable the community to review the findings of the feasibility assessment and signal their approval to formally form the M&A Group.
+
+
+Disclaimer: Phase 1 will be halted at any time if we encounter significant obstacles.
+
+Phase 2: Target Setting & Target Identification
+12 weeks
+
+After feasibility is proven and the community has reviewed it, we will submit another proposal to start the execution of M&A activities. Before beginning the target selection process, we will align on strategic objectives and transition the group to get operational.
+
+5. Overall Cost
+Costs for this proposal are broken into two portions:
+
+Monthly fee throughout Phase 1: $25k USD (budgeted below cost as a commitment from Areta to support this precedent-setting initiative)
+Legal fee budget: $100k USD for legal fees only used for external law firms (not us). Rest of budget will be transferred back to the DAO
+
+6. Initiative Lead
+The initiative will be led by a dedicated team from Areta, a leading independent crypto-native investment bank team specializing in mergers & acquisitions and complex financial transactions for some of the leading companies and DAOs in the crypto space.
+Our experience from prior careers at Blackstone and JPMorgan helped us lead the first acquisition of Coingecko, the sale of Solscan to Etherscan, and the strategic wind-down of Gro DAO.
+We have been long-time contributors to Arbitrum’s Initiatives and have long-term vision in the DAO. Relevant experiences include leading the Uniswap-Arbitrum Grant Program, being part of the ArbitrumDAO Procurement Committee, and leading initiatives for SafeDAO.
+1600×945 235 KB
+Reference links
+
+Pitch Deck: here
+Areta Website: here
+",1
+21555,cliffton.eth,2024-02-27 23:11:07,,2
+21555,cliffton.eth,2024-02-28 01:05:12,,3
+21556,SeriousTaylor,2024-02-27 22:58:43,"Track Name (updated list)
+Decentralized $ARB liquidity
+Challenge Statement
+As it currently stands, the DAO has no control over weather the ARB token can remain liquid and stable. As the largerst holder of the token the DAO should view this as a problem.
+Members: Name or Alias.
+Ian Campbell - Hacker
+Keith Carlino - hustler
+Taylor Pedde - hipster
+Henry He - Dreamooor/hacker
+Team Lead contact name or alias (Winners will be DM’d for prize distribution)
+Ian Campbell: Telegram Web
+Video Pitch: Loom | Free Screen & Video Recording Software | Loom
+Proposal Summary:
+The purpose of this proposal is to bring to light the liquidity deficit of the $ARB token. This is one of the most pressing issues on the DAO. In a few short weeks major unlocks begin and the circulating supply of the token will double- with over 100m tokens releasing each month after that for years to come. We believe that even with the CEX’s and OTC market, there is not enough liquidity to absorb the potential sell pressure. With that, we also believe that because Arbitrum is a DAO, it should be focused on decentralized solutions instead of relying on the centralized market for the token. The DAO needs to acquire POL and use its emissions as efficiently as possible, with the goal of achieving a high ROE (Return on Emissions).
+Goals:
+
+Increase liquidity depth for blue-chip tokens on Arbitrum.
+Diversify DAO treasury with yield-bearing assets.
+Turn idle tokens into a profit center.
+Attract more developers to the network.
+
+Bonding liquidity presents a compelling alternative to traditional liquidity mining models, particularly for L1s and L2s seeking sustainable liquidity sourcing and treasury diversification. Unlike short-lived liquidity mining strategies that often result in rapid liquidity fluctuations, bonding liquidity aligns incentives between users and protocols, offering a more stable approach. Traditional liquidity mining typically involves protocols incentivizing liquidity providers with token rewards, leading to temporary liquidity influxes. However, once these rewards cease, liquidity providers often withdraw, causing liquidity and token prices to plummet—a phenomenon known as the “death spiral”.
+800×450 123 KB
+Bond program example built by Serious People: Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.
+Bond Program Implementation & Risk Management:
+Implementing a bond program offers strategic advantages for the Arbitrum DAO. By diversifying the treasury with yield-bearing assets and blue-chip tokens, the DAO can turn idle $ARB tokens into a profit center while increasing liquidity depth for key tokens like $ETH and $wBTC on the Arbitrum network. This approach aligns incentives among stakeholders and promotes sustainable growth. Additionally, bonds provide a lower-risk alternative to traditional yield farming, as unsold tokens are reclaimed by Arbitrum, minimizing potential losses. Unlike yield farming, where tokens are distributed regardless of actual liquidity provision, bonds reward tokens only upon user purchase, ensuring that tokens enter circulation when accompanied by enduring value to the ecosystem. This approach not only mitigates risk but also fosters natural demand for $ARB tokens, further strengthening the network’s position.
+Expected Outcome & Implementation Strategy:
+Bond programs generate significant outcomes, including an average ROE of 85%+ and LP tokens which accumulate trading fees to generate a return. This initiative aims to establish a stable liquidity foundation for the $ARB token and diversify the treasury with yield-bearing assets. To achieve these objectives, Arbitrum should utilize $ARB tokens for bonding, exchanging them for various LP pairs such as $ETH-$ARB, $USDC-$ARB, $USDT-$ARB, and $wBTC-$ARB.
+Short-term goals involve building specific amounts of protocol owned liquidity (POL) for central pairs during the initial sales period. These targets, based on liquidity-to-volume ratios across DEXs on Arbitrum, may be adjusted based on real-time data. Regular progress analysis will be conducted to optimize $ARB token allocations and meet outlined goals. Public status reports will track progress towards these objectives. Due to the composability of bond markets the total amount of $ARB needed to achieve the liquidity goals for each pair can be changed as the market fluctuates. At the time of this writing the necessary amount of $ARB needed to achieve our liquidity goals would be 30,193,296 tokens, if they were all earmarked for bonding. With that said, the entirety would NOT be required at the beginning of the program as the tokens are meant to be used for micro-experiments, potentially even beyond bonding, to ensure the highest ROE possible.
+This bond program strategically places $ARB at the center, ensuring an $ARB token clawback on every pair. This mechanism, combined with an average ROE of 80-90%, results in the permanent retention of approximately 40-45% of $ARB tokens emitted as permanent protocol-owned liquidity (POL). This approach minimizes token emissions while enhancing liquidity, setting the stage for sustainable growth and price appreciation through the positive flywheel effect.
+Key Performance Indicators:
+Maintain a minimum gross Return on Emissions (ROE) of 80% throughout the sales period.
+Active Monitoring and Controls:
+Ongoing oversight of liquidity profile and bond performance.
+Process:
+
+Approval by Arbitrum DAO voters.
+Creation of a multi-sig wallet to stream the initial $ARB tokens.
+Allocation of tokens to the bond treasury smart contract.
+Setup of bonds for different pairs.
+Distribution of net proceeds back to the treasury wallet.
+Regular status updates on program success.
+Renewal or cessation of program based on KPIs.
+
+It is crucial to assess the desirability, the feasibility, and the viability of this proposal.
+Desirability:
+
+Whether it’s “desired” or not is irrelevant, it is necessary in order to help achieve success for the rest of the tracks being presented today (except for maybe the one about sequencer fees)
+Arbitrum is the home of defi but the actual decentralized liquidity does not reflect that. The nomenclature would suggest that Arbitrum cares about decentralization and therefore should significantly boost its on-chain decentralized availability via LPs
+It is rare to find a solution to a problem that has as little potential downside as bonding. The tokens set aside for bonding are only emitted upon the actual locking in of protocol owned liquidity, therefore the tokens being released are only doing so AFTER the end user first permanently increases the liquidity depth and therefore helps to stabilize the price action
+
+Feasibility:
+
+The market has validated the capacity
+○ Olympus Pro: current value of treasury assets $188,657,418
+○ Bond Protocol: TBV $78,441,450
+The success of prior bonding programs for tokens with less demand than $ARB have achieved the results necessary for $ARB to reach a healthy liquidity level
+Smart contracts from a multitude of bond service providers are already deployed on Arbitrum
+There are other solutions as well like Double we can explore - LOTS of opportunity to collaborate
+Serious People has been designing liquidity acquisition methods for a multitude of projects for just shy of two years and is therefore perfectly suited to lead the building of these strats on behalf of the DAO
+
+Viability:
+
+Current decentralized/on-chain liquidity is lacking and on-chain liquidations will significantly harm the price of $ARB
+The amount proposed is the specific amount at the current price of $ARB that would be required to accomplish the goal of achieving a healthy liquidity environment.
+This distribution method is purely demand based, therefore if the market invalidates the approach it is non-punitive
+
+This proposal outlines a strategic plan to bolster the Arbitrum DAO treasury through the addition of LP tokens, leveraging the potential for sustainable growth and liquidity provision. With a focus on maintaining a minimum gross Return on Emissions (ROE) of 80% and ongoing monitoring of key performance indicators, this structured approach ensures adaptability and transparency. Through careful implementation and optimization, the DAO should aim to achieve long-term success in liquidity provision and treasury diversification, ultimately strengthening the foundation of Arbitrum.",1
+21556,cliffton.eth,2024-02-27 23:10:51,,2
+21556,cliffton.eth,2024-02-28 01:04:54,,3
+21497,Ken_x3,2024-02-27 03:57:35,"Arbitrum GovHack Track:
+Members: Ken, Billy, Bobby
+Non-constitutional
+Orbit Catalyst Programme: Framework for Supporting the Short-term Adoption of the Orbit Rollup Stack
+With the introduction of the Orbit rollup stack the DAO can alleviate friction points for builders looking to start and grow L2 or L3 ecosystems. Moreover, with consideration that when an Orbit rollup is deployed 10% of the sequencer fees is returned to the Arbitrum DAO (8% to the DAO and 2% to the developer guild) there is the likelihood of long-term value capture for the DAO should short-term adoption be supported.",1
+21497,cliffton.eth,2024-02-27 23:10:31,,2
+21497,cliffton.eth,2024-02-28 01:04:28,,3
+21557,ilou88,2024-02-27 23:00:10,"Title: 21 : ZAudit
+
+Project Name: ZAudit
+Track Name : Betting on Builders
+Challenge Statement:
+
+Crisis of trust in Web3 and DeFi protocols due to scams and exploits
+Security vulnerabilities silently exist in the web3 projects
+
+
+Members:
+
+Our team comprises seasoned professionals with diverse backgrounds, each contributing a unique skill set to the project’s success.
+
+
+Eman HERAWY - Smart Contract Security Auditor & Developer:
+
+
+Eman brings over five years of expertise in smart contract development and 1 year of experience in Smart contract security auditing. Proficient in Solidity, Rust, and Cairo, she ensures the solidity of our smart contracts and their resilience against vulnerabilities.
+
+
+Ilham EL BOULOUMI - Data Scientist & Smart Contract Developer:
+
+
+Ilham combines data science acumen with smart contract development skills. His expertise lies in data insights to enhance the functionality and security of our on-chain auditing registry.
+
+
+Spencer Kinney - Software Engineer & Machine Learning:
+
+
+Spencer, a skilled software engineer, specializes in developing large-scale machine learning solutions. His role is pivotal in creating an AI-powered chatbot to simplify complex security audit reports.
+
+
+Our team’s collective experience ensures a holistic approach to building an on-chain auditing registry that not only meets the highest standards of security but also integrates cutting-edge technologies for user accessibility and understanding.
+
+Team Lead contact name or alias (Winners will be DM’d for prize distribution)
+
+Eman HERAWY
+
+
+Tag with track/s.§
+PITCH: Loom Recording 3 mins MAX Loom | Free Screen & Video Recording Software | Loom
+
+
+
+What the problem is
+
+
+Users often execute transactions and function calls without clear information about the security status, exposing them to potential risks.
+
+
+Insufficient awareness regarding audits for different protocols erodes user trust and increases the likelihood of exploitation.
+
+
+The technical complexity of audit reports poses a challenge for users in understanding and making informed decisions.
+
+
+What is the solution
+
+
+We aim to develop an on-chain audit reporting registry tailored for wallet developers and analytics tools, enhancing end users’ access to comprehensive information about the security status of diverse protocols within the Arbitrum ecosystem. Our solution encompasses:
+
+Auditing Registry:
+
+A centralized repository on the blockchain, serving as a reliable source of security information for different protocols.
+
+
+User-Friendly Dashboard:
+
+An intuitive dashboard accessible to end users, providing a clear overview of the security status of various contracts and protocols on Arbitrum.
+
+
+AI-Powered Chatbot:
+
+Integration of artificial intelligence to create an interactive and user-friendly chatbot, simplifying complex audit reports and educating users about potential vulnerabilities associated with different protocols.
+
+
+
+Our solution aims to empower users with the knowledge needed to make informed decisions, fostering a more secure and transparent environment within the Arbitrum ecosystem.
+
+
+Why is important
+
+
+User Protection:
+
+
+1. Empowering end users with comprehensive security insights ensures they can make informed decisions, reducing the risk of exploitation and potential financial losses.
+
+
+Trust and Confidence:
+
+1. Increasing transparency through an on-chain auditing registry and user-friendly dashboard fosters trust among users, developers, and stakeholders within the Arbitrum community.
+
+
+Risk Mitigation:
+
+1. By educating users about potential vulnerabilities through an AI-powered chatbot, our solution aims to minimize risks associated with interacting with various protocols.
+
+
+Ecosystem Health:
+
+1. A secure environment attracts more developers and users, contributing to the overall health and growth of the Arbitrum ecosystem.
+
+
+Innovation and Development:
+
+1. Our solution provides a valuable resource for builders, offering a platform where they can utilize our services and contribute to the innovation and development of secure protocols within the Arbitrum ecosystem. This collaborative approach encourages a thriving environment for creativity and growth.
+
+
+Deck (link or pdf) - this is optional https://www.canva.com/design/DAF99XCC9os/VeZVyuMWxqdP_tAsd5xl7Q/edit
+",1
+21557,cliffton.eth,2024-02-27 23:10:12,,2
+21557,cliffton.eth,2024-02-28 01:04:21,,3
+21510,aminiman,2024-02-27 17:08:35,"Arbitrum GovHack Track:
+
+Betting on Builders
+
+Challenge Statement:
+We are identifying pathways to help route builders with their projects in various product lifecycles, while mapping a pipeline roadmap to help significantly scale the adoption of Arbitrum.
+Members:
+
+Daniel Ospina
+Matt Wright
+Amin Iman
+Lino
+
+Team Point of Contact
+Amin Iman (Telegram @aminiman89)
+Pitch:
+
+
+
+Proposal:
+What is the Problem
+The Arbitrum ecosystem stands out as a powerful platform for software builders to disrupt, innovate, and push the boundaries of what’s possible across different verticals.
+1600×902 131 KB
+However, the journey from a nascent idea to a scalable solution is fraught with challenges, particularly in the critical transitions between sourcing, validation, funding, and growth. Despite the availability of numerous resources and services, gaps in communication, information, and resource allocation persist for builders who are building new dApps and protocols. Our challenge is to devise a pathway that bridges these gaps, providing builders with continuous, integrated support throughout their projects’ lifecycle.
+We are issuing a conversation to the community and stakeholders within the Arbitrum ecosystem with the idea of crafting a support system tailored to the distinct needs of software builders at each stage of their development pipeline.
+What is the Solution
+1600×581 90.2 KB
+We are outlining a potential pathway tailored to the distinct needs of software builders at each stage of their development pipeline:
+
+Fundamental Research
+Ideation - Problem statement
+POC - Proof of Concept
+Alpha/Beta
+Launch
+Tokenization
+Growth
+
+Builder Journey: Pathways to Adoption
+1600×857 156 KB
+Within those pathways include the following:
+
+Sourcing: Create more accessible entry points and platforms for builders to present their ideas, ensuring a diverse range of innovations are sourced from a wide spectrum of backgrounds and perspectives.
+Validation: Implement rigorous yet supportive validation programs/incubators that help builders refine their products, ensuring they meet the high standards of quality, security, and utility demanded by the Arbitrum community.
+Funding: Facilitate smoother transitions to funding, providing builders with the financial backing needed to transform their validated ideas into tangible solutions, without losing sight of their vision or compromising on their potential.
+Growth: Support the scaling of successful projects, offering guidance, resources, and networks to help builders navigate the complexities of growth, ensuring their solutions can reach and impact a broader audience.
+
+Milestone #1:
+$5.8m USD in ARB for (4) four innovation programs over 6 months that validate the “betting on builders” mental model.
+Goal: Create a pathways for a Milestone 2 that invites additional innovation programs in the Arbitrum ecosystem as a request for proposal of various sectors, verticals and program structures that elevate the underlying value of the developer stack.
+Why is it important:
+To realize the full potential of these innovators, there is a pressing need to establish routes and pathways that not only identifies and nurtures talent, but also ensures that groundbreaking ideas receive the attention, validation, and resources they deserve at each stage for each vertical.
+By betting on builders with a support system that are properly curated for each stage, we not only invest in individual projects, but also contribute to the collective strength and resilience of the Arbitrum ecosystem.
+Conclusion
+We came together and outlined a process, this is the first step of building a scalable innovation pipeline in Arbitrum, aiming to cover multiple verticals and all stages of the builders pathway. From there, preparing a roadmap to grow and scale to many more vendors and complete offerings for builders.
+We invite all stakeholders—developers, investors, enthusiasts, and delegates—to join us in discussion of this initiative, helping to lay down the foundations upon which the future of decentralized applications on Arbitrum will be built.",1
+21510,cliffton.eth,2024-02-27 23:09:35,,2
+21510,cliffton.eth,2024-02-27 23:09:41,,3
+21510,cliffton.eth,2024-02-27 23:09:51,,4
+21510,cliffton.eth,2024-02-28 01:04:14,,5
+21524,KlausBrave,2024-02-27 20:05:58,"# Deadline: Tuesday 27th 4 pm MST (Denver)
+UPDATE: Deadline: Tuesday 27th 4 pm MST (Denver)
+Any post or deck with timestamp edits past the deadline will invalidate the submission.
+Pitches will be done as a 3 min recording on Loom
+
+Day 2: Judges pick 5 finalists to pitch on Day 3. Finalists will be announced via Telegram.
+Day 3: 10 am to 12 pm, 5 Finalists pitch live. Community vote decides the rank. If you are a selected finalist but unable to physically attend Day 3, your video submission will be played live.
+
+Submission Process
+Forum Post
+Create one “New Topic” for your Team
+Title: Team Number + Proposal Title
+Post Content
+
+Track Name (updated list)
+Challenge Statement
+Members: Name or Alias.
+Team Lead contact name or alias (Winners will be DM’d for prize distribution)
+PITCH: Loom Recording 3 mins MAX
+Proposal (400-1000 words)
+
+
+You can either choose to share your proposal using the classic template as shown here, or answer 3 questions:
+
+
+What the problem is
+What is the solution
+Why is important
+
+
+Deck (link or pdf) - this is optional
+
+JUDGING CRITERIA
+Should address judging criteria:
+
+Viability
+Desirability
+Feasibility
+Track Impact
+
+PRIZES
+1st - 5k
+2nd - 4k
+3rd - 3k
+4th - 2k
+5th - 1k
+TRACKS
+
+Orbit Adoption Strategy
+Grants Ecosystem
+DAO BD Strategy
+DAO operational excellence
+Strategic Big Bets
+Betting on Builders
+Contributor onboarding, activation & engagement
+Game Development & Incentives
+Sequencer
+Arbitrum Liquidity
+
+NOTE: Anatomy of a good proposal and deck to follow shortly",1
+21524,raam,2024-02-27 20:12:56,,2
+21519,Bernard,2024-02-27 19:11:58,"Arbitrum GovHack Track:
+Big opportunity for Arbitrum DAO to form an M&A Group focused on identifying and executing M&A opportunities.
+Challenge Statement:
+Arbitrum is a huge ecosystem and DAO with a $8 billion Treasury. One of the primary ways for Arbitrum to scalably deploy capital and grow rapidly is to get in the M&A game, and the upside is potentially massive.
+Members:
+Areta M&A Team
+
+Karl Ahrend
+Jan Philip Grabs
+Yacine Boughazi
+Bernard Schmid
+Siddharth Shash
+Fin Boothroyd
+",1
+21519,cliffton.eth,2024-02-27 23:13:19,,2

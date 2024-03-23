@@ -1,0 +1,523 @@
+Topic ID,Username,Post Created At,Post Description,Post Number
+16364,Arbitrum,2023-09-14 19:41:09,"Are you interested in becoming a Security Council member for the Arbitrum ecosystem?
+Before continuing, please read:
+
+Security Council Elections 101
+Security Council Members Responsibilities
+
+Contender submission registrations on Tally open on 15th March 2024 at 12:00 UTC; and the initial election (nominee selection) begins on 22nd March 2024 at 12:00 UTC: Tally | Arbitrum Security Council
+Recommendations Before Registering
+Prior to 15th March 2024, if you are keen on participating as a candidate in the Security Council Elections, it is highly recommended to create a profile post on the ‘Security Council Elections’ category on the forum where you can introduce yourself and your background, as well as why delegates should vote for you to be in the Security Council.
+You can reference these examples below which were posted by candidates in the September 2023 elections.
+
+Pablo Sabbatella (pablito.eth) - Candidate for Security Council Election Sep 2023
+Rob Coleman - Candidate for Security Council Election 2023 
+Chuy García - Candidate for Security Council 
+Paul - Candidate for Security Council Election Sep/Oct 2023 - Bio and Platform
+Jerome - Candidate for Security Council Election Sep 2023 
+Walid- Security Council Candidate 
+Haaroon - Candidate for Security Council Sept 2023! 
+
+Please use the ‘mar-2024-elections’ tag in your post so delegates can identify that you are running for the upcoming elections in March.
+image978×286 12 KB
+Prerequisite Before Registering
+You must have a hardware wallet that can generate a fresh address for the election.
+This hardware wallet should only be used for actions related to the Security Council and for no other applications. It should be funded with enough ether to allow for you to pay for a transaction in Arbitrum One.
+Register as a Contender via Tally
+One of the things that make the Security Council election on Arbitrum so exciting is that the entire election system is implemented as a suite of smart contracts.
+Anyone can register as a contender via the smart contracts onchain. However, it is recommended that all interested contenders register for the election using Tally.
+Tally provides an easy-to-use user interface and it will record additional information that can be considered by voters before they cast their vote.
+Let’s walk through how to register step by step.
+Connect Wallet
+
+The first step is to visit the Security Council election website, click ‘Register as a candidate’ and connect your wallet.
+You will be asked to connect your wallet.
+Requirement: The connected wallet MUST be the same address that will be used for the Security Council election member.
+Please use an address that you are happy to link with your online identity.
+Declarations
+
+The first step is to acknowledge a list of responsibilities to become a Security Council member alongside actions that you need to take before signing up.
+It is a good opportunity to evaluate whether you want to take on the responsibility the role entails and join the election.
+Profile Setup
+
+If your connected wallet does not have a profile on Tally, then you will be asked to make a profile for the website. This profile is not exclusive to the Security Council elections and it can be reused for all activity on Tally. It is linked to your connected wallet.
+Candidacy Details
+
+An opportunity to provide information to the voters and explain why you will make a great Security Council member. It covers your current role, technical experience, and geographical location.
+All voters will have access to this information (except for the email address) and they may use it to decide how to cast their vote.
+Conflict of interest: The Arbitrum Constitution states that a nominee cannot become a member of the Security Council if they have a conflict of interest. For example, affiliations with direct Arbitrum competitors, proven histories of exploiting projects and others.
+Sign Message from EOA
+To ensure that you can produce signed messages for the different chains that the Security Council needs the ability to act on, you will need to sign a transaction from your address (Externally Owned Account).
+This also prevents instances where candidates might sign up for the elections using an onchain smart contract wallet which is not able to produce signatures valid for other ArbitrumDAO-governed chains.
+Preview & Submit
+
+After expressing your readiness to shoulder the responsibility, you have one final opportunity to review the candidacy details before officially registering for the election.
+The final step is to click ‘Submit’.
+You will need to authorise a transaction to submit registration details to the onchain smart contract.
+
+The Ethereum address that will join the Security Council will need ETH to pay for the transaction fee.
+
+It must be sent by the same address as the smart contract relies on msg.sender for authentication.
+Only the Ethereum address is stored onchain and all candidacy details are kept off-chain.
+Thank you for taking an interest in protecting the Arbitrum ecosystem and good luck in the elections ",1
+16364,haaroon,2023-09-15 14:09:56,There is currently a bug in the submission panel that states  “You must be connected to the Arbitrum Görli network to register on this council”,2
+16364,owl,2023-09-15 14:14:47,"I believe you need to change the network to Arbitrum Goerli, on coinbase wallet you just need to manually select the Arbitrum Goerli and it’ll work",3
+16364,haaroon,2023-09-15 15:11:14,"Hey owl! There was a bug, i contacted Arb, they reached out to Tally and had it fixed it. The elections are now up and must be done on the Arbitrum One Network.
+I’ve just submitted my proposal. Please vote for me here!
+
+
+Tally
+
+
+
+Haaroon | Security Council Candidate
+I believe my background in blockchain security and analytics (with a PhD and published research), as well as my passion for Arbitrum, would make me a strong member of the Arbitrum Security Council.
+
+ I have been actively involved in the Arbitrum...
+
+
+
+
+
+",4
+16364,owl,2023-09-15 16:07:29,"I see, thanks sir. I have also applied as a candidate, and appreciate the heads up since I had registered in goerli thinking that’s the way.
+Wishing you luck as well! Hope we will get to collab later on",5
+16364,stonecoldpat,2023-09-15 16:29:59,,6
+16364,darkhumour,2023-09-20 12:50:39,"nice, this is good but how  can I vote already registered nominees?",7
+16364,cliffton.eth,2023-09-21 00:12:59,"Hey there, we currently are in the nominee selection phase, and this is where the nominees with at least 4.72M votes will qualify for Round 2.
+You can review and cast your votes via Tally - Round 1 | Arbitrum Security Council Election",8
+16364,haaroon,2023-09-21 20:42:29,"To vote you must go the tally website, connect your wallet and them vote with your tokens at the election link, here is a link to the page Tally | Arbitrum Security Council Election",9
+16314,Arbitrum,2023-09-12 12:41:01,"Tldr:
+
+The Security Council is a vital part of the Arbitrum ecosystem trusted to respond to critical emergencies.
+Security Council Elections are held every 6 months, and allow the DAO to elect new Security Council members.
+Actively participating in Security Council Elections is one of the most important responsibilities of the Arbitrum DAO.
+
+1600×794 85.5 KB
+On March 15 2024, the second Arbitrum DAO Security Council Election process will commence! Here, we’ll give you the overview of everything you need to know: what the Security Council is, how the Security Council elections work, and how you can participate.
+1600×800 147 KB
+Background
+The DAO-governed Arbitrum chains — like all software — sometimes need to be upgraded. Arbitrum’s governance system provides two ways for the upgrades to take place: via a DAO proposal, or via the Security Council.
+DAO proposals can be submitted by anyone, are transparent, and are deliberately designed to take weeks to finalize. This time allows Arbitrum delegates to vote on the proposal, and ensures that, if the proposal passes, Arbitrum users will still have an opportunity to “opt out” of it by withdrawing their funds before it takes effect.
+Some upgrades, however, need to happen quickly — namely, upgrades that fix a critical bug discovered in the system. For this class of upgrades, quick effectuation is necessary to ensure no attacker can exploit the vulnerability once it is public. These fast-upgrades can be carried out by the Security Council.
+The Security Council consists of 12 members, any 9 of whose signature is required to authorize an upgrade. The current Security Council members can be seen in the Foundation documentation or via Tally.
+As of this writing, all but one upgrade has been carried out via the DAO proposal path, and no emergency upgrades have been necessary. However, given the known-unknown risk of undiscovered bugs, having an emergency upgrade contingency plan remains vital. The Security Council is trusted to only ever use its ability for fast upgrades in order to recover from emergencies; however, the Constitution also describes the non-emergency path for the Security Council, which has been used once so far (when the Security Council took a non-emergency action to update Arbitrum Nova’s DAC keyset). Thus, it is important that the DAO places great importance and deliberation in electing reputable and trustworthy individuals and/or entities to the Security Council.
+723×502 219 KB
+Security Council Election: Overview
+Security Council elections are a way for the DAO to periodically elect new members (and/or explicitly re-elect members) of the Security Council, ensuring that members remain aligned with the values and best interests of the DAO.
+In brief: the 12 members of the Security Council are split into two groups of six, called “cohorts.” Every 6 months, the six seats in one of the cohorts are all up for election, with the target cohort alternating each election cycle. During an election, any party can submit themselves as a candidate in the election. During the election process, the DAO votes on candidates such that ultimately the top 6 are chosen; after a brief grace period, these 6 candidates replace the 6 candidates in the outgoing cohort, finishing the election.
+Security Council Election: In Detail
+The following is a more detailed overview of the different phases of a Security Council Election:
+Phase 1: Call for Candidates - Now till Mar 15, 2024
+Anyone interested in participating as a candidate in the Security Council Elections is encouraged to inform the community of their plans to run on the governance forum, by:
+
+Creating a profile post on the ‘Security Council Elections’ category which could include background and relevant details, as well as reasons why delegates should vote for them
+Using the ‘mar-2024-elections’ tag so delegates can identify that the applicant is running for the upcoming elections in March
+
+Phase 2: Contender Submission - 7 days
+During this phase, any party can register as a “contender” for a Security Council position, so long as they are not already a member of the other cohort (the cohort not currently up for election).
+Phase 3: Nominee Selection (first voting phase) - 7 Days
+During this phase, delegates can cast votes for contenders. Delegates can split their votes across as many contenders as they please; i.e., if Steve has a total of 1000 delegated votes, he can cast 300 votes for Alice and 700 votes for Bob.
+This is slightly different to the previous election, as DAO members and delegates can only endorse contenders AFTER, rather than during, the Contender Submission phase.
+Any contender that receives votes representing 0.2% of all voteable tokens advances to the next phase.
+1400×704 109 KB
+Phase 4: Compliance Process - 14 Days
+During this phase, as dictated in the Constitution, contenders who receive votes representing 0.2% of all voteable tokens in the Nominee Selection phase, must undergo a compliance check undertaken by the Arbitrum Foundation to ensure they comply with the legal requirements, service agreements, and additional rules dictated by the Constitution. Contenders can start the compliance process by reaching out to “scelection@arbitrum.foundation”.
+Note that for a contender to be excluded at this phase, the Foundation must take a public, on-chain action.
+All contenders that are not excluded during the compliance check are considered “nominees,” and advance to the next phase.
+874×280 72.4 KB
+Phase 5: Member Election (second voting phase) 21 Days total
+During this phase, delegates voting power is “reset” from the Nominee Selection phase (first voting phase); delegates vote on nominees until 6 are selected as members of the new cohort.
+The member selection phase is comprised of two sub-phases: full-weight voting, and decreasing-weight voting.
+5a. Full Weight Voting (7 Days)
+During this sub-phase, delegates vote with the full weight of the votes delegated to them.
+5b. Decreasing Weight Voting (14 Days)
+During this sub-phase, delegates voting power decreases linearly; i.e., at the beginning of the sub-phase they can vote with 100% of their voting weight, and by the end, their votes have 0 weight.
+1400×636 168 KB
+As with voting in the Nominee Selection phase, delegates can split their votes across multiple candidates.
+For example: Steve — who, recall, used all 1000 of his votes in the Nominee Selection phase, now, during the full weight voting phase, has 1000 votes once again. Say he casts 600 votes for Bob and 100 for Christine, leaving him with 300 votes left.
+Then, he waits until he is 7 days into the decreasing weight voting phase before voting again. At this point he casts all of his votes for Daniel; since he is 50% of the way through this phase, his voting power is decreased by 50%, so Daniel gets 150 votes, and Steve has no more votes to cast.
+At the end of the Member selection phase, the six nominees with the most votes are the winners, and are set to become members of the Security Council.
+Phase 6: Grace Period (13 Days)
+This period is simply a delay period after the new members have been officially elected and before they actually become members of the Security Council. This delay period allows Arbitrum users to withdraw their funds if they so chose before the new council members are put into place (as per the constitution), and is also required so that the election results can propagate to the Security Council contracts across all relevant chains.
+How To Participate
+The election process is carried on via on-chain smart contracts which can be accessed through the Tally interface here; discussion around elections is encouraged on the governance forums.
+Here are ways to get involved:
+Potential Contenders
+If you’re interested in putting yourself up for vote to become a member of the Security Council, you are encouraged to carefully review the compliance requirements, risks, and responsibilities involved; for more info, see here.
+If you think you’re suited for the job, you can campaign for yourself and engage with the community by posting on the governance forum.
+Delegates
+Delegates are encouraged to vote!
+Recall that there are two phases during which a delegate can vote; selecting nominees and picking the top six among selected nominees (i.e., phases 2 and 4 above).
+Delegates are encouraged to carefully consider the decreasing weight mechanism (4b above) so they can optimize their strategy accordingly.
+Community Members
+All members of the Arbitrum community — whether or not they have delegate votes — are encouraged to participate in elections via public platforms like the governance forum and weigh in on who they think would be strong candidates for security council membership.",1
+16314,Arbitrum,2023-09-12 12:41:14,,2
+16313,Arbitrum,2023-09-12 12:32:04,"We provide an overview on the role of a Security Council member and it includes:
+
+Responsibilities of Security Council members,
+Key attributes to look out for when evaluating whether a nominee may be a good security council member,
+Accountability of the Security Council members.
+
+What is the Security Council?
+Screenshot 2023-09-08 at 11.53.59 AM1142×768 185 KB
+The Security Council, consisting of 12 members chosen by the Arbitrum community, has the power to upgrade bridge smart contracts.
+They can take action in both emergencies and non-emergencies, following the rules in the Arbitrum Constitution. For instance, if a critical security issue is reported privately to the Arbitrum Foundation, the Security Council assesses the situation. If necessary, they can approve an upgrade to fix the problem.
+Choosing the right council members is crucial to the security of the Arbitrum ecosystem due to the authority granted to them.
+Council Member Responsibilities
+All Security Council members are paid $5k in ARB per month and they are expected to fulfil the following responsibilities:
+
+Uphold the Constitution of the Arbitrum DAO.
+Be available and contactable by the Arbitrum Foundation in case of an emergency.
+Proactively engage with all other Security Council members when an action is necessary.
+Work with the Foundation to actively communicate the need for emergency and non-emergency actions when an issue is detected, and provide follow ups accordingly.
+Document all actions and publish a transparency report after the emergency actions are completed.
+Maintain confidentiality of critical vulnerabilities and other sensitive information until the transparency report is published.
+Participate in security drills and flag day events organised by the Arbitrum Foundation.
+Prioritise operational security which includes, but not limited to, the use of a dedicated hardware wallet for this single role.
+Independently understand all security incidents and how the proposed upgrade will fix it.
+
+Good (And Bad) Values and Practices of Security Council Members
+
+
+
+
+A Good Member is
+A Good Member is not
+
+
+
+
+Familiar, engaged, and aligned with the Arbitrum ecosystem
+Someone who does not care about the success and future of Arbitrum
+
+
+Able to keep good operational security and operate a hardware wallet securely. Additionally, they are someone with good security hygiene and following best practices
+Oblivious to the responsibilities they carry, and are careless with hardware wallet security.
+
+
+Will voluntarily engage the other Security Council members when emergency / non-emergency actions are necessary, and aid the Foundation in documenting post-mortems and publish a full transparency report.
+Someone who exhibits free-rider behaviour, and does the bare minimum in emulating what the other Security Council members does.
+
+
+Willing to wake up 3am for a drill ensuring all members are reachable in case of an emergency
+Away all year round and not engaging in practice runs and discussions with other council members
+
+
+Deeply responsible for the security of Arbitrum
+Only motivated by financial compensation, as this role comes with serious obligations
+
+
+
+We have put together some character features to consider when casting your vote which includes alignment to Arbitrum, operational security, engagement, availability and whether they are ready to protect the Arbitrum eco-system.
+After all, it is up to the Arbitrum community to vote for nominees who will will participate as a member in the Security Council member. It is critical to pick members who will act in good faith and perform their duties as a council member. A final judgement is not always about technical prowess, but willingness to take up the role and actively participate.
+Security Council Member Accountability
+As outlined in the Arbitrum Constitution, there are two methods to remove a Security Council member if they fail to faithfully fulfil their role:
+
+At least 10% of all Votable Tokens have casted votes “in favor” of removal and at least 5/6 (83.33%) of all casted votes are “in favor” of removal;
+At least 9 of the Security Council members vote in favor of removal.
+
+Each member of the Security Council bears accountability not only to the Arbitrum DAO but, most significantly, to their fellow council members.
+Of course, the removal of a Security Council member is a publicly detectable event, and substantial public discourse should follow the removal of any members.",1
+16313,Arbitrum,2023-09-12 12:33:34,,2
+22444,limes,2024-03-13 20:10:34,"gm everyone,
+I will be putting my name in the hat for the Arbitrum Security Council election. I find that my current position as Steward and Secretary at ENS ties closely with the responsibilities of the Security Council as it demands integrity, reliability, and experience with multisigs.
+About me:
+Arbitrum Delegate and Community Member: As a delegate, I am to understand the workings of Arbitrum, both technically and socially, and putting the chain in the best place to succeed. Additionally,  I have been trusted to custody funds by the Arbitrum DAO before in the Plurality Labs, Short Term Incentive Program, and Long Term Incentive Program. You can see my governance activity score on Tally and Arbitrum DAO wallets on ArbWallets.
+ENS Steward & Secretary: As a steward at ENS, I have a public facing role to support the ecosystem, supporting developers and community members alike. As the Secretary, I have a duty to track our actions and provide transparency reports to the community. These roles let me represent a core ethos of my beliefs in decentralized identity and display my commitment to the community. You can see the latest ENS spending summary drafted by me here and observe my experience as a multisig signer on ENSWallets
+New York Licensed CPA: While certainly not a requirement for a trusted position, a CPA credential exemplifies diligence, attention to detail, and an unyielding commitment to ethical practices as defined in the AICPA Code of Professional Conduct.
+Why limes.eth
+Putting on my Arbitrum delegate hat, when evaluating candidates, I objectively focus on three key domains
+
+Reliability/Timely - Does this person have a track record of being timely and reliable?
+Trust - Does this person have a track record of being trusted? Does this person have a valuable reputation that they wouldn’t give up by colluding to steal? Can this person be trusted to custody keys securely and be diligent when signing?
+Technical Expertise - Can this person read and/or write the required programming languages used in pushing updates to Arbitrum.
+
+In my opinion, any delegate making it to the council needs to be very strong in at least 2 of these categories.
+I believe that I have displayed Reliability and Trust serving on a multisig signer on 3 Arbitrum multisigs and 8 ENS multisigs.",1
+16653,pablitoeth,2023-09-21 15:06:10,"Hi,
+As you can see in my application, my main focus and experience is in OpSec. I have been involved in cybersecurity in some way for the last 23 years and now fully dedicated to Blockchain security.
+I have a quite big twitter profile where I talk mainly about security in the blockchain ecosystem:
+My Twitter account: https://twitter.com/pablosabbatella
+I do regular audits for people who are usually target of attacks due to their exposure.
+I understand what measures have to be put in place in order to secure Infrastructure, teams and communication channels in order to avoid things like: Discord, Twitter and Telegram accounts being hacked, private kets stolen from devs, social engineering, domain and dns hijacking, etc.
+
+Zero-day exploits, Social Engineering, Private-keys management, Secure devices, VMs, Multisigs, Physical security, Data retention and backup, Email & Phone security, OSINT, Secure Browsing, Malware, Firewalls, Secure messaging channels, hardware wallets, etc.
+
+in the early 2000s I founded one of the biggest Cybersecurity portals (Hackemate), I have given many talks and participated of panels at different conferences about Blockchain Security (ETH Latam, LaBitConf, Ethereum Argentina, etc), created one of the best Blockchain Opsec Security courses (with a framework) through Defy Education.
+Founded:
+
+Hackemate
+Defy Foundation
+Defy Education
+Ethereum Argentina
+
+I think it is key to understand there’s a new wave of malicious actors coming from the Web2 ecosystem to Web3 and those kind of attacks are being very effective.
+You can checks lots of talks, panels and classes I gave in Youtube
+https://www.youtube.com/results?search_query=pablo+sabbatella
+Many thanks
+Pablo Sabbatella - pablito.eth",1
+18466,robc,2023-10-08 18:45:23,"Hi everyone, my name is Rob Coleman. I am running for the Arbirtrum Security Council as I want to further the security of Arbitrum and build upon Alchemy’s continued support of the Arbitrum network.
+I currently lead security at Alchemy, the leading web3 developer platform. At Alchemy I have built out the security team, ensuring the confidentiality, integrity, and availability of the platform. I have led security incident response, formalized the company’s operational security practices, and contributed to our code base as an application and product security engineer, improving Alchemy’s baseline for security.
+Through my experience in incident response I have managed war rooms, performed internal investigations, and worked quickly to remediate incidents. In an effort to improve our operational security, I have worked to move the company towards a least privilege model, improved logging and auditability, and hardened internal operations. Recently I have started working closely with our Account Abstraction team, performing design reviews and serving as a subject matter expert on security.
+In short, I believe my experiences building out Alchemy’s Application, Operational, and Physical Security practices would be an asset in this role.
+Aside from my own experiences at Alchemy, I also work with a team of highly skilled engineers who have supported Arbitrum since launch and helped scale the ecosystem to the volumes seen today. I see the team as an invaluable resource I will be able to draw on as a member of the Council.",1
+16666,krst,2023-09-21 17:56:04,"The below response reflects the views of L2BEAT’s governance team, composed of @krst and @Sinkas, and it’s based on the combined research, fact-checking and ideation of the two.
+As L2BEAT, we have decided to spread our voting power to 5 nominees, ensuring 3 of them qualify for the next stage, and signalling our strong support for 2 of them in the process. On a high-level, the 4 aspects that helped us drive our decision were:
+
+Strong technical knowledge
+
+It’s imperative for each member of the security council to be able to independently verify what they’re signing, but to also understand the underlying technology and code. We are willing to support also members that bring other skills like deep knowledge of legal implications that add significant value to the security council.
+
+
+Reputation at stake
+
+While we respect the wish for some members of the community to remain anonymous, we believe that members of the security council should have their identities known, so that if they misbehave or fail to act on time, they risk slashing their public reputation. We are willing to make an exception only for well known anons with exceptional reputation.
+
+
+No connection to OffChain Labs or Arbitrum Foundation
+
+We wanted to limit the support for individuals or entities that are related to the original founding team (OffChain Labs and Arbitrum Foundation) as we believe that Security Council should serve as a third party guardian that protects the users of the protocol.
+
+
+Location
+
+Security council members should be spread around the world to cover most timezones and various jurisdictions as that would help with reaction speed in case of emergency, and would mitigate the risk of legal implications.
+
+
+
+With that in mind, we voted for the following nominees:
+Philipp Jovanovic - Associate Professor in Information Technology at University College London (UK)
+
+Philipp has a very strong technical background and with 12+ years of experience in cybersecurity. He’s involved in various projects in his capacity as a cybersecurity consultant and he’s experienced in cryptography, distributed systems security, privacy-enhancing technologies, cryptocurrencies among other fields.
+
+Haroon.eth - PhD on Crypto Analytics & Security (UK)
+
+Haroon also has a very strong technical background and he has professional experience in blockchain security and analytics. He has published numerous academic articles and research on blockchain and security and he’s also on the technical committee of the IC3.
+
+Emiliano Bonassi - Tech at Conduit (Italy)
+
+Emiliano comes from a researcher background with strong technical knowledge and experience in web3 security since 2020. He has been supporting and leading various war rooms, discovering security issues on Yearn and Synthetix.
+
+And while we don’t have enough voting power to also help qualify the following 2, we’ve voted for them as well to indicate our strong support.
+Caleb Lau - Software Developer at Etherscan (Malaysia)
+
+Like with the other nominees, Caleb has a very strong technical background, and he also has the experience of being on the security council as a member of the previous cohort.
+
+Paul Imseih - Founder and Principal of Daimon Legal (Australia)
+
+In our opinion, Paul would make for a great addition to the council despite not having as strong technical knowledge as other nominees. Paul has provided legal advice and had leadership roles during cybersecurity incidents in the past which would make him a good fit for covering the legal aspect of any actions of the security council.
+",1
+16666,haaroon,2023-09-21 20:44:01,Thank you for explaining your rational. Very very informative post.,2
+16666,krst,2023-10-11 11:58:47,"Our voting rationale for round 1 can be found above.
+For round 2, we stuck to assessing nominees based on the 4 aspects that originally helped drive our decision (strength of technical knowledge, reputation at stake, unaffiliated with OffChain Labs or Arbitrum Foundation, and location).
+We decided to spread our voting power across 6 nominees and support all of our choices instead of choosing to propel 1 or 2 individuals into the council by putting our full weight behind them.
+With that in mind, and after a thorough internal assessment and discussion, we selected the following nominees to vote for:
+Philipp Jovanovic - Associate Professor in Information Technology at University College London (UK)
+
+Philipp has a very strong technical background and with 12+ years of experience in cybersecurity. He’s involved in various projects in his capacity as a cybersecurity consultant and he’s experienced in cryptography, distributed systems security, privacy-enhancing technologies, cryptocurrencies among other fields. Philipp was also among the nominees we voted for during Round 1.
+
+Haroon.eth - PhD on Crypto Analytics & Security (UK)
+
+Haroon also has a very strong technical background and he has professional experience in blockchain security and analytics. He has published numerous academic articles and research on blockchain and security and he’s also on the technical committee of the IC3. Haroon was also among the nominees we voted for during Round 1.
+
+Emiliano Bonassi - Tech at Conduit (Italy)
+
+Emiliano comes from a researcher background with strong technical knowledge and experience in web3 security since 2020. He has been supporting and leading various war rooms, discovering security issues on Yearn and Synthetix. Emiliano was also among the nominees we voted for during Round 1.
+
+Omer Goldberg - CEO at Chaos Labs (USA)
+
+Omer has extensive experience in security, having worked in that area as a software engineer and a tech lead at Instagram and Facebook, prior to founding Chaos Labs. He has very strong technical knowledge and has worked with various projects in the space, including Aave, Curve, Compound, GMX, Uniswap and more.
+
+Weibo Wang (Nolan) - Chief security researcher at Numen Cyber Labs (Singapore),
+
+Nolan comes from a research background with 12 years of experience in network security and vulnerability research. He has strong technical background and he has a demonstrated ability of finding vulnerabilities both in web2 as well as in web3.
+
+Ali Atlia - Founder & Product Lead at yAcademy | yAudit (Canada)
+
+Ali has a very strong technical background and has spend the past 3 years focusing on security and rollups with a lot of experience in smart contracts and zk auditing. He’s also been involved with Ethereum R&D since 2019 and has experience with opsec and war rooms.
+",3
+18341,chuygarcia.eth,2023-10-06 04:45:32,"Hello ArbitrumDAO community. My name is Chuy García and I’m from Mexico. Before approaching web3, my background was in the film and music independent industries in Mexico, mostly with activities surrounding production.
+In 2020, I was captivated by on-chain governance with the 1Hive community and soon took on the role of Communications Steward with the Token Engineering Commons. There, I had my first chances to participate in multisigs as one of the signers responsible for significant working group budgets.
+Once pandemic regulations started to relax in Mexico in the begining of 2022, me and a group of good friends joined forces to put together The DAOist Mexico City as an attempt to foster and take the local web3 community a step further. This attempt was successful, as it triggered a series of events that grew the community to hundreds of members and built itself up until ETH Mexico by ETH Global happened, where I had a chance to assist the event’s production which gave the Mexican builders community worldwide exposure.
+I started 2023 as the Events Lead for the Ethereum México community and as a Community Manager at Dappnode, where I’m continually exposed to the importance of security in the ecosystem. Both of these responsibilities and my overall journey have taught me valuable lessons about security practices that will help me in case I get the honor of being elected as a member of the Security Council.
+Being among these 24 candidates has been a true honor in itself, and I look forward keep learning as much as I can from people like @pablitoeth and @DisruptionJoe, whose trajectories have always been an inspiring example, and people whose work I recently met and keep learning from like @haaroon, @omer, @stonecoldpat and @coolhorsegirl for as far as this experience takes me.
+So, in a nutshell:
+
+My professional background has given me a variety of skillsets at problem solving, while preserving efficient communication channels and due processes for verifying information. I’m good at making stuff happen in working groups, as well as bringing unique insights from different professional fields.
+I think I would be a good Security Council member because as a node runner I’m good with emergency response and I have wide availability for a responsibility of this magnitude. I also think that my geographic location favors a diverse set of participants across different time zones.
+This opportunity will give me a chance to strengthen my security practices by being close to experienced leaders in cybersecurity, as well as serving the Arbitrum community at the best of my abilities.
+
+Thanks for your time and considering me in this 2nd Round for Security Council elections!
+Respectfully,
+Chuy García.
+
+EDIT: I’m very happy to reapply for the March 2024 elections. Since the last election I’ve proudly contributed to the following projects in the ecosystem that I’d like to briefly include for your consideration:
+
+Ethereum México 2023: We had an amazing event back in October where I contributed as a lead of production.
+Ethereum México DVT: A project where we got to mix community coordination with Dappnode and its simple approach for non-techincal users.
+",1
+18341,CryptoReuMD,2023-10-06 18:10:03,"Also you are a great north star about decentralization, node operations, privacy and the ecosystem evolution.
+I hope that you continue with the process.",2
+18298,haaroon,2023-10-05 14:49:11,"Hello everyone,
+Some points came to mind when listening to todays discussion.
+I have a couple of questions regarding the Security Council’s governance and would appreciate some clarification.
+
+Limits on Multiple DAO Memberships: Is there a cap on how many Security Councils a person can be a member of across different DAOs? Holding multiple positions introduces operational risks, such as conflict of interest, divided attention, centralisation and puts a target on their back making them a huge point of failure.
+Financial Incentives and Trading Capacity Disclosure: Are council members required to disclose if they hold a certain number (N) of Arbitrum tokens or work in any trading capacity? Understanding these affiliations is crucial as does introduce financial risks, insider trading and potentially bias council decisions.
+
+If there are limitations or disclosures required and are these made publicly available?
+I understand some of my points above are mentioned in the security council service agreement but these AFAIK are not public.
+Thank you for taking the time to address these queries. Looking forward to your responses.
+Best regards,
+Haaroon",1
+16513,Pablo,2023-09-19 13:23:53,"Introduction to Candidacy
+I am excited to announce my candidacy for this term’s cohort of the Arbitrum Security Council, with a campaign deeply rooted in the Council’s foundational duties and principles. My background uniquely positions me to contribute effectively to the Council’s mission, combining legal expertise, technical acumen, and a passionate commitment to the Arbitrum ecosystem.
+My background includes over 20 years’ experience as a senior lawyer and General Counsel at Tier 1 technology companies such as EDS and NTT and in 2020, launched my own law firm - Daimon Legal - that currently supports a number of Gamefi and DeFi projects. I am also a board member of the DAI Foundation and long standing contributor to Legal Industry DAOs such as Lex DAO and LeXpunK DAO.
+Platform and Vision
+As an early contributor to the Arbitrum Constitution where I focused on the specific risk profile of Security Council Members, I’ve demonstrated a serious commitment to upholding the Arbitrum ecosystem’s security stance. My recent Openlaw GitHub contributions on projects like the Whitehat Safe Harbor Agreement further emphasizes my readiness to build security frameworks that allow teams such as the Security Council to respond to incidents with urgency and precision.
+Procurement Committee and Legal Frameworks
+A cornerstone of my candidacy is my role in the ArbitrumDAO Procurement Committee (ADPC), where we are pioneering a comprehensive Procurement Framework specifically designed to streamline the process for Arbitrum ecosystem actors acquiring critical security services and auditors, thereby bolstering the overall security posture of the Arbitrum ecosystem.
+I am strongly of the view that enhanced collaboration between the Security Council and ADPC will be a net benefit to both groups. The ADPC intends to work closely with the Security Council to build solution requirements and review applicants to the Framework, and I intend to strengthen that collaboration by building ties with both groups and facilitating workflow between them.
+Experience and Commitment
+As the Arbitrum ecosystem continues to evolve, my experience and knowledge—especially in legal analysis and managing security incidents at an enterprise level—will, I believe, be invaluable. I have a proven track record of drafting and maintaining enterprise-grade operational security incident policies and procedures and have represented Group Legal on incident response teams.
+I’m based in Australia but work long hours to support projects across the globe. My typical day starts around 21:00 UTC and ends around 1400 UTC (17 hours). This strong work ethic will be invaluable in the role here given the requirement for Security Council Members is to be readily available in the event of a security incident and also provides coverage in the APAC time zone.
+Vision for Arbitrum’s Security and Governance
+I envision a Security Council that not only reacts promptly to incidents but also anticipates challenges, implementing strategic measures to safeguard the ecosystem. This vision is grounded in robust governance, transparent operations, and proactive security enhancements such as those I am contributing towards in my work on the ADPC.
+Thank you for considering my candidacy. Together, let’s shape a secure future for Arbitrum.",1
+16513,Pablo,2023-09-22 23:48:47,[reserved] - - - - - - - - - - - - - - - - [reserved],2
+16513,sahijeevan,2023-09-25 05:32:11,yes  we need more     ,3
+16569,Jerome,2023-09-20 13:35:16,"Hi all!
+My name is Jerome Rousselot. A friend suggested I apply to the Arbitrum Security Council elections because of my expertise in blockchain and software security.
+Prior Experience
+I have been working full time in the blockchain space since 2014.
+Initially leading the development of a hardware and later mobile wallets with Mycelium, one of the most widely used non custodial wallets at the time.
+In parallel I created my own company Jita Digital in 2015. First to build a blockchain micro-finance proof of concept, then to offer security audits and product development services to blockchain startups.
+We worked with Nexus Mutual (decentralized insurance), Safello (Swedish exchange), Zen Protocol (layer 1 F* and F# theorem prover smart contracts), Minima (a new Proof of Burn blockchain), Ref.Finance (the largest DEX on NEAR), Texture Capital (the first security token platform to get a broker-dealer licence in the US), Qredo (Layer 2 MPC for institutional custody, compliance and trading) and many more.
+Before blockchain, I obtained my PhD in Theoretical Computer Science at EPFL, Switzerland while studying wireless decentralised protocols. After which I joined Marvell Semiconductor, where I worked on hardware/software co-design, smartphones and digital TV platform architecture and security.
+I am very experienced working with fully distributed teams combining many work and national cultures.
+Why I apply
+Layer 2 are a critical component of the blockchain ecosystem to enable mass adoption and ease of use for the next wave of users.
+Many new L1 and L2 have suffered from poor key management. This is a topic often neglected by both the communities and the development teams.
+Unfortunately, private keys and decision making centralisation can have grave consequences for this type of projects.
+Decentralising these operations is not trivial. The Arbitrum Foundation has correctly identified and worked on the problem, with the support of its community.
+It would be a great experience to participate in this process and help resolve any possible issues as we go. This would be of great benefit not only for Arbitrum and its community, but also to the wider blockchain industry. Our industry has suffered for too long from widespread fraud and has a very poor image with the wider public.
+Security Council Member Requirements
+I will help uphold the Constitution of the Arbitrum DAO.
+I will be available and contactable by the Arbitrum Foundation in case of an emergency.
+I will proactively engage with all other Security Council members when an action is necessary.
+I will work with the Foundation to actively communicate the need for emergency and non-emergency actions when an issue is detected, and provide follow ups accordingly.
+I will help document all actions and publish a transparency report after the emergency actions are completed.
+I will maintain confidentiality of critical vulnerabilities and other sensitive information until the transparency report is published.
+I will participate in security drills and flag day events organised by the Arbitrum Foundation.
+I will prioritise operational security which includes, but not limited to, the use of a dedicated hardware wallet for this single role.
+I will independently understand all security incidents and how the proposed upgrade will fix it.
+Technology Expertise
+I am very familiar with Solidity, Rust, C/C++, Assembly, Go, Javascript, Java/Kotlin, Virtual Machine, assembly languages, as well as blockchain cryptography fundamentals, CPU architecture, hardware security principles. I recently started experimenting with some formal verification frameworks.
+Personal Information
+I am a French citizen and I am based in Portugal. I regularly attend crypto conferences in Europe.
+Besides blockchain, I enjoy running marathons, listening to macro economy podcasts, travelling, and trying water sports.
+More Information
+You can listen to two podcasts to hear directly from me:
+
+October 2022, 30 minutes on security audits and my background
+What it takes to audit smart contracts
+May 2023, 15 minutes on stablecoins
+jitadigital.com /media/walkers-global-we-talk-banking-finance-podcast-bonus-crypto-episode-stablecoins/
+
+You can also reach out directly to me on telegram @jeromerousselot
+I hope this was helpful!
+I found it very valuable to go through the election process.
+If elected, it would be a great opportunity to work together with the other members of the Arbitrum Security Council.
+Finally, if interested, your vote is very welcome! ",1
+16569,sahijeevan,2023-09-21 15:40:45,"Forum has its own importance  which keep separate discussion …
+its good for Arbitrum Ecosysyem…    ",2
+16409,owl,2023-09-15 16:00:02,"Walid - Security Council candidate
+Hi everyone!
+I am Walid
+and I am excited to present my application for the Security Council candidate spot.
+About me:
+I am a self-taught developer with a strong interest in security and a background in electrical engineering, I began on a journey of self-learning shortly after my studies had finished 2 years ago, diving into the world of web3 and comp-sci, I have been actively building out ideas, learning of new bugs, which has led me to multiple findings in my first audit contest, as well as building my own cross-chain protocol for a hackathon.
+I have huge interest in web3, and believe it truly has the power to change the way we transact entirely, and I believe Arbitrum will surely have a huge role to play in that future, given we play our cards right.
+I currently freelance in web3, building out tools I think might be useful in the future, participating in hackathon’s, while also helping out friends wanting to get involved in tech and especially in web3
+I’m currently under the mentorship of GMHacker from ImmuneFI, to whom I owe a great debt of gratitude.
+Personal Background:
+My background as I mentioned was engineering, but slightly before it had come to an end, I had already developed an interest in tech, and a much bigger interest in web3, knowing I had to learn a lot, I took it to step by step, that was 2+ years ago.
+I had began with the basics of networking, slowly climbing my way to familiarity with the most novel exploits, just to get a basic footing on web3 security, which like many have said is not that much of necessity, but I figured if it’s interesting, then no time lost.
+I gained familiarity with common smart contract security risks in no time after, slowly beginning to get a feel for the tech, and moving on to more uncommon/rare exploits, and began developing a keen interest in the EVM.
+Security Council Criteria
+
+
+Availability: -
+I am available entirely to the security council, and would not shy away from responsibility, given an issue, my experience with customer support supervision would ideally come in handy
+
+
+Teamwork:
+I am a firm believer in the saying “team work makes the dream work” having experienced it firsthand, I truly believe working as a team, is the most effective way to tackling not only issues in security’s, but any that we may face
+
+
+Secure Operations:
+I understand the importance of continually improving my security knowledge. I am motivated to stay current with the latest developments in web3 and security, not only within the field but also in related technologies beyond web3
+
+
+Transparency:
+Given it’s web3, I believe that being transparent is a must, and would abide accordingly, disclosing any issues or outcomes we may come to face
+
+
+Blockchain Security:
+
+Proficiency with solidity and relevant tools/frameworks, as well as a constant hunger for more, which is why I have began digging on to the EVM and Huff
+Familiarity with explorers, and knowledge of analyzing/debugging transactions
+Familiarity with safe, it is one of my favorite protocols out there, I am even building out some tools on top of their most recent protocol Safe{core}
+Familiarity with foundry, utilizing cast and chisel, I can make sure that none of the malicious transactions find their way onto the multi-sig, though I hope that never arises.
+
+Conclusion:
+Given it is a security council, I consider myself lucky to be applying as a candidate, as I had considered myself a security-oriented dev, I believe my skills will come come onto full fruition as a council member. and very excited to be applying and considered, I look forward to questions, feedback or conversations regarding my application or anything for that matter.
+Please do reach out on Discord:owl01
+Huge thanks to GMhacker for the mentorship
+And also, to Haroon, for paving the way with a well-structured application. Your example has helped guide me in presenting my qualifications effectively, Thank you!
+and finally, The ArbitrumDAO, and Arbitrum foundation for the opportunity",1
+16409,owl,2023-09-15 16:59:06,Link to vote: Owl | Arbitrum Security Council Candidate,2
+16409,owl,2023-09-15 17:00:29,Link to where you can vote Owl security council candidate,3
+16323,haaroon,2023-09-12 21:02:12,"Haaroon - Potential Candidate for Security Council!
+Hello Everyone 
+I am Haaroon Yousaf, and I am running as a contender to join the Security Council for Sept 2023. I believe my background in blockchain security and analytics, as well as my passion for Arbitrum, would make me a strong member of the Arbitrum Security Council.
+Qualifications and relevant experience
+I was very fortunate to work with amazing people, obtained a PhD from a top university in the United Kingdom, and have published multiple papers at top tier security conferences worldwide. This allowed me to gain deep insights into various blockchain tech and vulnerabilities. These of course all resulted in favourable outcomes to the ecosystems. The core of my work is on privacy, security and scams. Below is a short selection:
+
+(Privacy/Security) An Empirical Analysis of Zcash - The first published work on analysing the security and participants of ZCash, detailing how the privacy features could be abused
+(Privacy/Security) Tracing transactions across cryptocurrency ledgers - We analysed multiple blockchains, identified ways to track wallets across ledgers and exposed scammers
+(Privacy/Security) An Empirical Analysis of Privacy in the Lightning Network - We developed techniques in order to see how payments are pathed
+(Scams) Forsage: Anatomy of a Smart-Contract Pyramid Scheme  - Exposed one of the largest pyramid schemes in the world hosted on Ethereum
+
+I currently work in Research and Development as a co-founder at Pometry developing state-of-the-art graph analytics tools. My work revolves around analytics and software development primarily on graphs and blockchains. We’ve done work on Sybil detection with Gitcoin and hunted NFTs used in pump and dump schemes. I am also on the technical committee for the IC3, where I help organise our bi-annual events and hackathons.
+You can find a fuller list of my qualifications here with links to all of my works: https://www.haaroonyousaf.com
+Personal Background
+I started my cryptocurrency journey back in 2016 whenever I tried to buy L$ on the Virwox (now shut down) exchange, either I placed the wrong type of market order or got scammed. This experience spurred my interest in cryptocurrency, I wanted to do something about it.
+My thesis was simple, there are insane amounts of tech being made, I believe if there is an attack then someone evil is probably already exploiting it. Thus, I wanted to find and bring exploits to light so they can be fixed to improve the security of the ecosystem. This was why I obtained a PhD and committed to work on blockchain security.
+Real world security - Outside of crypto I have real world experience in development and security, I have worked at security company in the past (MWR), was a developer at Goldman Sachs and obtained a bug bounty (NDA’d)
+Arbitrum - I have been active within the arbitrum community, usually by speaking to developers or researchers in the space. You can see an example here, where I discussed transaction ordering on the research forum last year Hybrid transaction ordering policy - sequencer - Arbitrum Research
+Security Council Criteria
+
+Availability - Being responsive is a key trait, but being calm in a crisis is non-negotiable. I pledge to be accessible both during emergencies and regular operations, as well as being calm in a matter of emergency. This I have experience in when working for TradFi in the past where critical financial systems had issues and I had to give support.
+Teamwork - I strongly believe that outstanding work is done as a team, and having mutual respect and collaboration has been a guiding principle when working in a team.
+Transparent - I genuinely believe in Trust but verify and commit to stay on top with the DAOs reports and security council related docs. I also welcome questions, and will gladly answer any below.
+Secure Operations - Given my security and academic background I assure you that I prioritise high levels of security. With this engagement I will purchase extra phone contract lines and keys to ensure availability is at its highest level, with the most updated and secure devices and careful management of security matters.
+
+Blockchain Security + Tools
+I believe the council should be made up of extremely tech savvy individuals who all must have a security mindset. My experience and track record show that I have those qualities.
+
+I can read and write Solidity - which is necessary for understanding potential actions taking place
+Extremely familiar with using blockchain explorers, such as EtherScan, or obtaining data and analysing it myself - necessary for understanding and comprehending an ongoing attacks, postmortem analysis, verifying code and analysing address behaviours
+Used hardware wallets - which is necessary for private key security
+Personal security - I actively use 2FA, ensure my device hard drives are encrypted and almost all of my social media (excluding LinkedIn) are set to private
+Understand Gnosis safe - how it is necessary for co-signing security council transactions
+I have accounts on both the Arbitrum foundation and research forums, and understand tools such as Tallyand Snapshot are used as voting mechanisms
+
+Conclusion
+I am sincerely excited about joining the Security Council, given the chance to uphold the responsibilities that accompany this role.
+I welcome any questions, feedback and conversations from anyone in the community. We can all work towards keeping Arbitrum secure. If you would like to contact me, please feel free to DM me on the forums here or post a question in this thread.
+I hope this post inspires your confidence to vote for me as a nominee on the 15th.
+I originally had links to all works and citations, but unfortunately am limited by the security of the forum ",1
+16323,haaroon,2023-09-15 15:12:27,"I have posted my application on-chain and on Tally. Please do vote for me here! Haaroon | Arbitrum Security Council Candidate
+There was a bug during original submission but I contacted the teams and they have fixed it.",2

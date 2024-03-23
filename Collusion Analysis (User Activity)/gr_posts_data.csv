@@ -1,0 +1,108 @@
+Topic ID,Username,Post Created At,Post Description,Post Number
+14301,Arbitrum,2023-05-04 01:20:06,"
+
+
+docs.arbitrum.foundation
+
+
+The Constitution of the Arbitrum DAO | Arbitrum DAO - Governance docs
+Read ""The Constitution of the Arbitrum DAO"", the ultimate governing document of the Arbitrum DAO. Arbitrum DAO's smart contracts implement the protocols described in this document.
+
+
+
+
+
+",1
+13494,Arbitrum,2023-04-06 20:13:21,"
+How to submit a DAO Proposal
+
+1. Discourse
+https://forum.arbitrum.foundation/ is a forum for governance related discussions.
+Community members must register for an account before sharing or liking posts.
+The Proposal is suggested on the discourse and discussed for 1 week.
+To create a Proposal:
+Navigate to the Proposals Category and create a new topic.
+The proposal should have the following format:
+
+
+Title – Proposal: [Insert Description]
+
+Constitutional / Non-Constitutional - For clarity, please refer to section 2 of the Constitution
+
+
+Abstract - Two or three sentences that summarize the AIP.
+
+Motivation - A statement on why the Arbitrum community should implement the AIP.
+
+Rationale - An explanation of how the AIP aligns with the Arbitrum community’s mission and guiding values.
+
+Key Terms (optional) - Definitions of any terms within the proposal that are unique to the proposal, new to the Arbitrum community, and/or industry-specific.
+
+Specifications - A detailed breakdown of the platforms and technologies that will be used.
+
+Steps to Implement - The steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. For the avoidance of doubt, any AIPs involving transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.
+
+Timeline - Relevant timing details, including but not limited to start date, milestones, and completion dates.
+
+Overall Cost - The total cost to implement the AIP
+
+Additional fields can be added to any template if necessary to fully communicate the intentions, specifics, and implications.
+If an AIP did not pass, resubmitted AIPs should also include:
+
+A link to the original AIP;
+Reason the original AIP was not approved;
+Changes that have been made and why it should now be approved
+
+
+2. Snapshot
+Snapshot is an off-chain voting interface that allows the community to signal sentiment (i.e. temperature check) on the proposed AIP. The vote will be open for 1 week.
+To create a snapshot vote:
+
+Navigate to Snapshot to create a poll
+Connect your wallet.
+Create a poll that points to your forum post.
+The poll should run for one week and should be decided by a simple majority.
+Navigate back to your forum post and share the link to your Snapshot poll with the community.
+
+
+3. Tally:
+Tally | Arbitrum serves as the on-chain voting platform for the ArbitrumDAO to submit and vote on AIPs and serves as a front-end user interface that allows DAO members to do several things, namely:
+
+Create AIPs;
+View delegates and their voting share;
+Re-delegate votes to a different delegate;
+View current and past AIPs;
+Vote on AIPs on-chain, interacting with the on-chain governance contracts via the Tally front-end; and
+View the status of AIP execution during all voting stages
+
+There is a detailed breakdown on how to submit a DAO Proposal here:
+
+
+
+docs.arbitrum.foundation
+
+
+How to submit a DAO proposal | Arbitrum DAO - Governance docs
+Learn how to submit a proposal to the Arbitrum DAO's governance forum by using Snapshot to conduct a temperature check, and then Tally to facilitate an on-chain vote.
+
+
+
+
+
+",1
+13494,Arbitrum,2023-04-06 20:13:40,,2
+12807,Arbitrum,2023-04-01 19:41:45,"Welcome to the Forum!
+This forum is dedicated to discussions and exchange of ideas related to governance.
+Please read the following guidelines carefully to ensure a productive and respectful community.
+Stay on topic: This forum is dedicated to discussions related to governance only. Please refrain from discussing unrelated topics. Off-topic or irrelevant posts may be removed by the moderators.
+Be respectful: Respect other forum members, their opinions, and their rights to express themselves. Do not use offensive or derogatory language, personal attacks, or hate speech.
+Keep it constructive: We encourage healthy and constructive debates that lead to learning and growth. However, we do not tolerate unproductive or malicious behavior.
+Provide evidence: Back up your claims and arguments with reliable sources and evidence. Unsupported opinions or rumors are not allowed.
+Stay legal: Do not engage in activities that are illegal or violate the rights of others, including intellectual property rights.
+Protect your privacy: Do not share personal information about yourself or others, including email addresses, phone numbers, or social media handles.
+Follow the rules: Abide by the rules and guidelines set forth by the forum moderators. Failure to do so may result in disciplinary action, including temporary or permanent suspension from the forum.
+Moderation: The forum moderators reserve the right to remove any posts or comments that violate these guidelines or are deemed inappropriate. Repeat offenders may be banned from the forum.
+Remember, the purpose of this forum is to foster productive and respectful discussions related to governance. We encourage everyone to contribute their ideas and perspectives, and to learn from each other.",1
+12807,Arbitrum,2023-04-01 19:42:20,,2
+12807,Arbitrum,2023-04-01 19:44:25,,3
+12807,Arbitrum,2023-04-01 19:44:55,,4

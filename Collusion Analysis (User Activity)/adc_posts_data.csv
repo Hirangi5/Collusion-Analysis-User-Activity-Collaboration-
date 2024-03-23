@@ -1,0 +1,198 @@
+Topic ID,Username,Post Created At,Post Description,Post Number
+17,system,2023-01-23 19:22:28,"Discussion and thoughtful commentary related to Arbitrum DAO Chains such as
+Arbitrum One and Arbitrum Nova",1
+17,MuhammadRidho,2023-06-28 10:38:55,"good project sir, we love you",2
+17,rezatb,2023-07-02 15:50:10,nice sir very good love you,3
+17,OMOKAS,2023-08-14 07:29:50,"Very nice 
+Am very glad to be here",4
+22152,Arbitrum,2024-03-05 03:14:11,"Request Non-Emergency Security Council Action
+Abstract
+The transaction fee paid by users is composed of two parts, L2 fees and L1 fees, which together include the execution cost for running the transaction on Arbitrum alongside the cost of posting data to Ethereum (to learn more about this, read the deep dive on the subject).
+Historically, the rollup fee market has been dominated by the L1 cost component. With the Dencun upgrade soon being enabled on Ethereum, the current pricing structure may no longer be optimal. The ArbOS Version 20 “Atlas” upgrade is a step towards better consuming the new data availability affordances offered by Ethereum, but will also potentially require further adjustment once EIP-4844 has been deployed and tested.
+There was an oversight during the ArbOS Version 20 “Atlas” upgrade where two configuration should be updated for users when the Dencun upgrade occurs:
+
+L1 surplus fee. Reduce the surplus fee per byte from 2 gwei to 0.
+L2 base fee. Reduce the minimum from 0.1 gwei to 0.01 gwei.
+
+In both cases, the configuration changes will match what is currently implemented in Arbitrum Nova. As evidenced by the recent surge of transactions in Arbitrum Nova, the network can handle the increased transaction throughput while offering lower fees for users in general under that configuration.
+Impact on the ArbitrumDAO’s revenue
+The L2 base fee change will impact the revenue received by the ArbitrumDAO. The potential impact based on the past 30 days of activity was calculated, which if the changes had been implemented (ignoring potential changes in demand based on lower fees), would have resulted in overall profit going from 816.13 ETH → 79.89 ETH
+1228×314 41.5 KB
+While the fee reduction will result in lower revenue for the ArbitrumDAO in the short term, it will ensure that the Arbitrum One network continues to offer competitive costs to its users and in turn it can lead to an increase in transaction traffic.
+Since the parameter change affects the revenue generated, it is important to carry out a temperature check for the ArbitrumDAO to discuss and ultimately vote on the change. If it is approved by the ArbitrumDAO, then the Security Council will be requested to initiate a non-emergency action to execute the configuration change. The goal is to ensure the fees are changed as soon as possible in line with the Decun upgrade.
+Implementation details
+The following configured values will be changed in the ArbOwner smart contract that can be viewed in Contract Address 0x000000000000000000000000000000000000006b | Arbiscan.
+The following governance action smart contracts will be used to initiate the action:
+
+ArbOneSetAtlasL1PricingRewardAction | Address 0x36D0170D92F66e8949eB276C3AC4FEA64f83704d | Arbiscan
+ArbOneSetAtlasMinBaseFeeAction | Address 0x849E360a247132F961c9CBE95Ba39106c72e1268 | Arbiscan
+
+The security council will separate the two parameter change actions to enable the ArbitrumDAO to decide whether to accept one, both, or neither. The ability to decide will be reflected on Snapshot using a ranked voting with the following options:
+
+Set L1 surplus fee and L2 minimum base fee.
+Set only L1 surplus fee.
+Set only L2 minimum base fee.
+Set neither option and cancel security council action.
+
+Timeline
+The ArbOS v20 “Atlas” upgrade is due to be activated on the 14th of March, and the following schedule will be pursued to address the configuration issues in a timely manner:
+
+5th March - Temperature Vote on Snapshot
+5th March - Initiate non-emergency security council action
+18th March - Activate configuration change to reduce fees
+
+A non-emergency security council action is viewed as ideal as it exists primarily to approve and implement routine software upgrades, routine maintenance and other parameter adjustments in a non-emergency setting.
+Temperature check:
+https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x13bcccfeeb736c732bdd08032841d6a07614d17dcee2d29a435e7b0114361a0a
+Security council transaction: Arbitrum Transaction Hash (Txhash) Details | Arbiscan
+Taking this route will mean that Arbitrum One network will have higher than anticipated fees for 5 days.
+The following governance calls will also enable the community to discuss the technical changes:
+
+6th March - Wednesday at 6pm EST
+7th March - Thursday at 9am EST
+
+Both calls will be added to the governance call and more calls can be arranged if necessary.",1
+22152,Patrick1,2024-03-05 04:23:46,Seems appropriate. Let’s get it done.,2
+22152,cp0x,2024-03-05 15:52:01,"Hello,
+I think that it is important to know how ArbitrumDAO uses this fees.
+It’s a huge amount of fee, therefore, it would be good to understand that this will not affect a significant reduction in Arbitrum nodes due to the lack of profit.",3
+22152,fred,2024-03-05 15:52:56,A simulation of the change is available in governance-seatbelt and can be run locally with SIM_NAME=non-emerg-sc-atlas-fees yarn start,4
+22152,cp0x,2024-03-06 15:07:20,"Hello,
+I found old comment about this changes, and I have some same questions
+L2 base fee needs to prevent certain attack vectors/spamming/DDOS of the chain.
+Therefore, questions I think needing clear answers:
+
+Is the attack vector the gas floor price is guarding against expected to always exist? (If it’s expected to eventually become obsolete, the gas floor price could be retired at that time)
+Would a governance proposal to reduce the gas floor price (e.g. reduce to 0.001 gwei)? Why 0.01?
+",5
+22152,fred,2024-03-06 15:24:27,"
+
+Is the attack vector the gas floor price is guarding against expected to always exist? (If it’s expected to eventually become obsolete, the gas floor price could be retired at that time)
+
+
+The base fee does help with DOS resistance.
+Even without a floor to this value (which Ethereum also doesn’t have), the base fee will rise when demand is bigger than supply - deterring attacks by making them more expensive (just like in Ethereum).
+
+Would a governance proposal to reduce the gas floor price (e.g. reduce to 0.001 gwei)? Why 0.01?
+
+The Arbitrum Nova chain has been running with the 0.01gwei configuration for some time now and has evidenced that the system is stable under that config. The current proposal aligns Arbitrum One with that configuration.",6
+22152,fred,2024-03-06 15:43:48,"The security council non emergency action was initiated in Arbitrum Transaction Hash (Txhash) Details | Arbiscan
+It will execute onchain and update the parameters in 13 days unless vetoed.
+The veto smart contracts are available in ActionCanExecute | Address 0xb50b01F98aa7Ad564688175506edE255B53e8193 | Arbiscan and ActionCanExecute | Address 0xbd8aee9e75ebc23774273bdee518245a99191b44 | Arbiscan",7
+22152,cp0x,2024-03-07 12:24:29,"Out team cp0x voted FOR this fix.
+It fixes important parameters for reducing commissions and increasing competitiveness Arbitrum.",8
+22152,ruslanklinkov,2024-03-07 13:17:52,"I see no reason not to implement this update. The main issue is network security and I see that you have already answered that question, so I support it",9
+22152,Jl_DefiEdge,2024-03-09 12:39:04,Maintaining competitive costs while optimizing fee structures is crucial for the network’s sustainability. Fully support this initiative!,10
+22152,JoJo,2024-03-10 00:25:15,"This explanation is awesome and as usual we trust our arbitrum overloards. Yes vote, and we set L1 surplus and L2 min cause we love the race to 0.",11
+22152,AbdullahUmar,2024-03-10 05:40:46,"@juanbug and I have posted our perspective below on behalf of the Uniswap DAO’s Arbitrum governance team (UADP).
+We voted to “Set L1 surplus fee and L2 min” since by aligning Arbitrum’s fee structure with these enhancements, costs for users will fall, which is critical for maintaining Arbitrum’s appeal in a competitive Layer 2 landscape. Sure, we’ll see a revenue decrease, but that’s a needed sacrifice to make sure Arbitrum is able to price compete. The hope is that higher volume compensates for lower marginal revenues, thereby returning total revenue to its previous level–and ideally beyond that.",12
+22152,Harold,2024-03-10 14:15:35,We voted “Set L1 surplus fee and L2 min” because we believe this is necessary for Arbitrum to stay the number one L2 and potentially even increase our lead. We’re confident that the higher volume and potential priority fees will make up for most of the decrease in profits. Worst case scenario we can change these parameters later on.,13
+22152,mcfly,2024-03-10 16:32:05,"On behalf of the Arbitrum delegates who entrusted their voting power to me, I’m voting FOR the proposed fix related to Fee Oversight in ArbOS v20 “Atlas” at the Snapshot stage. After carefully reviewing the details and simulations provided by the Arbitrum Foundation, I feel well-informed about the consequences of this adjustment.
+The Foundation has been transparent in their communication, offering a comprehensive breakdown of the issue at hand and the proposed solution. The simulations they provided demonstrate the potential impact of the fix, allowing delegates to make an educated decision.
+Moreover, Fred from the Foundation has been diligent in addressing the questions and concerns raised by the community. His prompt and thorough responses have further clarified the rationale behind the proposal and its expected outcomes.",14
+22152,Bob-Rossi,2024-03-10 22:47:21,"I have voted “Set L1 Surplus Fee and L2 Minimum Base Fee”. The fee reduction will keep Arbitrum competitive and the security concerns have been addressed. I have trust in the Arbitrum team / security council understanding of the network as part of the implementation of this change.
+I will also add the explanation for this is very easy to follow and greatly appreciated, as I know from the last upgrade posts there was an ask to make the upgrades simpler to follow for less technically-savy Delegates. While I know ultimately this is a fairly simple topic itself, thank you for taking that into consideration on this post.",15
+22152,BlockworksResearch,2024-03-11 13:15:24,"Blockworks Research is voting in favor of setting both the L1 surplus and L2 min fees. We believe that at this point in the rollup race, Arbitrum is greatly benefited by optimizing for UX and minimizing end user fees. That said, it is worth continuing the conversation around fees. We believe research should be commissioned into at what fee users become insensitive in order to optimize for both sequencer revenue and user experience (possibly a good use of the ARDC.)",16
+22152,Pepperoni_Jo3,2024-03-11 13:53:15,"After consideration Treasure’s Arbitrum Representative Council (ARC) would like to share the following feedback on the proposal
+We’ve voted in favour of “Set L1 Surplus Fee and L2 Minimum Base Fee.”
+Our decision is driven by the importance of optimising user experience and minimising fees to uphold Arbitrum’s competitiveness in Layer 2. We are supportive of @BlockworksResearch’s suggestion for further research on user fee sensitivity, but for the time being feel confident that potential increases in transaction volume and priority fees will counterbalance any profit reductions from these adjustments.
+Thus, we wholeheartedly endorse the proposed fix in ArbOS v20 “Atlas,” seeing it as a strategic step towards maintaining Arbitrum’s leading position in Layer 2 while prioritizing user experience.",17
+22152,Tane,2024-03-12 01:36:15,"At Tané, we are voting in favor of “Set L1 Surplus Fee and L2 Minimum Base Fee” because we believe DAO should prioritize the protocol’s UX over its revenue at this moment.
+However, 90% reduction of the revenue shouldn’t be taken naturally, especially when more reductions comes from the L2 base fee change while its reasoning is only that the same number is set for Arbitrum Nova without any other base fee simulations. We would love to see further researches around fee, suggested by @BlockworksResearch and discuss the suitable fee in the future.",18
+22152,Curia,2024-03-12 04:29:39,"After reviewing the proposal, we will support reducing the L1 Surplus Fee and L2 Minimum Base Fee.
+This decision prioritizes improving user experience by lowering transaction costs on the Arbitrum network, ensuring we remain competitive in the Layer 2 space. Lowering these fees is crucial for attracting more users by making transactions more affordable, which can lead to increased network activity. However, we also believe that a research should be done on the fee rate in order to optimize between the sequencer revenue and user experience like @BlockworksResearch suggested.",19
+22152,krst,2024-03-12 05:17:36,"The below response reflects the views of L2BEAT’s governance team, composed of @krst and @Sinkas, and it’s based on the combined research, fact-checking, and ideation of the two.
+We’re voting in favor of the proposal during temp-check (both to set the surplus fee and L2 minimum base fee) and we are supportive of this action being executed solely by the security council given the exceptional circumstances.
+One thing that was mentioned during the call hosted by the Foundation to discuss the fix was that it would be interesting to be able to manage those parameters in a different way (for example by a separate smart contract controlled by the Foundation with limited ability to adapt the parameters) and not have to do a full contract upgrade route every time. It’s something that we should consider exploring as a DAO going forward.",20
+22152,maxlomu,2024-03-14 21:39:02,"To compete against other network the equation is good tech + low gas fee = adoption.
+Voted FOR on both options to let the Arbitrum onchain economy flourish.
+Supportive of this action being executed solely by the security council.",22
+19379,Arbitrum,2023-11-06 15:28:19,"Non-emergency Security Council action
+Two independent issues have been identified, and the Arbitrum Foundation is engaging the Security Council to initiate a non-emergency action to help fix them.
+Per Section 3 of the Arbitrum Constitution, the Security Council is a committee of 12 members who are signers of a multi-sig wallet, which has powers to perform certain Emergency Actions and Non-Emergency Actions, as delegated to it by the ArbitrumDAO and The Arbitrum Foundation, and is responsible for upholding this ArbitrumDAO Constitution.
+The Constitution defines Security Council non-emergency actions in Section 3: The Amended Constitution of the Arbitrum DAO | Arbitrum DAO - Governance docs
+1. Remove Reddit from DAC
+Reddit is sunsetting its Community Points initiative. Alongside that they also plan on winding down their Arbitrum Nova DAC infrastructure over the next couple of weeks.
+Nova can continue running seamlessly as long as 6 of these nodes are still functional. While Reddit shutting down its node doesn’t pose immediate risk to Arbitrum Nova, adjusting the current Arbitrum Nova chain parameters to run with a 5 out of 6 committee (the current committee members, minus Reddit) will allow the chain to continue to operate with similar security assumptions.
+1600×914 159 KB
+2. Remove Offchain Labs secondary key from DAC
+The existing committee has 7 entities but is actually 7/8 with two keys for Offchain Labs rather than 6/7. This was because of a historical decision related to protecting against bugs early in Nova’s history, but isn’t needed and should be fixed. This doesn’t affect the current trust model for safety of a 6/7 trust assumption over the members, but does affect the availability assumption that no single member can bring the committee offline.
+—--------------------
+The DAO may kickstart a discussion to help select a new provider to substitute Reddit - but in the meantime the Arbitrum Foundation is engaging the Security Council to consider a non-emergency action to update the Arbitrum Nova chain DAC parameters.
+Any Non-Emergency Action, after approval by the Security Council, will bypass Phases 1 to 3 of the AIP process and instead directly go through Phases 4 to 7 of the AIP process, to provide a delay before any Non-Emergency Action is deployed.
+How to reproduce the proposal data:
+How_to_verify_and_update_the_DAC_Keyset.pdf
+Governance Seatbelt can also be used to simulate the result of executing this code with SIM_NAME=arbcore-dac-add yarn start
+Relevant links:
+
+
+docs.arbitrum.foundation
+
+
+The state of Arbitrum's progressive decentralization | Arbitrum DAO -...
+Learn about the state of Arbitrum's progressive decentralization.
+
+
+
+
+
+
+
+
+docs.arbitrum.foundation
+
+
+The state of Arbitrum's progressive decentralization | Arbitrum DAO -...
+Learn about the state of Arbitrum's progressive decentralization.
+
+
+
+
+
+https://www.reddit.com/r/CryptoCurrency/comments/17a33ql/serious_sunsetting_community_points_beta_and/",1
+19379,fred,2023-11-08 12:48:33,"The non emergency action was initiated yesterday Arbitrum Transaction Hash (Txhash) Details | Arbiscan
+The DAC update will be executed once it finishes going through the L2 timelock, then the L2 to L1 delay period, and finally the L1 timelock",2
+19379,fred,2023-11-24 15:04:53,"The transaction is now in the L1 timelock
+
+
+Ethereum (ETH) Blockchain Explorer
+
+
+
+Ethereum Transaction Hash (Txhash) Details | Etherscan
+Ethereum (ETH) detailed transaction info for txhash 0xa60ab3086133966a81f5e36bb5ca5237a40def3ad45cad9a9c02aca4085d7ce5. The transaction status, block confirmation, gas fee, Ether (ETH), and token transfer are shown.
+
+
+
+
+
+",3
+19379,fred,2023-11-27 21:41:03,"The transaction has successfully executed and added the new L1 keyset.
+
+
+
+Ethereum (ETH) Blockchain Explorer
+
+
+
+Ethereum Transaction Hash (Txhash) Details | Etherscan
+Ethereum (ETH) detailed transaction info for txhash 0xad6b42e3ea67074809e915ce3b91577b35ccade4020d39f645147467c5c09e34. The transaction status, block confirmation, gas fee, Ether (ETH), and token transfer are shown.
+
+
+
+
+
+",4
+19695,Arbitrum,2023-11-22 16:59:24,"Overview
+In this post, we’ll explain the necessary steps for upgrading the rules of an Arbitrum chain (namely, its state transition function). Changing the rules of an Arbitrum chain requires two things to happen: Arbitrum nodes must update their software, and an on-chain operation (i.e., a governance proposal) must take place. We’ll compare and contrast upgrades to an Arbitrum Layer 2 with upgrades to Layer 1 Ethereum to illustrate why the on-chain component of an Arbitrum upgrade isn’t just a loose formality, but a requirement.
+Ethereum Consensus Changes
+Changes to the rules of Layer 1 Ethereum, also known as “consensus changes,” only require that Ethereum nodes software be updated. Not all Layer 1 software updates are consensus changes - only updates that alter which blocks are considered valid are called consensus changes. For example, after a consensus change, a block that would have previously been considered valid may now be invalid and thus rejected, and conversely, a block that would have been considered invalid may now be valid and thus accepted.
+It follows that if only a subset of Ethereum nodes “accept” a consensus change (by updating their software accordingly), it’s possible to get a chain-split — a situation in which two conflicting versions of the Ethereum blockchain persist in the network. Consensus upgrades are thus sometimes referred to as “hard forks” or “soft forks” (the distinction between hard and soft forks is nuanced and weird and out of scope for this post).
+For Layer 1s like Ethereum, chain splits are resolved not by any technical process, but simply via social consensus. If there’s disagreement about which rules govern Ethereum, it ultimately falls on the  community at large — node runners, developers, users, exchanges, etc. — to collectively make the decision. Ultimately, the question of what rules and what blockchain history represents the “true” Ethereum is one that, at the bottom level, comes down to social consensus.
+Arbitrum ArbOS Upgrades and the Arbitrum Bridge
+Upgrades to the rules of an Arbitrum chain (aka “ArbOS upgrades”) similarly involve Arbitrum node operators coordinating upgrading their software. Again, with ArbOS upgrades, we’re restricting our focus to changes which could alter the validity of Arbitrum blocks (“RBlocks”.)  As with Layer 1 Ethereum, if nodes of a given Arbitrum chain are running different versions of ArbOS, this could lead to them producing two different, inconsistent versions of the chain’s history. Unlike with Ethereum, however, there is an “objective” way to determine which of the two competing chains is the canonical one: namely, the Arbitrum Bridge.
+An Arbitrum Chain’s bridge is a series of smart contracts that reside on its parent chain; e.g., Arbitrum One’s bridge contracts reside on Ethereum. The bridge is responsible for maintaining information about the state of the Arbitrum chain back on Layer 1. This, among other things, enables users to transfer assets between Layer 1 and Layer 2.
+The bridge ensures that its view of the Arbitrum chain is accurate via a system of assertions and fraud proofs. Arbitrum validators can make claims about the state of the chain, and other validators can challenge them. The challenge process is adjudicated by the bridge contracts; you can read about the details here. In brief: validators play an interactive game which narrows down their disagreement to a single computational step, which is then executed in the Layer 1 bridge contracts.
+Crucially, this means that the Layer 1 bridge contracts need to be aware of the Arbitrum chain’s execution rules. In the case of an Layer 2 split as described above, only one chain (at most) can be valid in a way that’s consistent with rules codified in the Arbitrum bridge; this means that on only one chain will users be able to withdraw their funds. Likewise, in the case of an ArbOS upgrade, the upgrade to the node software only preserves users’ abilities to withdraw their funds from the bridge if it includes the corresponding update to the Layer 1 bridge contracts.
+Conclusion
+Where Ethereum is ultimately governed by social consensus, Arbitrum chains have their rules defined and enforced via fraud proofs by smart contracts on Layer 1. Thus, changes are determined not via a subjective social contract, but an actual smart contract. In the case of Arbitrium One, updates to these contracts require that the Arbitrum DAO pass a governance proposal changing the set of rules enforced.",1
